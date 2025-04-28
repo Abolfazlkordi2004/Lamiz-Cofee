@@ -60,10 +60,12 @@ function Header() {
                   height={32}
                   className="invert hover:text-[#ff6e1f]"
                 />
-                <a href="#"> سایر </a>
+                <a href="#" className="text-lg">
+                  سایر 
+                </a>
               </div>
               {openAnother && (
-                <ul className="absolute top-full right-0 mt-2 w-40 rounded-md bg-white shadow-lg z-50">
+                <ul className="absolute top-full right-0 mt-2 w-45 rounded-md bg-white shadow-lg z-50">
                   {[
                     "سیاست مرجوعی و عودت",
                     "انتقادات و پیشنهادات",
@@ -73,7 +75,7 @@ function Header() {
                   ].map((item) => (
                     <li
                       key={item}
-                      className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap"
+                      className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg"
                     >
                       {item}
                     </li>
@@ -94,14 +96,16 @@ function Header() {
                   height={32}
                   className="invert hover:text-[#ff6e1f]"
                 />
-                <a href="#">تماس با ما</a>
+                <a href="#" className="text-lg">
+                  تماس با ما
+                </a>
               </div>
               {openCall && (
-                <ul className="absolute top-full right-0 mt-2 w-20 rounded-md bg-white shadow-lg z-50">
+                <ul className="absolute top-full right-0 mt-2 w-25 rounded-md bg-white shadow-lg z-50">
                   {["درباره ما", "تماس با ما "].map((item) => (
                     <li
                       key={item}
-                      className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap"
+                      className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg"
                     >
                       {item}
                     </li>
@@ -110,16 +114,24 @@ function Header() {
               )}
             </li>
             <li className="hover:text-[#ff6e1f]">
-              <a href="#">فرم درخواست همکاری با ما</a>
+              <a href="#" className="text-lg">
+                فرم درخواست همکاری با ما
+              </a>
             </li>
             <li className="hover:text-[#ff6e1f]">
-              <a href="#">سفارش از اسنپ فود</a>
+              <a href="#" className="text-lg">
+                سفارش از اسنپ فود
+              </a>
             </li>
             <li className="hover:text-[#ff6e1f]">
-              <a href="#">شعبه های قهوه لمیز</a>
+              <a href="#" className="text-lg">
+                شعبه های قهوه لمیز
+              </a>
             </li>
             <li className="hover:text-[#ff6e1f]">
-              <a href="#">منو قهوه لمیز</a>
+              <a href="#" className="text-lg">
+                منو قهوه لمیز
+              </a>
             </li>
             <li
               className="relative"
@@ -134,7 +146,9 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <a href="#">فروشگاه محصولات</a>
+                <a href="#" className="text-lg">
+                  فروشگاه محصولات
+                </a>
               </div>
               {openShop && (
                 <ul className="absolute right-0 top-full mt-2 w-40 rounded-md bg-white shadow-lg z-50 ">
@@ -153,7 +167,7 @@ function Header() {
                   ].map((item) => (
                     <li
                       key={item}
-                      className="px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer whitespace-nowrap text-right"
+                      className="px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer whitespace-nowrap text-right text-lg"
                     >
                       {item}
                     </li>
