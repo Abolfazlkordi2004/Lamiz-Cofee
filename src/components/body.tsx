@@ -235,10 +235,10 @@ function HomePage() {
               />
 
               <div className="absolute inset-0 bg-[#211F1C] text-white p-4 rounded-lg flex flex-col justify-center items-center rotate-y-180 backface-hidden">
-                <h3 className="text-l font-bold mb-10 text-[#ff6e1f]">
+                <h3 className="text-xl font-bold mb-10 text-[#ff6e1f]">
                   سیروپ بادام مونین
                 </h3>
-                <p className="text-sm text-center mb-5">
+                <p className="text-l text-center mb-5">
                   بادام میوه درخت بادام است که به خاطر گلهای معطر صورتی و سفیدش
                   مشهور است.
                 </p>
