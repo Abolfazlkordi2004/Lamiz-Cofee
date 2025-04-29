@@ -6,7 +6,7 @@ function Header() {
   const [hoveredMenu, setHoveredMenu] = useState<string | null>(null);
 
   return (
-    <header>
+    <header className="sticky z-50 top-0">
       <div className="flex flex-row items-center justify-around bg-black h-[90px] w-full px-50">
         {/* آیکن‌ها */}
         <div className="flex flex-row items-center space-x-6">
@@ -35,6 +35,9 @@ function Header() {
               </a>
             </div>
           ))}
+          <div className=" rounded-full w-5 h-5 bg-[#ff6e1f] justify-center text-center translate-x-[-230%] translate-y-[-60%] text-white">
+            0
+          </div>
         </div>
 
         {/* منو */}

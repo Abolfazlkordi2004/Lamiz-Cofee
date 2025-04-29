@@ -14,7 +14,7 @@ function HomePage() {
       </div>
       <div className="w-full h-[3200px] [background-image:linear-gradient(to_bottom,_black_0%,_black_85%,_#E2E2B6_95%,_#E2E2B6_100%)]">
         <div className="flex justify-center items-center gap-40 p-10">
-          <div className="w-[500px]">
+          <div className="w-[500px]" dir="rtl">
             <p className="text-xl text-white text-justify">
               سرو قهوه فوق‌العاده، کیک‌ها و شیرینی‌های تازه و ارائه بهترین سرویس
               در فضاهای زنده و به‌یادماندنی از جمله ارزش‌های ما در مجموعه‌ قهوه
@@ -22,6 +22,7 @@ function HomePage() {
               بهترین قیمت و کیفیت است.
             </p>
           </div>
+
           <div className="jusify-center text-center">
             <h1 className="text-5xl text-[#ff6e1f] py-5 font-bold">
               ما قهوه لمیز هستیم
@@ -35,7 +36,10 @@ function HomePage() {
           <h2 className="text-[#555555] text-4xl">LAMIZ COFFEE</h2>
         </div>
         <div className="w-[1200px] bg-white grid grid-cols-3 mx-auto mt-3 rounded">
-          <div className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center">
+          <div
+            className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center"
+            dir="rtl"
+          >
             <p className="text-justify text-white text-xl px-10">
               مجموعه <span className="text-[#ff6e1f]">قهوه لمیز</span> با تنوع
               بیش از ۱۰۰ نوع محصول در فروشگاه آنلاین و شعبه ها آماده ارائه
@@ -57,8 +61,8 @@ function HomePage() {
               fill
               className="object-cover z-0"
             />
-            <div className="bg-[#211F1C] bg-opacity-10 w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
-              <button className=" cursor-pointer text-white font-bold text-xl">
+            <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
+              <button className="cursor-pointer text-white font-bold text-xl">
                 فروشگاه محصولات
               </button>
             </div>
@@ -70,13 +74,16 @@ function HomePage() {
               fill
               className="object-cover z-0"
             />
-            <div className="bg-[#211F1C] bg-opacity-50 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
-              <button className=" cursor-pointer text-white font-bold text-xl">
+            <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
+              <button className="cursor-pointer text-white font-bold text-xl">
                 منو قهوه لمیز
               </button>
             </div>
           </div>
-          <div className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center">
+          <div
+            className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center"
+            dir="rtl"
+          >
             <p className="text-justify text-white text-xl px-10">
               منو مجموعه <span className="text-[#ff6e1f]"> قهوه لمیز</span> شامل
               نوشیدنی‌های گرم، نوشیدنی‌های سرد، ماچاها، کیک‌ها و شیرینی‌های سالم
@@ -93,7 +100,10 @@ function HomePage() {
             </h2>
             <h2 className="text-white font-bold text-5xl py-5">و متنوع</h2>
           </div>
-          <div className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center">
+          <div
+            className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center"
+            dir="rtl"
+          >
             <p className="text-justify text-white text-xl px-10">
               مجموعه <span className="text-[#ff6e1f]"> قهوه لمیز</span> با ۳۱
               شعبه فعال به همراه ۱۵ شعبه اسنپ فود تهران، اصفهان، رویان، متل‌قو،
@@ -115,8 +125,8 @@ function HomePage() {
               fill
               className="object-cover z-0"
             />
-            <div className="bg-[#211F1C] bg-opacity-50 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
-              <button className=" cursor-pointer text-white font-bold text-xl">
+            <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
+              <button className="cursor-pointer text-white font-bold text-xl">
                 شعب قهوه لمیز
               </button>
             </div>
@@ -128,13 +138,16 @@ function HomePage() {
               fill
               className="object-cover z-0"
             />
-            <div className="bg-[#211F1C] bg-opacity-50 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
-              <button className=" cursor-pointer text-white font-bold text-xl">
+            <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
+              <button className="cursor-pointer text-white font-bold text-xl">
                 نوشیدنی‌های فصلی
               </button>
             </div>
           </div>
-          <div className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center">
+          <div
+            className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center "
+            dir="rtl"
+          >
             <p className="text-justify text-white text-xl px-10">
               مجموعه <span className="text-[#ff6e1f]"> قهوه لمیز</span> برای هر
               فصل پیشنهادها و نوشیدنی‌های منحصر بفردی را برای شما ابداع و خلق
@@ -148,7 +161,10 @@ function HomePage() {
             <h2 className="text-white font-bold text-5xl py-5">نوشیدنی‌های</h2>
             <h2 className="text-[#ff6e1f]  font-bold text-5xl py-5">فصلی</h2>
           </div>
-          <div className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center">
+          <div
+            className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center"
+            dir="rtl"
+          >
             <p className="text-justify text-white text-xl px-10">
               احترام به نیازهای مشتریان، در دسترس بودن، سرعت در آماده سازی
               سفارش، خلاقیت و نوآوری در خلق آیتم‌های منو نوشیدنی و محصولات از
@@ -181,7 +197,10 @@ function HomePage() {
               className="object-cover z-0"
             />
           </div>
-          <div className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center">
+          <div
+            className="bg-[#3F3F3F] w-[400px] h-[400px] text-center flex justify-center items-center "
+            dir="rtl"
+          >
             <p className="text-justify text-white text-xl px-10">
               مجموعه‌ <span className="text-[#ff6e1f]"> قهوه لمیز</span> دارای
               نمایندگی انحصاری سیروپ مونین، پولی کف و کفِ تو در ایران و دارای
