@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function ShopCart() {
   return (
-    <div className="w-[230px] h-[300px] items-center justify-center">
+    <div className="w-[235px] h-[300px] items-center justify-center">
       <div className="relative w-[200px] h-[150px] mt-13 mx-2 group">
         <Image
           src="/img/LAMIZ-PROSO-BARISTA-COMBINATION.webp"
