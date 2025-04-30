@@ -1,11 +1,16 @@
 import React from "react";
 import Image from "next/image";
 
-function HeaderSection() {
+type IheaderSection={
+  img:string,
+  header:string
+}
+
+function HeaderSection({img,header}:IheaderSection) {
   return (
     <div className="w-full h-[400px] relative flex items-center justify-center">
       <Image
-        src="/img/shop-background.webp"
+        src={img}
         alt="shop-background"
         fill
         className="object-cover z-0"
@@ -33,7 +38,7 @@ function HeaderSection() {
             </div>
           </div>
           <div>
-            <h1 className="text-white font-bold text-4xl">محصولات قهوه لمیز</h1>
+            <h1 className="text-white font-bold text-4xl">{header}</h1>
           </div>
         </div>
       </div>
