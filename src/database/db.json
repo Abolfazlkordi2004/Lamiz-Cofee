@@ -206,39 +206,39 @@
   "lamiz-chocolate": [
     {
       "id": 33,
-      "img": "lamizcoffee/public/img/Dark-Chocolate-83-Lamiz.webp",
+      "img": "/img/Dark-Chocolate-83-Lamiz.webp",
       "title": "شکلات تلخ ۸۳ درصد لمیز",
-      "price": "188,000 تومان"
+      "price": "188000  "
     },
     {
       "id": 34,
-      "img": "lamizcoffee/public/img/Dark-Chocolate-60.webp",
+      "img": "/img/Dark-Chocolate-60.webp",
       "title": "شکلات تلخ ۶۰ درصد لمیز",
-      "price": "168,000 تومان"
+      "price": "168000"
     },
     {
       "id": 35,
-      "img": "lamizcoffee/public/img/milk-chocolate.webp",
+      "img": "/img/milk-chocolate.webp",
       "title": "شکلات شیری لمیز",
-      "price": "148,000 تومان"
+      "price": "148000"
     },
     {
       "id": 36,
-      "img": "lamizcoffee/public/img/milk-chocolate-box.webp",
+      "img": "/img/milk-chocolate-box.webp",
       "title": "جعبه ۶ عددی شکلات شیری لمیز",
-      "price": "888,000 تومان"
+      "price": "888000"
     },
     {
       "id": 37,
-      "img": "lamizcoffee/public/img/60-dark-chocolate-box.webp",
+      "img": "/img/60-dark-chocolate-box.webp",
       "title": "جعبه ۶ عددی شکلات تلخ ۶۰ درصد لمیز",
-      "price": "1,008,000 تومان"
+      "price": "1008000"
     },
     {
       "id": 38,
-      "img": "lamizcoffee/public/img/Dark-Chocolate-83-Lamiz (1).webp",
+      "img": "/img/Dark-Chocolate-83-Lamiz (1).webp",
       "title": "جعبه ۶ عددی شکلات تلخ ۸۳ درصد لمیز",
-      "price": "1,128,000 تومان"
+      "price": "1128000 "
     }
   ],
   "flavoring": [
