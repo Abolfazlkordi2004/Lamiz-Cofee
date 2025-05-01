@@ -1,6 +1,7 @@
 // import Home_page from "@/pages/Home_page";
 // import Page from "@/pages/shop/[id]/shopPage";
-import Flavoring from "@/pages/product-category/flavoring/page";
+import Blowers from "@/pages/product-category/blowers/page";
+// import Flavoring from "@/pages/product-category/flavoring/page";
 // import LamizChocolate from "@/pages/product-category/lamiz-chocolate/page";
 // import NitroCold from "@/pages/product-category/nitro-cold-brew-coffee/page";
 // import BranchPage from "@/pages/branches/branchPage";
@@ -9,7 +10,7 @@ import Flavoring from "@/pages/product-category/flavoring/page";
 export default function Home() {
   return (
     <>
-      <Flavoring />
+      <Blowers />
     </>
   );
 }

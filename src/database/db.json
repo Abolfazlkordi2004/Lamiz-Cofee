@@ -270,39 +270,39 @@
   "blowers": [
     {
       "id": 43,
-      "img": "lamizcoffee/public/img/FRENCH-PRESS.webp",
+      "img": "/img/FRENCH-PRESS.webp",
       "title": "فرنچ‌ پرس ۶۰۰ سی سی",
-      "price": " 388,000 تومان"
+      "price": " 388000"
     },
     {
       "id": 44,
-      "img": "lamizcoffee/public/img/MOKAPAT.webp",
+      "img": "/img/MOKAPAT.webp",
       "title": "موکاپات ۶ کاپ",
-      "price": "488,000 تومان"
+      "price": "488000"
     },
     {
       "id": 45,
-      "img": "lamizcoffee/public/img/MOKAPAT.webp",
+      "img": "/img/MOKAPAT.webp",
       "title": "موکاپات ۳ کاپ",
-      "price": "388,000 تومان"
+      "price": "388000"
     }
   ],
   "other-product": [
     {
       "id": 46,
-      "img": "lamizcoffee/public/img/Hot-Chocolate-Powder-500-GR.webp",
+      "img": "/img/Hot-Chocolate-Powder-500-GR.webp",
       "title": "پودر هات‌ چاکلت – ۵۰۰ گرم",
       "price": "333,000 تومان"
     },
     {
       "id": 47,
-      "img": "lamizcoffee/public/img/MASALLA-POWDER-LAMIZ.webp",
+      "img": "/img/MASALLA-POWDER-LAMIZ.webp",
       "title": "چای ماسالا – ۵۰۰ گرم",
       "price": "333,000 تومان"
     },
     {
       "id": 48,
-      "img": "lamizcoffee/public/img/Lamiz-Bag.webp",
+      "img": "/img/Lamiz-Bag.webp",
       "title": "ساک پارچه ای لمیز",
       "price": "258,000 تومان"
     },
