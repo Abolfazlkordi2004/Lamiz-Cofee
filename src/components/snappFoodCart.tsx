@@ -8,20 +8,21 @@ type ISnappFoodCart = {
 };
 
 function SnappFoodCart({ img, title }: ISnappFoodCart) {
-  console.log(title);
   return (
     <div>
-      <div className=" relative w-[220px] h-[250px] ">
-        <Image
-          src={img}
-          alt="branch image"
-          fill
-          className="object-cover rounded"
-        />
+      <div className=" relative w-[220px] h-[250px] cursor-pointer">
+        <Link href="#">
+          <Image
+            src={img}
+            alt="branch image"
+            fill
+            className="object-cover rounded"
+          />
+        </Link>
       </div>
-      <div className="bg-[#FE6E1F] mt-5 rounded h-[40px]  text-white flex justify-center items-center">
-        <Link href="">
-          <span className="text-lg font-medium">{title}</span>
+      <div className="bg-[#FE6E1F] mt-5 rounded h-[40px]  text-white flex justify-center items-center cursor-pointer">
+        <Link href="#">
+          <span className="text-lg">{title}</span>
         </Link>
       </div>
     </div>
