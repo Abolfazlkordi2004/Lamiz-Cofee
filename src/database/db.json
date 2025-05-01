@@ -292,91 +292,91 @@
       "id": 46,
       "img": "/img/Hot-Chocolate-Powder-500-GR.webp",
       "title": "پودر هات‌ چاکلت – ۵۰۰ گرم",
-      "price": "333,000 تومان"
+      "price": "333000"
     },
     {
       "id": 47,
       "img": "/img/MASALLA-POWDER-LAMIZ.webp",
       "title": "چای ماسالا – ۵۰۰ گرم",
-      "price": "333,000 تومان"
+      "price": "333000"
     },
     {
       "id": 48,
       "img": "/img/Lamiz-Bag.webp",
       "title": "ساک پارچه ای لمیز",
-      "price": "258,000 تومان"
+      "price": "258000"
     },
     {
       "id": 49,
-      "img": "lamizcoffee/public/img/totbag.webp",
+      "img": "/img/totbag.webp",
       "title": "ساک پارچه ای طرح شکلات لمیز",
-      "price": "258,000 تومان"
+      "price": "258000"
     },
     {
       "id": 50,
-      "img": "lamizcoffee/public/img/Filtter-01.webp",
+      "img": "/img/Filtter-01.webp",
       "title": "توری ماگ چندبار مصرف",
-      "price": "4,000 تومان"
+      "price": "4000"
     },
     {
       "id": 51,
-      "img": "lamizcoffee/public/img/MUG-GO-GREEN-SOON-LAMIZ.webp",
+      "img": "/img/MUG-GO-GREEN-SOON-LAMIZ.webp",
       "title": "ماگ چندبار مصرف طرح احساس سبز",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 52,
-      "img": "lamizcoffee/public/img/MUG-BEETER-SOON-LAMIZ.webp",
+      "img": "/img/MUG-BEETER-SOON-LAMIZ.webp",
       "title": "ماگ چندبار مصرف طرح احساس بهتر",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 53,
-      "img": "lamizcoffee/public/img/MUG-ORANGE-SLOGAN-LAMIZ.webp",
+      "img": "/img/MUG-ORANGE-SLOGAN-LAMIZ.webp",
       "title": "ماگ چندبار مصرف طرح احساس نارنجی",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 54,
-      "img": "lamizcoffee/public/img/MUG-BLACK-PATTERN-LAMIZ.webp",
+      "img": "/img/MUG-BLACK-PATTERN-LAMIZ.webp",
       "title": "ماگ چندبار مصرف طرح پترن مشکی",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 55,
-      "img": "lamizcoffee/public/img/NUG-COFFEE-TREE-LAMIZ.webp",
+      "img": "/img/NUG-COFFEE-TREE-LAMIZ.webp",
       "title": "ماگ چندبار مصرف طرح درخت قهوه",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 56,
-      "img": "lamizcoffee/public/img/83-dark-chocolate-mug.webp",
+      "img": "/img/83-dark-chocolate-mug.webp",
       "title": "ماگ چندبار مصرف طرح شکلات تلخ ۸۳ درصد",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 57,
-      "img": "lamizcoffee/public/img/60-dark-chocolate-mug.webp",
+      "img": "/img/60-dark-chocolate-mug.webp",
       "title": "ماگ چندبار مصرف طرح شکلات تلخ ۶۰ درصد",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 58,
-      "img": "lamizcoffee/public/img/milk-chocolate-mug.webp",
+      "img": "/img/milk-chocolate-mug.webp",
       "title": "ماگ چندبار مصرف طرح شکلات شیری",
-      "price": "65,000 تومان"
+      "price": "65000"
     },
     {
       "id": 59,
-      "img": "lamizcoffee/public/img/Vanilla-Pod-Black-Madagaskar.webp",
+      "img": "/img/Vanilla-Pod-Black-Madagaskar.webp",
       "title": "شاخه وانیل ماداگاسکار – ۵ عددی",
-      "price": "888,000 تومان"
+      "price": "888000"
     },
     {
       "id": 60,
-      "img": "lamizcoffee/public/img/Vanilla-Pod-Orange-Madagaskar-e1729676836616.webp",
+      "img": "/img/Vanilla-Pod-Orange-Madagaskar-e1729676836616.webp",
       "title": "شاخه وانیل ماداگاسکار – ۳ عددی",
-      "price": "588,000 تومان"
+      "price": "588000"
     }
   ],
   "textHeader": [

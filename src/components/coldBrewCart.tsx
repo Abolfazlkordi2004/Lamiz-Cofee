@@ -9,7 +9,7 @@ type IColdBrew = {
 
 function ColdBrewCart({ img, title, price }: IColdBrew) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center" dir="ltr">
       <div className="relative w-full aspect-[5/5] group">
         <Image
           src={img}
