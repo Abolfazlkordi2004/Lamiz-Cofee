@@ -244,27 +244,27 @@
   "flavoring": [
     {
       "id": 39,
-      "img": "lamizcoffee/public/img/Monin-Triple_Sec-Syrup.webp",
+      "img": "/img/Monin-Triple_Sec-Syrup.webp",
       "title": "سیروپ تریپل سک کراسائو",
-      "price": " 669,000 تومان"
+      "price": "669000"
     },
     {
       "id": 40,
-      "img": "lamizcoffee/public/img/Monin-Almond-Syrup.webp",
+      "img": "/img/Monin-Almond-Syrup.webp",
       "title": "سیروپ بادام مونین",
-      "price": "569,000 تومان"
+      "price": "569000"
     },
     {
       "id": 41,
-      "img": "lamizcoffee/public/img/Monin-Ice-Mint-Syrup.webp",
+      "img": "/img/Monin-Ice-Mint-Syrup.webp",
       "title": "سیروپ کاربین مونین",
-      "price": "669,000 تومان"
+      "price": "669000"
     },
     {
       "id": 42,
-      "img": "lamizcoffee/public/img/Monin-Green-Mint-Syrup.webp",
+      "img": "/img/Monin-Green-Mint-Syrup.webp",
       "title": "سیروپ نعنا‌ سبز مونین",
-      "price": "669,000 تومان"
+      "price": "669000"
     }
   ],
   "blowers": [
