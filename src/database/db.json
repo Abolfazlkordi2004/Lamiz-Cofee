@@ -180,27 +180,27 @@
   "nitro-cold-brew-coffee": [
     {
       "id": 29,
-      "img": "lamizcoffee/public/img/NITRO-COLD-BREW-COFFEE-LAMIZ.webp",
+      "img": "/img/NITRO-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو",
-      "price": "108,800 تومان – 1,305,600 تومان"
+      "price": "108800 – 1305600"
     },
     {
       "id": 30,
-      "img": "lamizcoffee/public/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ.webp",
+      "img": "/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو وانیلی",
-      "price": "108,800 تومان – 1,305,600 تومان"
+      "price": "108800 – 1305600"
     },
     {
       "id": 31,
-      "img": "lamizcoffee/public/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ.webp",
+      "img": "/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو کاراملی",
-      "price": "108,800 تومان – 1,305,600 تومان"
+      "price": "108800 – 1305600"
     },
     {
       "id": 32,
-      "img": "lamizcoffee/public/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ.webp",
+      "img": "/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو شکلاتی",
-      "price": "108,800 تومان – 1,305,600 تومان"
+      "price": "108800 – 1305600"
     }
   ],
   "lamiz-chocolate": [

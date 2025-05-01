@@ -1,23 +1,23 @@
 import React from "react";
 import Image from "next/image";
 
-type IShopCart = {
+type IColdBrew = {
   img: string;
   title: string;
   price: string;
 };
 
-function ShopCart({ img, title, price }: IShopCart) {
+function ColdBrewCart({ img, title, price }: IColdBrew) {
   return (
-    <div className="w-[235px] h-[300px] items-center justify-center">
-      <div className="relative w-[200px] h-[200px] mt-13 mx-2 group">
+    <div className="flex flex-col items-center">
+      <div className="relative w-full aspect-[5/5] group">
         <Image
           src={img}
-          alt="LAMIZ-PROSO-BARISTA-COMBINATION"
+          alt="image-coldBrew"
           fill
-          className="object-cover"
+          className="object-cover rounded"
         />
-        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity space-y-2">
+        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity space-y-2 p-2">
           <div className="w-7 h-7 relative cursor-pointer">
             <a href="#">
               <Image
@@ -40,12 +40,18 @@ function ShopCart({ img, title, price }: IShopCart) {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-items items-center mt-12">
-        <p> {title} </p>
-        <p className="text-[#ff6e1f] mt-3">{price}</p>
+      <div className="flex flex-col items-center mt-8">
+        <p className="text-lg">{title}</p>
+        <p className="text-[#ff6e1f] mt-5 text-lg" dir="rtl">
+          {price
+            .split("–")
+            .map((p) => Number(p.trim()).toLocaleString("fa-IR"))
+            .join(" تومان – ")}
+          تومان
+        </p>
       </div>
     </div>
   );
 }
 
-export default ShopCart;
+export default ColdBrewCart;
