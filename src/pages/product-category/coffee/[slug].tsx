@@ -1,27 +1,57 @@
 import HeaderSection from "@/components/headerSection";
 import React from "react";
 import Image from "next/image";
+import { GetStaticPaths, GetStaticProps } from "next";
 
-type ICoffeePage = {
-  textheader: string;
+type IData = {
+  id: number;
+  img: string;
+  title: string;
   price: string;
-  productImage: string;
-  productText: string;
 };
 
-function CoffeePage({
-  textheader,
-  price,
-  productImage,
-  productText,
-}: ICoffeePage) {
+// صفحه داینامیک را می‌سازد
+export const getStaticPaths: GetStaticPaths = async () => {
+  const res = await fetch("http://localhost:3001/product-category");
+  const products: IData[] = await res.json();
+
+  const paths = products.map((product) => ({
+    params: { id: product.id.toString() },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+// اطلاعات هر صفحه را می‌گیرد
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const res = await fetch(
+    `http://localhost:3001/product-category/${params?.id}`
+  );
+  const product: IData = await res.json();
+
+  return {
+    props: {
+      product,
+    },
+  };
+};
+
+// تعریف تایپ ورودی به کامپوننت
+type Props = {
+  product: IData;
+};
+
+function CoffeePage({ product }: Props) {
   return (
     <div>
-      <HeaderSection img='/img/shop-background.webp' header={textheader} />
+      <HeaderSection img="/img/shop-background.webp" header={product.title} />
       <div className="w-[235px] h-[300px] items-center justify-center">
         <div className="relative w-[200px] h-[150px] mt-13 mx-2 group">
           <Image
-            src={productImage}
+            src={product.img}
             alt="coffee image"
             fill
             className="object-cover"
@@ -50,9 +80,9 @@ function CoffeePage({
           </div>
         </div>
         <div className="flex flex-col justify-items items-center mt-12">
-          <p> {productText}</p>
+          <p>{product.title}</p>
           <p className="text-[#ff6e1f] mt-3">
-            {price} <span>تومان</span>
+            {product.price} <span>تومان</span>
           </p>
         </div>
       </div>

@@ -2,13 +2,18 @@
 // import Page from "@/pages/shop/[id]/shopPage";
 
 // import BranchPage from "@/pages/branches/branchPage";
-import Page from "@/pages/product-category/coffee/[id]";
+import Page from "@/pages/product-category/coffee/[slug]";
 
 
 export default function Home() {
   return (
     <>
-       <Page/>
+       <Page product={{
+        id: 0,
+        img: "",
+        title: "",
+        price: ""
+      }}/>
     </>
   );
 }
