@@ -400,5 +400,82 @@
       "id": 65,
       "text": "لمیز پرسو"
     }
+  ],
+  "branchSnapp": [
+    {
+      "id": 66,
+      "img": "/img/branchs/Jordan.webp",
+      "text": "شعبه جردن"
+    },
+    {
+      "id": 2,
+      "img": "/img/branchs/Motahari-Branches-Cover.webp",
+      "text": "شعبه مطهری"
+    },
+    {
+      "id": 3,
+      "img": "/img/branchs/Farmanieh.webp",
+      "text": "شعبه فرمانیه"
+    },
+    {
+      "id": 4,
+      "img": "/img/branchs/Cover-Mirdamad.webp",
+      "text": "شعبه میرداماد"
+    },
+    {
+      "id": 5,
+      "img": "/img/branchs/Cover-Pol-Romi copy.webp",
+      "text": "شعبه پل رومی"
+    },
+    {
+      "id": 6,
+      "img": "/img/branchs/Vanak-Branches-Cover.webp",
+      "text": "شعبه میدان ونک"
+    },
+    {
+      "id": 7,
+      "img": "/img/branchs/Cover-Bagh-Ferdos.webp",
+      "text": "شعبه باغ فردوس"
+    },
+    {
+      "id": 8,
+      "img": "/img/branchs/FATEMI-COVER.jpg",
+      "text": "شعبه فاطمی"
+    },
+    {
+      "id": 9,
+      "img": "/img/branchs/Cover-4rahvaliasr.webp",
+      "text": "شعبه چهار راه ولیعصر"
+    },
+    {
+      "id": 10,
+      "img": "/img/branchs/karaj-branches-cover.webp",
+      "text": "شعبه کرج"
+    },
+    {
+      "id": 11,
+      "img": "/img/branchs/saatdat-abad-cover.webp",
+      "text": "شعبه سعادت اباد "
+    },
+    {
+      "id": 12,
+      "img": "/img/branchs/Yosef-Abad-Cover-Branches.jpg",
+      "text": "شعبه بوسف اباد "
+    },
+    {
+      "id": 13,
+      "img": "/img/branchs/Enghelab-Branches-Cover.webp",
+      "text": "شعبه انقلاب"
+    },
+    {
+      "id": 14,
+      "img": "/img/branchs/Cover-Esfehan.webp",
+      "text": "شعبه اصفهان"
+    },
+    {
+      "id": 15,
+      "img": "/img/branchs/Heravi-Branches-Cover.webp",
+      "text": "شعبه هروی"
+    }
   ]
 }
