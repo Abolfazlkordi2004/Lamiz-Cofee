@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-type IColdBrew = {
+type IitemShoppingCart = {
   img: string;
   title: string;
   price: string;
 };
 
-function ColdBrewCart({ img, title, price }: IColdBrew) {
+function ItemShoppingCart({ img, title, price }: IitemShoppingCart) {
   return (
     <div className="flex flex-col items-center" dir="ltr">
       <div className="relative w-full aspect-[5/5] group">
@@ -43,15 +43,12 @@ function ColdBrewCart({ img, title, price }: IColdBrew) {
       <div className="flex flex-col items-center mt-8">
         <p className="text-lg">{title}</p>
         <p className="text-[#ff6e1f] mt-5 text-lg" dir="rtl">
-          {price
-            .split("–")
-            .map((p) => Number(p.trim()).toLocaleString("fa-IR"))
-            .join(" تومان – ")}
-          تومان
+           {price} 
+         
         </p>
       </div>
     </div>
   );
 }
 
-export default ColdBrewCart;
+export default ItemShoppingCart;

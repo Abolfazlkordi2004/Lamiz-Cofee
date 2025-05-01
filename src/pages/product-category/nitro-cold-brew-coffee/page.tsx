@@ -1,6 +1,8 @@
+"use client";
 import HeaderSection from "@/components/headerSection";
-import ColdBrewCart from "@/components/coldBrewCart";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import ItemShoppingCart from "@/components/itemShoppingCart";
+import { useFormatPrice } from "@/hooks/formatPrice";
 
 type INitroCold = {
   id: number;
@@ -9,10 +11,15 @@ type INitroCold = {
   price: string;
 };
 
-async function NitroCold() {
-  const res = await fetch(`http://localhost:3001/nitro-cold-brew-coffee`);
-  const data = (await res.json()) as INitroCold[];
+function NitroCold() {
+  const [data, setData] = useState<INitroCold[]>([]);
+  const formatPrice = useFormatPrice();
 
+  useEffect(() => {
+    fetch("http://localhost:3001/nitro-cold-brew-coffee")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
   return (
     <div>
       <HeaderSection
@@ -23,11 +30,11 @@ async function NitroCold() {
         <div className="w-full max-w-[1300px] border border-gray-400 rounded px-6 py-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {data.map((item) => (
-              <ColdBrewCart
+              <ItemShoppingCart
                 key={item.id}
                 img={item.img}
                 title={item.title}
-                price={item.price}
+                price={formatPrice(item.price)}
               />
             ))}
           </div>
