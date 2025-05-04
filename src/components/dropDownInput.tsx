@@ -37,7 +37,7 @@ export default function DropdownInput({ placeholder, data }: IDropDownInput) {
         type="text"
         placeholder={placeholder}
         value={selectedValue}
-        className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
+        className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
         onClick={() => setIsOpen((prev) => !prev)}
         readOnly
       />
