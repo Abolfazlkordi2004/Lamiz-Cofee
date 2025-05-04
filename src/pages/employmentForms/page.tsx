@@ -5,12 +5,22 @@ import React from "react";
 
 type DayItem = {
   id: number;
-  Number: number;
+  number: number;
 };
 
 async function Form() {
-  const response = await axios.get<DayItem[]>("http://localhost:3001/days");
-  const days = response.data;
+  const responseDays = await axios.get<DayItem[]>("http://localhost:3001/days");
+  const days = responseDays.data;
+
+  const responseMonth = await axios.get<DayItem[]>(
+    "http://localhost:3001/months"
+  );
+  const months = responseMonth.data;
+
+  const responseYears = await axios.get<DayItem[]>(
+    "http://localhost:3001/year"
+  );
+  const years = responseYears.data;
 
   return (
     <div>
@@ -49,6 +59,8 @@ async function Form() {
           <div className="flex flex-row-reverse mt-10">
             <label htmlFor="">تاریخ تولد</label>
             <DropdownInput data={days} placeholder="روز" />
+            <DropdownInput data={months} placeholder="ماه" />
+            <DropdownInput data={years} placeholder="سال" />
           </div>
         </div>
       </div>
