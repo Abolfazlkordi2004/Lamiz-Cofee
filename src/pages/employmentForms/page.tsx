@@ -50,7 +50,7 @@ async function Form() {
               <input
                 type="text"
                 placeholder="نام"
-                className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
+                className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
               />
             </div>
             <div className="relative w-[500px] text-right">
@@ -60,7 +60,7 @@ async function Form() {
               <input
                 type="text"
                 placeholder="نام خانوادگی"
-                className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
+                className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ async function Form() {
               <input
                 type="text"
                 placeholder="کد ملی"
-                className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 "
+                className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
               />
             </div>
             <div className="relative w-[500px] text-right">
@@ -82,7 +82,7 @@ async function Form() {
               <input
                 type="text"
                 placeholder="تلفن همراه"
-                className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
+                className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
               />
             </div>
           </div>
@@ -106,7 +106,7 @@ async function Form() {
               <input
                 type="text"
                 placeholder="شهر محل سکونت"
-                className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
+                className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
               />
             </div>
             <div className="text-right text-gray-800">
@@ -123,7 +123,7 @@ async function Form() {
               <input
                 type="text"
                 placeholder="محدوده محل سکونت"
-                className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
+                className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
               />
             </div>
           </div>
@@ -136,11 +136,11 @@ async function Form() {
             <div className="flex justify-end gap-5 mt-5">
               <div>
                 <span className="mr-2">خیر</span>
-                <input type="checkbox" />
+                <input type="radio" name="work"/>
               </div>
               <div>
                 <span className="mr-2">بله</span>
-                <input type="checkbox" />
+                <input type="radio" name="work"/>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ async function Form() {
                 انگیزه شما برای انتخاب این شغل چیست؟ (اختیاری)
               </h2>
             </div>
-            <div className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border">
+            <div className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border text-right" dir="rtl">
               <textarea className="w-full h-full"></textarea>
             </div>
           </div>
@@ -160,7 +160,7 @@ async function Form() {
                 خوشحال میشویم اگر از علایق کلی شما بیشتر بشنویم ؟ (اختیاری)
               </h2>
             </div>
-            <div className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border">
+            <div className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border" dir="rtl">
               <textarea className="w-full h-full"></textarea>
             </div>
           </div>
@@ -173,23 +173,23 @@ async function Form() {
             <div className="flex justify-end gap-5 mt-5">
               <div>
                 <span className="mr-2">سایر</span>
-                <input type="checkbox" className="text-lg" />
+                <input type="radio" className="text-lg" name="ref" />
               </div>
               <div>
                 <span className="mr-2">دوستان و آشنایان</span>
-                <input type="checkbox" className="text-lg" />
+                <input type="radio" className="text-lg" name="ref" />
               </div>
               <div>
                 <span className="mr-2">تلگرام</span>
-                <input type="checkbox" className="text-lg" />
+                <input type="radio" className="text-lg" name="ref" />
               </div>
               <div>
                 <span className="mr-2"> اینستاگرام </span>
-                <input type="checkbox" className="text-lg" />
+                <input type="radio" className="text-lg" name="ref" />
               </div>
               <div>
                 <span className="mr-2">وب سایت قهوه لمیز</span>
-                <input type="checkbox" className="text-lg" />
+                <input type="radio" className="text-lg" name="ref" />
               </div>
             </div>
           </div>

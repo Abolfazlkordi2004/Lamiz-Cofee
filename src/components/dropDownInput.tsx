@@ -37,7 +37,7 @@ export default function DropdownInput({ placeholder, data }: IDropDownInput) {
         type="text"
         placeholder={placeholder}
         value={selectedValue}
-        className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"
+        className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
         onClick={() => setIsOpen((prev) => !prev)}
         readOnly
       />
@@ -46,7 +46,7 @@ export default function DropdownInput({ placeholder, data }: IDropDownInput) {
           <ul className="divide-y divide-gray-200">
             {data.map((item) => (
               <li
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-right"
                 key={item.id}
                 onClick={() => handleSelect(item.number)}
               >
