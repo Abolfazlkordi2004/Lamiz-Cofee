@@ -9,7 +9,9 @@ function RefundPage() {
         text="راهنمای سیاست مرجوعی و عودت کالا در قهوه لمیز"
       />
       <div>
-        <div></div>
+        <div>
+          <h2></h2>
+        </div>
         <div></div>
       </div>
     </div>
