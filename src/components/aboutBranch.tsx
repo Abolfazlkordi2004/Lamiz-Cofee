@@ -7,9 +7,9 @@ type IBranch = {
   header: string;
 };
 
-function Branch({ img, header }: IBranch) {
+function AboutBranch({ img, header }: IBranch) {
   return (
-    <div className="w-[260px] h-[280px] relative rounded overflow-hidden">
+    <div className="w-[220px] h-[200px] relative rounded overflow-hidden">
       <Link href={""}>
         <Image src={img} alt="image-branch" fill className="object-cover" />
       </Link>
@@ -20,4 +20,4 @@ function Branch({ img, header }: IBranch) {
   );
 }
 
-export default Branch;
+export default AboutBranch;
