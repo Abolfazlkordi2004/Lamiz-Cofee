@@ -1,30 +1,50 @@
-import { useState } from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+"use client";
+import { useState } from "react";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { motion, AnimatePresence } from "framer-motion";
 
-export default function DropdownMenu() {
+type IDropdownMenu = {
+  text: string;
+  items: string[];
+};
+
+export default function DropdownMenu({ items, text }: IDropdownMenu) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const items = ['آیتم اول', 'آیتم دوم', 'آیتم سوم'];
-
   return (
-    <div className="relative inline-block text-right">
+    <div className="relative text-right inline-block" dir="rtl">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center justify-between gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+        className="flex flex-row-reverse items-center justify-end gap-2 px-3 py-3 text-black text-xl  hover:text-[#8E6145] w-full"
       >
-        نمایش منو
-        {isOpen ? <FaChevronUp className="w-4 h-4" /> : <FaChevronDown className="w-4 h-4" />}
+        {text}
+        {isOpen ? (
+          <FaChevronUp className="w-4 h-4" />
+        ) : (
+          <FaChevronDown className="w-4 h-4" />
+        )}
       </button>
 
-      {isOpen && (
-        <ul className="absolute mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 p-4 z-10 list-disc list-inside text-gray-800">
-          {items.map((item, index) => (
-            <li key={index} className="mb-1">
-              {item}
-            </li>
-          ))}
-        </ul>
-      )}
+      <AnimatePresence initial={false}>
+        {isOpen && (
+          <motion.div
+            key="content"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="overflow-hidden"
+          >
+            <ul className="mt-2 w-full py-4 pr-4 text-xl list-disc list-inside text-black">
+              {items.map((item, index) => (
+                <li key={index} className="mb-3">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
