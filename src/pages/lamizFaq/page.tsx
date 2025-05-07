@@ -10,7 +10,7 @@ type IData = {
   content: string[];
 };
 
-async function Privacy() {
+async function Faq() {
   const response = await axios.get<IData[]>("http://localhost:3001/privacy");
   const privacyData = response.data;
 
@@ -21,8 +21,8 @@ async function Privacy() {
   return (
     <div>
       <HeaderOther
-        header="قوانین و مقررات"
-        text="قوانین و مقررات قهوه لمیز"
+        header="سیاست مرجوعی و عودت"
+        text="راهنمای سیاست مرجوعی و عودت کالا در قهوه لمیز"
       />
       <div className="w-full h-auto">
         <div className="flex flex-col mx-50 my-15 px-10">
@@ -68,4 +68,4 @@ async function Privacy() {
   );
 }
 
-export default Privacy;
+export default Faq;
