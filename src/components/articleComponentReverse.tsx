@@ -9,7 +9,7 @@ type IArticleComp = {
 
 function ArticleCompReverse({ img, title, text }: IArticleComp) {
   return (
-    <div className="flex flex-row-reverse">
+    <div className="flex flex-row-reverse z-0">
       <div className="w-1/2 h-[450px] relative">
         <Image src={img} alt="image" fill className="object-cover" />
       </div>

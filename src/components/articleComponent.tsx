@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import TrainingComp from "./trainingComponent";
 
 type IArticleComp = {
   img: string;
@@ -9,9 +10,12 @@ type IArticleComp = {
 
 function ArticleComp({ img, title, text }: IArticleComp) {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row z-0">
       <div className="w-1/2 h-[450px] relative">
         <Image src={img} alt="image" fill className="object-cover" />
+      </div>
+      <div className="w-[300px] h-[50px] z-10">
+        <TrainingComp />
       </div>
       <div className="flex flex-col items-center justify-center w-1/2 h-[450px] bg-[#F3F2F2]">
         <div className="w-[500px] text-justify" dir="rtl">

@@ -1,41 +1,41 @@
 import ArticleComp from "@/components/articleComponent";
 import ArticleCompReverse from "@/components/articleComponentReverse";
 import HeaderOther from "@/components/headerOther";
+import axios from "axios";
 import React from "react";
 
-function Article() {
+type IData = {
+  id: number;
+  img: string;
+  title: string;
+  summary: string;
+};
+
+async function Article() {
+  const response = await axios.get<IData[]>("http://localhost:3001/article");
+  const articles = response.data;
+
   return (
     <div>
       <HeaderOther header="مقالات" text="نوشته‌های قهوه لمیز" />
       <div>
-        <ArticleComp
-          img={"/img/inside-branches-Kish-2-1.webp"}
-          title={"قهرمانی در مسابقات باریستایی"}
-          text={
-            "در مسابقات باریستایی، توانایی‌های باریستا از همه لحاظ بررسی می‌شود پس لازم است کاملا برای آن آماده‌باشید. با تمرین بیشتر، به مهارت‌های خود مسلط‌ تر شده و به درک بهتری از علاقه‌ی خود به قهوه می‌رسید. "
-          }
-        />
-        <ArticleCompReverse
-          img={"/img/inside-branches-Kish-2-1.webp"}
-          title={"قهرمانی در مسابقات باریستایی"}
-          text={
-            "در مسابقات باریستایی، توانایی‌های باریستا از همه لحاظ بررسی می‌شود پس لازم است کاملا برای آن آماده‌باشید. با تمرین بیشتر، به مهارت‌های خود مسلط‌ تر شده و به درک بهتری از علاقه‌ی خود به قهوه می‌رسید. "
-          }
-        />
-        <ArticleComp
-          img={"/img/inside-branches-Kish-2-1.webp"}
-          title={"قهرمانی در مسابقات باریستایی"}
-          text={
-            "در مسابقات باریستایی، توانایی‌های باریستا از همه لحاظ بررسی می‌شود پس لازم است کاملا برای آن آماده‌باشید. با تمرین بیشتر، به مهارت‌های خود مسلط‌ تر شده و به درک بهتری از علاقه‌ی خود به قهوه می‌رسید. "
-          }
-        />
-        <ArticleCompReverse
-          img={"/img/inside-branches-Kish-2-1.webp"}
-          title={"قهرمانی در مسابقات باریستایی"}
-          text={
-            "در مسابقات باریستایی، توانایی‌های باریستا از همه لحاظ بررسی می‌شود پس لازم است کاملا برای آن آماده‌باشید. با تمرین بیشتر، به مهارت‌های خود مسلط‌ تر شده و به درک بهتری از علاقه‌ی خود به قهوه می‌رسید. "
-          }
-        />
+        {articles.map((item, index) =>
+          index % 2 === 0 ? (
+            <ArticleComp
+              key={item.id}
+              img={item.img}
+              title={item.title}
+              text={item.summary}
+            />
+          ) : (
+            <ArticleCompReverse
+              key={item.id}
+              img={item.img}
+              title={item.title}
+              text={item.summary}
+            />
+          )
+        )}
       </div>
     </div>
   );
