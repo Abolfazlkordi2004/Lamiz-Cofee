@@ -10,14 +10,14 @@ type IData = {
   content: string[];
 };
 
-async function RefundPage() {
-  const response = await axios.get<IData[]>("http://localhost:3001/refund");
-  const refundData = response.data;
+async function Privacy() {
+  const response = await axios.get<IData[]>("http://localhost:3001/privacy");
+  const privacyData = response.data;
 
   const responseReturn = await axios.get<IData[]>(
-    "http://localhost:3001/return"
+    "http://localhost:3001/policy"
   );
-  const returnData = responseReturn.data;
+  const policyData = responseReturn.data;
   return (
     <div>
       <HeaderOther
@@ -28,15 +28,15 @@ async function RefundPage() {
         <div className="flex flex-col mx-50 my-15 px-10">
           <div className="flex flex-row-reverse mt-15 px-5 mb-10">
             <Image
-              src="/icons/icons8-shopping-basket-50.png"
+              src="/icons/icons8-info-50.png"
               alt="icons"
-              width={32}
-              height={32}
+              width={28}
+              height={28}
             />
-            <h2 className="text-2xl font-bold mx-5">ثبت سفارش و ارسال کالا</h2>
+            <h2 className="text-2xl font-bold mx-5"> قوانین و مقررات </h2>
           </div>
           <div className="flex flex-col px-10">
-            {refundData.map((item) => (
+            {policyData.map((item) => (
               <DropdownMenu
                 text={item.title}
                 items={item.content}
@@ -46,15 +46,15 @@ async function RefundPage() {
           </div>
           <div className="flex flex-row-reverse mt-15 px-5 mb-10">
             <Image
-              src="/icons/icons8-undo-48.png"
+              src="/icons/icons8-copyright-67.png"
               alt="icons"
               width={32}
               height={32}
             />
-            <h2 className="text-2xl font-bold mx-5">بازگرداندن کالا</h2>
+            <h2 className="text-2xl font-bold mx-5"> حریم خصوصی </h2>
           </div>
           <div className="flex flex-col px-10">
-            {returnData.map((item) => (
+            {privacyData.map((item) => (
               <DropdownMenu
                 text={item.title}
                 items={item.content}
@@ -68,4 +68,4 @@ async function RefundPage() {
   );
 }
 
-export default RefundPage;
+export default Privacy;

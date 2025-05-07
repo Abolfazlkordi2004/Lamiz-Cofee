@@ -35,7 +35,7 @@ export default function DropdownMenu({ items, text }: IDropdownMenu) {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="overflow-hidden"
           >
-            <ul className="mt-2 w-full py-4 pr-4 text-xl list-disc list-inside text-black">
+            <ul className="mt-2 w-full py-4 pr-4 text-xl list-disc list-inside text-black text-justify">
               {items.map((item, index) => (
                 <li key={index} className="mb-3">
                   {item}
