@@ -22,7 +22,7 @@ function ArticleComp({ img, title, text }: IArticleComp) {
           <h2 className="text-2xl font-bold">{title}</h2>
           <p className="text-lg mt-5">{text}</p>
         </div>
-        <div className="w-[150px] h-[40px] rounded text-white cursor-pointer bg-[#FE6E1F] flex justify-center items-center text-xl mt-10 mr-90">
+        <div className="w-[150px] h-[40px] rounded text-white cursor-pointer bg-[#FE6E1F] flex flex-row-reverse justify-center items-center text-xl mt-10 mr-90">
           <button className="cursor-pointer">بیشتر بخوانید </button>
         </div>
       </div>

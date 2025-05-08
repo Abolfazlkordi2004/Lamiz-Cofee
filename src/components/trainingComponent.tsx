@@ -3,7 +3,7 @@ import React from "react";
 
 function TrainingComp() {
   return (
-    <div className="bg-white rounded-xl w-[400px] h-[100px]">
+    <div className="bg-white rounded-xl w-[410px] h-[120px]">
       <div className="flex flex-row-reverse items-center justify-start gap-5 w-full h-full pr-5">
         <Image
           src="/img/Logo-black.webp"
