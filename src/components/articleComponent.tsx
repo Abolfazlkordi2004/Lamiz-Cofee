@@ -10,11 +10,11 @@ type IArticleComp = {
 
 function ArticleComp({ img, title, text }: IArticleComp) {
   return (
-    <div className="flex flex-row z-0">
+    <div className="flex flex-row z-0 relative">
       <div className="w-1/2 h-[450px] relative">
         <Image src={img} alt="image" fill className="object-cover" />
       </div>
-      <div className="w-[300px] h-[50px] z-10">
+      <div className="absolute left-[700px] top-3/5 -translate-x-1/2 -translate-y-1/2 z-10">
         <TrainingComp />
       </div>
       <div className="flex flex-col items-center justify-center w-1/2 h-[450px] bg-[#F3F2F2]">

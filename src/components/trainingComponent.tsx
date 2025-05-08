@@ -3,13 +3,13 @@ import React from "react";
 
 function TrainingComp() {
   return (
-    <div className="bg-white rounded w-full h-full">
-      <div className="flex flex-row-reverse items-center justify-center gap-5">
+    <div className="bg-white rounded-xl w-[400px] h-[100px]">
+      <div className="flex flex-row-reverse items-center justify-start gap-5 w-full h-full pr-5">
         <Image
           src="/img/Logo-black.webp"
           alt="Logo-black"
-          width={42}
-          height={42}
+          width={50}
+          height={50}
           className="rounded-full"
         />
         <div className="flex flex-col text-right">
