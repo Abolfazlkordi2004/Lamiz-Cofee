@@ -147,11 +147,11 @@ function Header() {
                       { text: "قهوه‌ها", href: "/product-category/coffee" },
                       {
                         text: "قهوه ترکیبی",
-                        href: "product-category/coffee/combinatorial",
+                        href: "/product-category/coffee/combinatorial",
                       },
                       {
                         text: "قهوه تک‌خاستگاه",
-                        href: "/product-category/coffee/single-origin",
+                        href: "/product-category/coffee/single_origin",
                       },
                       {
                         text: "قهوه بدون کافئین",
@@ -191,8 +191,27 @@ function Header() {
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg hover:text-[#ff6e1f]"
                       >
                         <Link href={href}>{text}</Link>
+
+                        {/* <Link
+                          href={{
+                            pathname: href,
+                            query: { coffee: "coffee" },
+                          }}
+                        >
+                          {text}
+                        </Link> */}
                       </li>
                     ))}
+
+                    {/* // /product-category/[coffee]/product-category/coffee/combinatorial) */}
+                    {/* <Link
+                      href={{
+                        pathname: "/product-category/[coffee]/combinatoria",
+                        query: { coffee: "coffee" },
+                      }}
+                    >
+                      Valid link
+                    </Link> */}
                   </ul>
                 </div>
               )}

@@ -3,7 +3,7 @@ import ItemShoppingCart from "@/components/itemShoppingCart";
 import { useFormatPrice } from "@/hooks/formatPrice";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import '@/app/globals.css'
+import "@/app/globals.css";
 
 type Product = {
   id: number;
@@ -37,6 +37,7 @@ export default function CoffeePage() {
         const filteredProducts = data.filter(
           (p: Product) => p.category === category
         );
+        console.log("category", category);
         setProducts(filteredProducts);
       } catch {
         setError("خطا در بارگذاری محصولات");
