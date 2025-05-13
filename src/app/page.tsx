@@ -1,19 +1,13 @@
-// import BranchPage from "@/pages/branches/branchPage";
-// import Form from "@/pages/employmentForms/page";
-// import AboutPage from "@/pages/lamizCoffeeAbout/page";
-// import DropdownMenu from "@/components/dropDownMenu";
-// import RefundPage from "@/pages/refundReturns/page";
-// import RefundReturnsPage from "@/pages/refundReturns/page";
-// import Contact from "@/pages/lamizContact/page";
-// import SnappFood from "@/pages/snappfood-branches/page";
-// import OtherProduct from "@/pages/product-category/other-product/page";
-import Menu from "@/pages/lamiz-coffee-menu/page";
-// import Article from "@/pages/article/page";
+// import Header from "@/components/header";
+// import NitroCold from "@/pages/product-category/nitro-cold-brew-coffee/page";
+
+// import Blowers from "@/pages/product-category/blowers/page";
+import Blowers from "@/pages/product-category/[coffee]/[category]";
 
 export default function Home() {
   return (
     <>
-       <Menu/>
+      <Blowers />
     </>
   );
 }

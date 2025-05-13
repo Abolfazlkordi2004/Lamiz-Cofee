@@ -4,12 +4,14 @@ import ItemShoppingCart from "@/components/itemShoppingCart";
 import { useFormatPrice } from "@/hooks/formatPrice";
 import React, { useEffect, useState } from "react";
 
+
 type Iblowers = {
   id: number;
   img: string;
   title: string;
   price: string;
 };
+
 
 function Blowers() {
   const [data, setData] = useState<Iblowers[]>([]);
@@ -25,7 +27,7 @@ function Blowers() {
     <div>
       <HeaderSection img="/img/shop-background.webp" header="دم‌افزارها" />
       <div className="flex justify-center my-10" dir="rtl">
-        <div className="w-full max-w-[1300px] border border-gray-400 rounded px-6 py-6">
+        <div className="w-full max-w-[1300px] border rounded px-6 py-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {data.map((item) => (
               <ItemShoppingCart

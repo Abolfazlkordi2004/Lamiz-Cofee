@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
+import Link from "next/link";
 
 function Header() {
   const [hoveredMenu, setHoveredMenu] = useState<string | null>(null);
@@ -8,7 +9,6 @@ function Header() {
   return (
     <header className="sticky z-50 top-0">
       <div className="flex flex-row items-center justify-around bg-black h-[90px] w-full px-50">
-        {/* آیکن‌ها */}
         <div className="flex flex-row items-center space-x-6">
           {[
             { href: "#", src: "/icons/icons8-account-50.png", alt: "account" },
@@ -35,15 +35,12 @@ function Header() {
               </a>
             </div>
           ))}
-          <div className=" rounded-full w-5 h-5 bg-[#ff6e1f] justify-center text-center translate-x-[-230%] translate-y-[-60%] text-white">
+          <div className="rounded-full w-5 h-5 bg-[#ff6e1f] justify-center text-center translate-x-[-230%] translate-y-[-60%] text-white">
             0
           </div>
         </div>
-
-        {/* منو */}
         <div className="flex flex-row items-center">
           <ul className="flex flex-row items-center space-x-6 text-white text-sm">
-            {/* منوی سایر */}
             <div
               className="relative"
               onMouseEnter={() => setHoveredMenu("another")}
@@ -69,7 +66,7 @@ function Header() {
                       "انتقادات و پیشنهادات",
                       "قوانین و مقررات",
                       "سوالات متداول",
-                      "مقالات ",
+                      "مقالات",
                     ].map((item) => (
                       <li
                         key={item}
@@ -82,8 +79,6 @@ function Header() {
                 </div>
               )}
             </div>
-
-            {/* منوی تماس با ما */}
             <div
               className="relative"
               onMouseEnter={() => setHoveredMenu("call")}
@@ -116,12 +111,10 @@ function Header() {
                 </div>
               )}
             </div>
-
-            {/* آیتم‌های ساده */}
             {[
               { href: "#", text: "فرم درخواست همکاری با ما" },
               { href: "#", text: "سفارش از اسنپ فود" },
-              { href: "#", text: "شعبه های قهوه لمیز" },
+              { href: "#", text: "شعبه‌های قهوه لمیز" },
               { href: "#", text: "منو قهوه لمیز" },
             ].map(({ href, text }) => (
               <li key={text} className="hover:text-[#ff6e1f]">
@@ -130,8 +123,6 @@ function Header() {
                 </a>
               </li>
             ))}
-
-            {/* منوی فروشگاه */}
             <div
               className="relative"
               onMouseEnter={() => setHoveredMenu("shop")}
@@ -153,23 +144,53 @@ function Header() {
                 <div className="absolute top-full right-0 mt-0 w-52 z-50">
                   <ul className="rounded-md bg-white shadow-lg">
                     {[
-                      "قهوه ها",
-                      "قهوه ترکیبی",
-                      "قهوه تک خاستگاه",
-                      "قهوه بدون کافئین",
-                      "قهوه ترک",
-                      "لمیزپرسو",
-                      "قهوه سرد دم نیترو",
-                      "شکلات لمیز",
-                      "طعم دهنده ها",
-                      "دم افزار ها",
-                      "سایر محصولات",
-                    ].map((item) => (
+                      { text: "قهوه‌ها", href: "/product-category/coffee" },
+                      {
+                        text: "قهوه ترکیبی",
+                        href: "product-category/coffee/combinatorial",
+                      },
+                      {
+                        text: "قهوه تک‌خاستگاه",
+                        href: "/product-category/coffee/single-origin",
+                      },
+                      {
+                        text: "قهوه بدون کافئین",
+                        href: "/product-category/coffee/coffeinless",
+                      },
+                      {
+                        text: "قهوه ترک",
+                        href: "/product-category/coffee/turk",
+                      },
+                      {
+                        text: "لمیزپرسو",
+                        href: "/product-category/coffee/lamizpresso",
+                      },
+                      {
+                        text: "قهوه سرد دم نیترو",
+                        href: "/product-category/nitro-cold-brew",
+                      },
+                      {
+                        text: "شکلات لمیز",
+                        href: "/product-category/chocolate",
+                      },
+                      {
+                        text: "طعم‌دهنده‌ها",
+                        href: "/product-category/flavors",
+                      },
+                      {
+                        text: "دم‌افزارها",
+                        href: "/product-category/brewing-tools",
+                      },
+                      {
+                        text: "سایر محصولات",
+                        href: "/product-category/others",
+                      },
+                    ].map(({ text, href }) => (
                       <li
-                        key={item}
+                        key={text}
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg hover:text-[#ff6e1f]"
                       >
-                        {item}
+                        <Link href={href}>{text}</Link>
                       </li>
                     ))}
                   </ul>
@@ -178,8 +199,6 @@ function Header() {
             </div>
           </ul>
         </div>
-
-        {/* لوگو */}
         <div className="flex flex-row items-center">
           <a href="#">
             <Image
