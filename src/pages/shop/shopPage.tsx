@@ -1,3 +1,4 @@
+"use client"
 import CategorySection from "@/components/categorySection";
 import HeaderSection from "@/components/headerSection";
 import MainSection from "@/components/mainSection";

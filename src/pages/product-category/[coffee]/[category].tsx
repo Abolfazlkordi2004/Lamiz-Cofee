@@ -53,7 +53,7 @@ export default function CoffeePage() {
     typeof category === "string"
       ? category === "combinatorial"
         ? "قهوه ترکیبی"
-        : category === "single-origin"
+        : category === "single_origin"
         ? "قهوه تک‌خاستگاه"
         : category === "coffeinless"
         ? "قهوه بدون کافئین"

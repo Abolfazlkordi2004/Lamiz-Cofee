@@ -171,19 +171,19 @@ function Header() {
                       },
                       {
                         text: "شکلات لمیز",
-                        href: "/product-category/chocolate",
+                        href: "/product-category/lamiz-chocolate",
                       },
                       {
                         text: "طعم‌دهنده‌ها",
-                        href: "/product-category/flavors",
+                        href: "/product-category/flavoring",
                       },
                       {
                         text: "دم‌افزارها",
-                        href: "/product-category/brewing-tools",
+                        href: "/product-category/blowers",
                       },
                       {
                         text: "سایر محصولات",
-                        href: "/product-category/others",
+                        href: "/product-category/other-product",
                       },
                     ].map(({ text, href }) => (
                       <li
@@ -191,27 +191,8 @@ function Header() {
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg hover:text-[#ff6e1f]"
                       >
                         <Link href={href}>{text}</Link>
-
-                        {/* <Link
-                          href={{
-                            pathname: href,
-                            query: { coffee: "coffee" },
-                          }}
-                        >
-                          {text}
-                        </Link> */}
                       </li>
                     ))}
-
-                    {/* // /product-category/[coffee]/product-category/coffee/combinatorial) */}
-                    {/* <Link
-                      href={{
-                        pathname: "/product-category/[coffee]/combinatoria",
-                        query: { coffee: "coffee" },
-                      }}
-                    >
-                      Valid link
-                    </Link> */}
                   </ul>
                 </div>
               )}
