@@ -115,12 +115,12 @@ function Header() {
               { href: "#", text: "فرم درخواست همکاری با ما" },
               { href: "#", text: "سفارش از اسنپ فود" },
               { href: "#", text: "شعبه‌های قهوه لمیز" },
-              { href: "#", text: "منو قهوه لمیز" },
+              { href: "/", text: "منو قهوه لمیز" },
             ].map(({ href, text }) => (
               <li key={text} className="hover:text-[#ff6e1f]">
-                <a href={href} className="text-lg">
+                <Link href={href} className="text-lg">
                   {text}
-                </a>
+                </Link>
               </li>
             ))}
             <div
@@ -136,9 +136,9 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <a href="#" className="text-lg">
+                <Link href="/shop" className="text-lg">
                   فروشگاه محصولات
-                </a>
+                </Link>
               </div>
               {hoveredMenu === "shop" && (
                 <div className="absolute top-full right-0 mt-0 w-52 z-50">
@@ -200,14 +200,14 @@ function Header() {
           </ul>
         </div>
         <div className="flex flex-row items-center">
-          <a href="#">
+          <Link href="/">
             <Image
               src="/icons/Lamiz-logo.webp"
               alt="lamiz-logo"
               width={60}
               height={60}
             />
-          </a>
+          </Link>
         </div>
       </div>
     </header>

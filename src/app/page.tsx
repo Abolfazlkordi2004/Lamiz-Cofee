@@ -1,12 +1,11 @@
-// import MainSection from "@/components/mainSection";
-import Shop from "@/pages/shop";
-// import Shop from "@/pages/shop";
+import Menu from "@/pages/lamiz-coffee-menu";
 
+ 
 
 export default function Home() {
   return (
     <>
-      <Shop />
+      <Menu />
     </>
   );
 }

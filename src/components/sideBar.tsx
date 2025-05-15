@@ -1,26 +1,50 @@
-import axios from "axios";
-import Link from "next/link";
+"use client";
 
-type IData = {
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+
+type IMenuCoffee = {
   name: string;
   slug: string;
 };
 
-export default async function Sidebar() {
-  const response = await axios.get<IData[]>("http://localhost:3001/menuCategory");
-  const menuCategories = response.data;
+type ISideBar = {
+  selected: string;
+  onSelect: (category: string) => void;
+};
+
+export default function Sidebar({ selected, onSelect }: ISideBar) {
+  const [menuCategories, setMenuCategories] = useState<IMenuCoffee[]>([]);
+
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        const response = await axios.get<IMenuCoffee[]>(
+          "http://localhost:3001/menuCategorys"
+        );
+        setMenuCategories(response.data);
+      } catch (error) {
+        console.error("خطا در دریافت دسته‌بندی‌ها:", error);
+      }
+    };
+
+    fetchCategories();
+  }, []);
 
   return (
-    <aside className="w-64 bg-gray-100 h-full p-4">
+    <aside className="w-40 p-4">
       <ul className="space-y-4">
         {menuCategories.map((cat) => (
-          <li key={cat.slug}>
-            <Link
-              href={`/lamiz-coffee-menu/${cat.slug}`}
-              className="text-lg hover:text-yellow-600"
-            >
-              {cat.name}
-            </Link>
+          <li
+            key={cat.slug}
+            className={`cursor-pointer p-2 rounded ${
+              selected === cat.slug
+                ? "bg-orange-500 text-white"
+                : "hover:bg-gray-200"
+            }`}
+            onClick={() => onSelect(cat.slug)} 
+          >
+            {cat.name}
           </li>
         ))}
       </ul>

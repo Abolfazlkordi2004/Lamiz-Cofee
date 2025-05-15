@@ -405,154 +405,154 @@
       "id": 1,
       "img": "/img/Exclusive-Blend-Coffee-1KG.webp",
       "title": "قهوه اختصاصی – ۱ کیلوگرم",
-      "price": "1,449,000 تومان",
+      "price": "1449000 ",
       "category": "combinatorial"
     },
     {
       "id": 2,
       "img": "/img/NUMBER-23-COFFEE-1KG.webp",
       "title": " قهوه شماره ۲۳ – ۱ کیلوگرم  ",
-      "price": "1,399,000 تومان",
+      "price": "1399000 ",
       "category": "combinatorial"
     },
     {
       "id": 3,
       "img": "/img/BARISTA-COFFEE-1KG.webp",
       "title": "قهوه باریستا – ۱ کیلوگرم",
-      "price": "1,299,000 تومان",
+      "price": "1299000 ",
       "category": "combinatorial"
     },
     {
       "id": 4,
       "img": "/img/Number-50-coffee-250GR.webp",
       "title": "قهوه شماره ۵۰ – ۲۵۰ گرم",
-      "price": "319,000 تومان",
+      "price": "319000 ",
       "category": "combinatorial"
     },
     {
       "id": 5,
       "img": "/img/Number-50-Coffee-1KG.webp",
       "title": "قهوه اختصاصی – ۱ کیلوگرم",
-      "price": "1,199,000 تومان",
+      "price": "1199000 ",
       "category": "combinatorial"
     },
     {
       "id": 6,
       "img": "/img/Number-50-coffee-250GR.webp",
       "title": "قهوه باریستا – ۲۵۰ گرم",
-      "price": "329,000 تومان",
+      "price": "329000 ",
       "category": "combinatorial"
     },
     {
       "id": 7,
       "img": "/img/NUMBER-23-COFFEE-250.webp",
       "title": "قهوه شماره ۲۳ – ۲۵۰ گرم",
-      "price": "369,000 تومان",
+      "price": "369000 ",
       "category": "combinatorial"
     },
     {
       "id": 8,
       "img": "/img/EXCLUSIVE-BLEND-COFFEE-250.webp",
       "title": "قهوه اختصاصی – ۲۵۰ گرم",
-      "price": "399,000 تومان",
+      "price": "399000 ",
       "category": "combinatorial"
     },
     {
       "id": 9,
       "img": "/img/Nira-Coffee-1KG.webp",
       "title": "قهوه نیرا – ۱ کیلوگرم",
-      "price": "1,039,000 تومان",
+      "price": "1039000 ",
       "category": "single_origin"
     },
     {
       "id": 10,
       "img": "/img/PB-Coffee-1KG.webp",
       "title": "قهوه پی بی (PB) – 1 کیلوگرم",
-      "price": "999,000 تومان",
+      "price": "999000 ",
       "category": "single_origin"
     },
     {
       "id": 11,
       "img": "/img/KOCHERE-COFFEE-250GR.webp",
       "title": "قهوه تک خاستگاه کوچره – ۲۵۰ گرم",
-      "price": "499,000 تومان",
+      "price": "499000 ",
       "category": "single_origin"
     },
     {
       "id": 12,
       "img": "/img/GUJI-COFFEE-250GR.webp",
       "title": "قهوه تک خاستگاه گوجی – ۲۵۰ گرم",
-      "price": "499,000 تومان",
+      "price": "499000 ",
       "category": "single_origin"
     },
     {
       "id": 13,
       "img": "/img/PB-Coffee-250GR.webp",
       "title": "قهوه پی بی (PB) – 250 گرم",
-      "price": "269,000 تومان",
+      "price": "269000 ",
       "category": "single_origin"
     },
     {
       "id": 14,
       "img": "/img/PB-Coffee-250GR.webp",
       "title": "قهوه پی بی (PB) – 250 گرم",
-      "price": "269,000 تومان",
+      "price": "269000 ",
       "category": "single_origin"
     },
     {
       "id": 15,
       "img": "/img/Nira-Coffee-250-Gr.webp",
       "title": "قهوه نیرا – ۲۵۰ گرم",
-      "price": "279,000 تومان",
+      "price": "279000 ",
       "category": "single_origin"
     },
     {
       "id": 16,
       "img": "/img/Gute-Ethiopia.webp",
       "title": "قهوه اتیوپی گوته – ۲۵۰ گرم",
-      "price": "1,149,000 تومان",
+      "price": "1149000 ",
       "category": "single_origin"
     },
     {
       "id": 17,
       "img": "/img/LAMIZ-PROSO-WITHOUTCAFFEINE.webp",
       "title": "کپسول لمیزپرسو دیکف",
-      "price": "269,800 تومان",
+      "price": "269800 ",
       "category": "coffeinless"
     },
     {
       "id": 18,
       "img": "/img/SWISS-WATER-ESPRESSO-BLEND-250GR-1.webp",
       "title": "قهوه دیکف‌ اسپرسو – ۲۵۰ گرم",
-      "price": "549,000 تومان",
+      "price": "549000 ",
       "category": "coffeinless"
     },
     {
       "id": 19,
       "img": "/img/Turkish-Coffee-250GR.webp",
       "title": "قهوه ترک – ۱ کیلوگرم",
-      "price": "1,049,000 تومان",
+      "price": "1049000 ",
       "category": "turk"
     },
     {
       "id": 20,
       "img": "/img/Turkish-Coffee-Cardamom.webp",
       "title": "قهوه ترک‌ با‌هل – ۱ کیلوگرم",
-      "price": "1,199,000 تومان",
+      "price": "1199000 ",
       "category": "turk"
     },
     {
       "id": 21,
       "img": "/img/Turkish-Coffee-Cardamom.webp",
       "title": "قهوه ترک‌ با‌هل – ۲۵۰ گرم",
-      "price": "329,000 تومان",
+      "price": "329000 ",
       "category": "turk"
     },
     {
       "id": 22,
       "img": "/img/Turkish-Coffee-250GR.webp",
       "title": "قهوه ترک – ۲۵۰ گرم",
-      "price": "279,000 تومان",
+      "price": "279000 ",
       "category": "turk"
     },
 
@@ -560,42 +560,42 @@
       "id": 23,
       "img": "/img/LAMIZ-PROSO-WITHOUTCAFFEINE.webp",
       "title": "کپسول لمیزپرسو دیکف",
-      "price": "269,800 تومان",
+      "price": "269800 ",
       "category": "lamizpresso"
     },
     {
       "id": 24,
       "img": "/img/LAMIZ-PROSO-EXCLUSIVE-COMBINATION.webp",
       "title": "کپسول لمیزپرسو اختصاصی",
-      "price": "228,800 تومان",
+      "price": "228800 ",
       "category": "lamizpresso"
     },
     {
       "id": 25,
       "img": "/img/LAMIZ-PROSO-SINGLE-ORIGIN-COMBINATION.webp",
       "title": "کپسول لمیزپرسو تک‌ خاستگاه",
-      "price": "249,800 تومان",
+      "price": "249800  ",
       "category": "lamizpresso"
     },
     {
       "id": 26,
       "img": "/img/LAMIZ-PROSO-BARISTA-COMBINATION.webp",
       "title": "کپسول لمیزپرسو باریستا",
-      "price": "219,800 تومان",
+      "price": "219800  ",
       "category": "lamizpresso"
     },
     {
       "id": 27,
       "img": "/img/LAMIZ-PROSO-NIRA.webp",
       "title": "کپسول لمیزپرسو نیرا",
-      "price": "188,800 تومان",
+      "price": "188800  ",
       "category": "lamizpresso"
     },
     {
       "id": 28,
       "img": "/img/LAMIZ-PROSO-MIX-COMBINATIO.webp",
       "title": "کپسول لمیزپرسو میکس",
-      "price": "239,800 تومان",
+      "price": "239800  ",
       "category": "lamizpresso"
     },
     {
@@ -1008,7 +1008,6 @@
     { "id": 11, "number": 11 },
     { "id": 12, "number": 12 }
   ],
-
   "year": [
     {
       "id": 1,
@@ -1933,7 +1932,6 @@
       "name": "مطهری"
     }
   ],
-
   "privacy": [
     {
       "id": 1,
@@ -2156,1131 +2154,1235 @@
       "img": "/img/ESPRESSO-LAMIZ-300x300.webp",
       "fatile": "اسپرسو",
       "entitle": "espresso",
-      "size": ["68,۸۰۰", "98,۸۰۰"],
-      "description": "محتویات: تک‌شات معادل ۳۰ میلی‌لیتر و جفت‌شات معادل ۶۰ میلی‌لیتر عصاره غلیظ و خالص قهوه"
+      "size": ["68800", "98800"],
+      "description": "محتویات: تک‌شات معادل ۳۰ میلی‌لیتر و جفت‌شات معادل ۶۰ میلی‌لیتر عصاره غلیظ و خالص قهوه",
+      "category": "hotdrink"
     },
     {
       "id": 2,
       "img": "/img/ESPRESSO-MACCHIATO-LAMIZ-300x300.webp",
       "fatile": "اسپرسو ماکیاتو",
       "entitle": "ESPRESSO Macchiato",
-      "size": ["83,۳۰۰", "107,۸۰۰"],
-      "description": "محتویات: اسپرسو، شیر با فوم زیاد"
+      "size": ["83300", "107800"],
+      "description": "محتویات: اسپرسو، شیر با فوم زیاد",
+      "category": "hotdrink"
     },
     {
       "id": 3,
       "img": "/img/ESPRESSO-CON-PANNA-LAMIZ-300x300.webp",
       "fatile": "اسپرسو کان‌پانا",
       "entitle": "ESPRESSO con panna",
-      "size": ["83,۳۰۰", "107,۸۰۰"],
-      "description": "محتویات: اسپرسو، خامه"
+      "size": ["83300", "107800"],
+      "description": "محتویات: اسپرسو، خامه",
+      "category": "hotdrink"
     },
     {
       "id": 4,
       "img": "/img/ESPRESSO-AFFOGATO-LAMIZ-300x300.webp",
       "fatile": "اسپرسو آفوگاتو",
       "entitle": "ESPRESSO Affogato",
-      "size": ["88,۸۰۰", "109,۸۰۰"],
-      "description": "محتویات: اسپرسو، یک اسکوپ بستنی وانیلی"
+      "size": ["88800", "109800"],
+      "description": "محتویات: اسپرسو، یک اسکوپ بستنی وانیلی",
+      "category": "hotdrink"
     },
     {
       "id": 5,
       "img": "/img/DAILY-BREW-LAMIZ-300x300.webp",
       "fatile": "قهوه دمی",
       "entitle": "Daily Brew",
-      "size": ["88,۸۰۰", "108,۸۰۰", "123,۸۰۰"],
-      "description": "محتویات: قهوه دمی دستگاهی"
+      "size": ["88800", "108800", "123800"],
+      "description": "محتویات: قهوه دمی دستگاهی",
+      "category": "hotdrink"
     },
     {
       "id": 6,
       "img": "/img/AMERICANO-LAMIZ-300x300.webp",
       "fatile": "آمریکانو",
       "entitle": "AMERICANO",
-      "size": ["88,۸۰۰", "108,۸۰۰", "123,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، آب داغ"
+      "size": ["88800", "108800", "123800"],
+      "description": "محتویات: شات اسپرسو، آب داغ",
+      "category": "hotdrink"
     },
     {
       "id": 7,
       "img": "/img/CORTADO-LAMIZ-300x300.webp",
       "fatile": "کورتادو",
       "entitle": "CORTADO",
-      "size": ["0", "118,۸۰۰", "0"],
-      "description": ""
+      "size": ["0", "118800", "0"],
+      "description": "",
+      "category": "hotdrink"
     },
     {
       "id": 8,
       "img": "/img/CARAMEL-MACCHIATO-LAMIZ-300x300.webp",
       "fatile": "کارامل ماکیاتو",
       "entitle": "CARAMEL MACCHIATO",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، طعم دهنده وانیل، شیر با فوم زیاد، سس کارامل"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: شات اسپرسو، طعم دهنده وانیل، شیر با فوم زیاد، سس کارامل",
+      "category": "hotdrink"
     },
     {
       "id": 9,
       "img": "/img/MOCHA-LAMIZ-300x300.webp",
       "fatile": "کافه موکا",
       "entitle": "MOCHA",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، شکلات چیپسی، شیر با فوم کم"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: شات اسپرسو، شکلات چیپسی، شیر با فوم کم",
+      "category": "hotdrink"
     },
     {
       "id": 10,
       "img": "/img/HOT-CHOCOLATE_-LAMIZ-300x300.webp",
-      "fatile": "شکلات گرم​",
-      "entitle": "HOT CHOCOLATE​",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر گرم فوم کم"
+      "fatile": "شکلات گرم",
+      "entitle": "HOT CHOCOLATE",
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر گرم فوم کم",
+      "category": "hotdrink"
     },
     {
       "id": 11,
       "img": "/img/MASALA-SHAKE-LAMIZ-300x300.webp",
       "fatile": "ماسالا",
       "entitle": "MASALA",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: پودر ماسالا مخصوص لمیز (زنجبیل، دارچین، میخک، شکر و ...)، شیر با فوم کم"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: پودر ماسالا مخصوص لمیز (زنجبیل، دارچین، میخک، شکر و ...)، شیر با فوم کم",
+      "category": "hotdrink"
     },
     {
       "id": 12,
       "img": "/img/STEAMED-MILK-LAMIZ_-300x300.webp",
       "fatile": "شیر گرم",
-      "entitle": "STEAMED MILK​",
-      "size": ["58,۸۰۰", "75,۸۰۰", "88,۸۰۰"],
-      "description": "محتویات: شیر با فوم کم"
+      "entitle": "STEAMED MILK",
+      "size": ["58800", "75800", "88800"],
+      "description": "محتویات: شیر با فوم کم",
+      "category": "hotdrink"
     },
     {
       "id": 13,
       "img": "/img/OXTONGUE-LAMIZ-300x300.webp",
-      "fatile": "چای/دمنوش​",
-      "entitle": "​TEA/HERBAL Tea",
-      "size": ["0", "64,۸۰۰", "68,۸۰۰"],
-      "description": "محتویات: چای"
+      "fatile": "چای/دمنوش",
+      "entitle": "TEA/HERBAL Tea",
+      "size": ["0", "64800", "68800"],
+      "description": "محتویات: چای",
+      "category": "hotdrink"
     },
     {
       "id": 14,
       "img": "/img/CAPPACHILLO-LAMIZ-300x300.webp",
       "fatile": "کپوچینو",
       "entitle": "CAPPUCCINO",
-      "size": ["112,۸۰۰", "124,۸۰۰", "158,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، شیر با فوم زیاد"
+      "size": ["112800", "124800", "158800"],
+      "description": "محتویات: شات اسپرسو، شیر با فوم زیاد",
+      "category": "hotdrink"
     },
     {
       "id": 15,
       "img": "/img/LATTE-LAMIZ-300x300.webp",
       "fatile": "کافه لاته",
       "entitle": "LATTE",
-      "size": ["112,۸۰۰", "124,۸۰۰", "158,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، شیر با فوم کم"
+      "size": ["112800", "124800", "158800"],
+      "description": "محتویات: شات اسپرسو، شیر با فوم کم",
+      "category": "hotdrink"
     },
     {
       "id": 16,
       "img": "/img/MATCHAGATO-LAMIZ-300x300.webp",
       "fatile": "ماچا گاتو",
       "entitle": "matchagato",
-      "size": ["0", "188,۸۰۰", "0"],
-      "description": "محتویات: پودر ماچا، آب گرم، بستنی وانیلی"
+      "size": ["0", "188800", "0"],
+      "description": "محتویات: پودر ماچا، آب گرم، بستنی وانیلی",
+      "category": "colddrink"
     },
     {
       "id": 17,
       "img": "/img/ICED-AMERICANO-LAMIZ-300x300.webp",
       "fatile": "آمریکانو سرد",
       "entitle": "ICED AMERICANO",
-      "size": ["94,۸۰۰", "108,۸۰۰", "123,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، آب سرد تصفیه شده، یخ"
+      "size": ["94800", "108800", "123800"],
+      "description": "محتویات: شات اسپرسو، آب سرد تصفیه شده، یخ",
+      "category": "colddrink"
     },
     {
       "id": 18,
       "img": "/img/ICED-LATTE-COLD-BREW-LAMIZ-300x300.webp",
       "fatile": "کافه لاته سرد",
       "entitle": "ICED LATTE",
-      "size": ["112,۸۰۰", "124,۸۰۰", "154,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، شیر سرد کم چرب، یخ"
+      "size": ["112800", "124800", "154800"],
+      "description": "محتویات: شات اسپرسو، شیر سرد کم چرب، یخ",
+      "category": "colddrink"
     },
     {
       "id": 19,
       "img": "/img/ICED-MOCHA-LAMIZ-300x300.webp",
       "fatile": "موکا سرد",
       "entitle": "ICED MOCHA",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، شکلات چیپسی، شیر سرد کم چرب، یخ"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: شات اسپرسو، شکلات چیپسی، شیر سرد کم چرب، یخ",
+      "category": "colddrink"
     },
     {
       "id": 20,
       "img": "/img/ICED-CARAMEL-MACCHIATO-LAMIZ-300x300.webp",
       "fatile": "کارامل ماکیاتو سرد",
       "entitle": "ICED CARAMEL MACCHIATO",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، طعم دهنده وانیل، سس کارامل، شیر سرد کم چرب، یخ"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: شات اسپرسو، طعم دهنده وانیل، سس کارامل، شیر سرد کم چرب، یخ",
+      "category": "colddrink"
     },
     {
       "id": 21,
       "img": "/img/ICED-CHOCOLATE-LAMIZ-300x300.webp",
       "fatile": "شکلات سرد",
       "entitle": "ICED chocolate",
-      "size": ["118,۸۰۰", "138,۸۰۰", "158,۸۰۰"],
-      "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر داغ برای میکس، شیر سرد کم چرب، یخ"
+      "size": ["118800", "138800", "158800"],
+      "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر داغ برای میکس، شیر سرد کم چرب، یخ",
+      "category": "colddrink"
     },
     {
       "id": 22,
       "img": "/img/ICED-CAPPUCCINO-LAMIZ-300x300.webp",
       "fatile": "کپوچینو سرد",
       "entitle": "ICED cappuccino",
-      "size": ["123,۸۰۰", "134,۸۰۰", "158,۸۰۰"],
-      "description": ""
+      "size": ["123800", "134800", "158800"],
+      "description": "",
+      "category": "colddrink"
     },
     {
       "id": 23,
       "img": "/img/CAPPACHILLO-LAMIZ-300x300.webp",
       "fatile": "کاپاچیلو",
       "entitle": "cappachillo",
-      "size": ["124,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، بستنی وانیلی، شیر سرد کم چرب، یخ"
+      "size": ["124800", "148800", "168800"],
+      "description": "محتویات: شات اسپرسو، بستنی وانیلی، شیر سرد کم چرب، یخ",
+      "category": "colddrink"
     },
     {
       "id": 24,
       "img": "/img/CAPPACHILLO-LAMIZ-300x300.webp",
       "fatile": "کارامل کاپاچیلو",
       "entitle": "caramel cappachillo",
-      "size": ["138,۸۰۰", "168,۸۰۰", "188,۸۰۰"],
-      "description": ""
+      "size": ["138800", "168800", "188800"],
+      "description": "",
+      "category": "colddrink"
     },
     {
       "id": 25,
       "img": "/img/MOCHACHILLO-LAMIZ-300x300.webp",
       "fatile": "موکاچیلو",
       "entitle": "mochachillo",
-      "size": ["138,۸۰۰", "168,۸۰۰", "188,۸۰۰"],
-      "description": "محتویات: شات اسپرسو، شکلات چیپسی، بستنی، شیر سرد کم چرب، یخ"
+      "size": ["138800", "168800", "188800"],
+      "description": "محتویات: شات اسپرسو، شکلات چیپسی، بستنی، شیر سرد کم چرب، یخ",
+      "category": "colddrink"
     },
     {
       "id": 26,
       "img": "/img/CHOCOLATECHILLO-LAMIZ-300x300.webp",
       "fatile": "چیلو شکلاتی",
       "entitle": "chocolate chillo",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: شکلات چیپسی، پودر کاکائو، طعم‌دهنده، شیر داغ برای میکس، بستنی، یخ"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: شکلات چیپسی، پودر کاکائو، طعم‌دهنده، شیر داغ برای میکس، بستنی، یخ",
+      "category": "colddrink"
     },
     {
       "id": 27,
       "img": "/img/MASALA-SHAKE-LAMIZ-300x300.webp",
       "fatile": "شیک ماسالا",
       "entitle": "Masala Shake",
-      "size": ["0", "138,۸۰۰", "0"],
-      "description": "محتویات: بستنی، یخ، شیر، پودر ماسالا، پنیر خامه ای ویلی، بیسکوئیت مادر"
+      "size": ["0", "138800", "0"],
+      "description": "محتویات: بستنی، یخ، شیر، پودر ماسالا، پنیر خامه ای ویلی، بیسکوئیت مادر",
+      "category": "colddrink"
     },
     {
       "id": 28,
       "img": "/img/FRUITCHILLO-WITH-ICE-CREAM-LAMIZ-300x300.webp",
       "fatile": "چیلو میوه ای با بستنی",
       "entitle": "fruitchillo with ice cream",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: طعم دهنده ( انار یا زرشک )، یخ، بستنی وانیلی"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: طعم دهنده ( انار یا زرشک )، یخ، بستنی وانیلی",
+      "category": "colddrink"
     },
     {
       "id": 29,
       "img": "/img/FRUITCHILLO-LAMIZ-300x300.webp",
       "fatile": "چیلو میوه‌ای",
       "entitle": "fruitchillo",
-      "size": ["128,۸۰۰", "148,۸۰۰", "168,۸۰۰"],
-      "description": "محتویات: پوره میوه ( توت فرنگی یا انبه )، آب سرد تصفیه شده، یخ"
+      "size": ["128800", "148800", "168800"],
+      "description": "محتویات: پوره میوه ( توت فرنگی یا انبه )، آب سرد تصفیه شده، یخ",
+      "category": "colddrink"
     },
     {
       "id": 30,
       "img": "/img/MATCHACHILLO-LAMIZ-300x300.webp",
       "fatile": "ماچاچیلو",
       "entitle": "MATCHACHILLO",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، بستنی، شیر سرد کم چرب، یخ"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، بستنی، شیر سرد کم چرب، یخ",
+      "category": "colddrink"
     },
     {
       "id": 31,
       "img": "/img/CAFE-GELATO-LAMIZ-300x300.webp",
       "fatile": "کافه ژلاتو",
       "entitle": "cafe gelato",
-      "size": ["0", "128,۸۰۰", "0"],
-      "description": "محتویات: شات اسپرسو، چهار اسکوپ بستنی وانیلی، سس شکلات / کارامل"
+      "size": ["0", "128800", "0"],
+      "description": "محتویات: شات اسپرسو، چهار اسکوپ بستنی وانیلی، سس شکلات / کارامل",
+      "category": "colddrink"
     },
     {
       "id": 32,
       "img": "/img/PERSIAN-LATTE-LAMIZ-300x300.webp",
       "fatile": "پرشین لاته",
       "entitle": "PERSIAN-LATTE",
-      "size": ["۱۶۸,۸۰۰"],
-      "description": "محتویات: کره پسته، طعم دهنده زعفران، گلاب و شیرگرم"
+      "size": ["168800"],
+      "description": "محتویات: کره پسته، طعم دهنده زعفران، گلاب و شیرگرم",
+      "category": "seasondrink"
     },
     {
       "id": 33,
       "img": "/img/PERSIAN-CHILLO-LAMIZ-300x300.webp",
       "fatile": "پرشین چیلو",
       "entitle": "PERSIAN CHILLO",
-      "size": ["۱۶۸,۸۰۰"],
-      "description": "محتویات: کره پسته، طعم دهنده زعفران، گلاب، شیر، بستنی وانیلی و یخ خرد شده"
+      "size": ["168800"],
+      "description": "محتویات: کره پسته، طعم دهنده زعفران، گلاب، شیر، بستنی وانیلی و یخ خرد شده",
+      "category": "seasondrink"
     },
     {
       "id": 34,
       "img": "/img/MATCHAGATO-LAMIZ-300x300.webp",
       "fatile": "ماچا گاتو",
       "entitle": "matchagato",
-      "size": ["0", "188,۸۰۰", "0"],
-      "description": "محتویات: پودر ماچا، آب گرم، بستنی وانیلی"
+      "size": ["0", "188800", "0"],
+      "description": "محتویات: پودر ماچا، آب گرم، بستنی وانیلی",
+      "category": "macha"
     },
     {
       "id": 35,
       "img": "/img/MATCHA-TEA-LAMIZ-300x300.webp",
       "fatile": "چای ماچا",
       "entitle": "MATCHA TEA",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، آب گرم",
+      "category": "macha"
     },
     {
       "id": 36,
       "img": "/img/MATCHA-LATTE-LAMIZ.webp",
       "fatile": "ماچا لاته",
       "entitle": "MATCHA LATTE",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم، شیر با فوم کم"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، آب گرم، شیر با فوم کم",
+      "category": "macha"
     },
     {
       "id": 37,
       "img": "/img/ICED-MATCHA-LATTE-LAMIZ-300x300.webp",
       "fatile": "ماچا لاته سرد",
       "entitle": "ICED MATCHA LATTE",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم، شیر کم چرب، یخ"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، آب گرم، شیر کم چرب، یخ",
+      "category": "macha"
     },
     {
       "id": 38,
       "img": "/img/MATCHACHILLO-LAMIZ-300x300.webp",
       "fatile": "ماچاچیلو",
       "entitle": "MATCHACHILLO",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، بستنی، شیر سرد کم چرب، یخ"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، بستنی، شیر سرد کم چرب، یخ",
+      "category": "macha"
     },
     {
       "id": 39,
       "img": "/img/MATCHA-LATTE-LAMIZ.webp",
       "fatile": "امپریال",
       "entitle": "imperial",
-      "size": ["0", "148,۸۰۰", "0"],
-      "description": ""
+      "size": ["0", "148800", "0"],
+      "description": "",
+      "category": "macha"
     },
     {
       "id": 40,
       "img": "/img/RED-GOJI-BERRY-BOWL-LAMIZ-300x300.webp",
       "fatile": "کاسه‌ گوجی بری قرمز",
       "entitle": "Red Goji Berry Bowl",
-      "size": ["232,۰۰۰"],
-      "description": "محتویات: موز، توت فرنگی، انبه، پودر گوجی بری، تخمه کدو، پرک بادام درختی، چیاسید"
+      "size": ["232000"],
+      "description": "محتویات: موز، توت فرنگی، انبه، پودر گوجی بری، تخمه کدو، پرک بادام درختی، چیاسید",
+      "category": "mood"
     },
     {
       "id": 41,
       "img": "/img/GREEN-SUPER-MATCHA-BOWL-LAMIZ-300x300.webp",
       "fatile": "کاسه‌ سوپر ماچای سبز",
       "entitle": "Green Super Matcha Bowl",
-      "size": ["232,۰۰۰"],
-      "description": "محتویات: ماست خامه ای، سوپر ماچا، موز، گرانولا، چیاسید، پرک بادام درختی، طعم دهنده وانیل"
+      "size": ["232000"],
+      "description": "محتویات: ماست خامه ای، سوپر ماچا، موز، گرانولا، چیاسید، پرک بادام درختی، طعم دهنده وانیل",
+      "category": "mood"
     },
     {
       "id": 42,
       "img": "/img/BLUE-SPIRULINA-BOWL-LAMIZ-300x300.webp",
       "fatile": "کاسه‌ اسپرولینای آبی",
       "entitle": "Blue Spirulina Bowl",
-      "size": ["232,۰۰۰"],
-      "description": "محتویات: ماست خامه ای، اسپرولینای آبی، موز، گرانولا، چیاسید، پرک بادام درختی، طعم دهنده نارگیل"
+      "size": ["232000"],
+      "description": "محتویات: ماست خامه ای، اسپرولینای آبی، موز، گرانولا، چیاسید، پرک بادام درختی، طعم دهنده نارگیل",
+      "category": "mood"
     },
     {
       "id": 43,
       "img": "/img/MORINGA-PROTEIN-SHAKE-LAMIZ-300x300.webp",
       "fatile": "شیک پروتئین مورینگا",
       "entitle": "Moringa Protein Shake",
-      "size": ["198,۸۰۰"],
-      "description": "محتویات: پروتیین وی وانیلی، موز، مورینگا، شیر، یخ"
+      "size": ["198800"],
+      "description": "محتویات: پروتیین وی وانیلی، موز، مورینگا، شیر، یخ",
+      "category": "mood"
     },
     {
       "id": 44,
       "img": "/img/PEANUT-BUTTER-CHOCOLATE-PROTEIN-SHAKE-1-300x300.webp",
       "fatile": "شیک پروتئین شکلات و کره بادام زمینی",
       "entitle": "Peanut Butter Chocolate Protein Shake",
-      "size": ["198,۸۰۰"],
-      "description": "محتویات: پروتیین وی شکلاتی، موز، کره بادام زمینی، شیر، یخ"
+      "size": ["198800"],
+      "description": "محتویات: پروتیین وی شکلاتی، موز، کره بادام زمینی، شیر، یخ",
+      "category": "mood"
     },
     {
       "id": 45,
       "img": "/img/BULLETPROOF-COFFEE-BUTTER-LAMIZ-300x300.webp",
       "fatile": "قهوه ضد گلوله/کره",
       "entitle": "BULLETPROOF COFFEE/Butter",
-      "size": ["0", "128,۸۰۰", "0"],
-      "description": "محتویات: شات اسپرسو، آب داغ، کره"
+      "size": ["0", "128800", "0"],
+      "description": "محتویات: شات اسپرسو، آب داغ، کره",
+      "category": "mood"
     },
     {
       "id": 46,
       "img": "/img/VEGAN-BULLETPROOF-COFFEE-COCONUT-OIL-LAMIZ-300x300.webp",
-      "fatile": "قهوه ضد گلوله وگن/ روغن نارگیل​",
+      "fatile": "قهوه ضد گلوله وگن/ روغن نارگیل",
       "entitle": "VEGAN BULLETPROOF COFFEE/COCONUT Oil",
-      "size": ["0", "128,۸۰۰", "0"],
-      "description": "محتویات: شات اسپرسو، آب داغ، روغن نارگیل"
+      "size": ["0", "128800", "0"],
+      "description": "محتویات: شات اسپرسو، آب داغ، روغن نارگیل",
+      "category": "mood"
     },
     {
       "id": 47,
       "img": "/img/TURMERIC-LATTE-LAMIZ_-300x300.webp",
       "fatile": "شیر زردچوبه",
-      "entitle": "TURMERIC LATTE​",
-      "size": ["0", "108,۸۰۰", "0"],
-      "description": "محتویات: زردچوبه، شیر با فوم کم"
+      "entitle": "TURMERIC LATTE",
+      "size": ["0", "108800", "0"],
+      "description": "محتویات: زردچوبه، شیر با فوم کم",
+      "category": "mood"
     },
     {
       "id": 48,
       "img": "/img/MATCHA-TEA-LAMIZ-300x300.webp",
       "fatile": "چای ماچا",
       "entitle": "MATCHA TEA",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، آب گرم",
+      "category": "mood"
     },
     {
       "id": 49,
       "img": "/img/MATCHA-LATTE-LAMIZ.webp",
       "fatile": "ماچا لاته",
       "entitle": "MATCHA LATTE",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم، شیر با فوم کم"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، آب گرم، شیر با فوم کم",
+      "category": "mood"
     },
     {
       "id": 50,
       "img": "/img/ICED-MATCHA-LATTE-LAMIZ-300x300.webp",
       "fatile": "ماچا لاته سرد",
       "entitle": "ICED MATCHA LATTE",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم، شیر کم چرب، یخ"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، آب گرم، شیر کم چرب، یخ",
+      "category": "mood"
     },
     {
       "id": 51,
       "img": "/img/MATCHA-LATTE-LAMIZ.webp",
       "fatile": "امپریال",
       "entitle": "imperial",
-      "size": ["148,۸۰۰"],
-      "description": ""
+      "size": ["148800"],
+      "description": "",
+      "category": "mood"
     },
     {
       "id": 52,
       "img": "/img/NITRO-COLD-BREW-COFFEE-LAMIZ-300x300.webp",
       "fatile": "قهوه سرد دم نیترو",
       "entitle": "nitro cold brew",
-      "size": ["108,۸۰۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم نیترو"
+      "size": ["108800"],
+      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم نیترو",
+      "category": "mood"
     },
     {
       "id": 53,
       "img": "/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ-300x300.webp",
       "fatile": "قهوه سرد دم نیترو وانیلی",
       "entitle": "nitro vanilla cold brew",
-      "size": ["108,۸۰۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم وانیلی"
+      "size": ["108800"],
+      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم وانیلی",
+      "category": "mood"
     },
     {
       "id": 54,
       "img": "/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ-300x300.webp",
       "fatile": "قهوه سرد دم نیترو کاراملی",
       "entitle": "nitro caramel cold brew",
-      "size": ["108,۸۰۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم کاراملی"
+      "size": ["108800"],
+      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم کاراملی",
+      "category": "mood"
     },
     {
       "id": 55,
       "img": "/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ-300x300.webp",
       "fatile": "قهوه سرد دم نیترو شکلاتی",
       "entitle": "nitro chocolate cold brew",
-      "size": ["108,۸۰۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم شکلات"
+      "size": ["108800"],
+      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم شکلات",
+      "category": "mood"
     },
     {
       "id": 56,
       "img": "/img/v60-Lamiz-300x300.webp",
       "fatile": "وی ۶۰ – کاستاریکا",
       "entitle": "V60 - Costa Rica",
-      "size": ["۱۲۸,۸۰۰"],
-      "description": ""
+      "size": ["128800"],
+      "description": "",
+      "category": "coffee"
     },
     {
       "id": 57,
       "img": "/img/French-Press-Lamiz-300x300.webp",
       "fatile": "فرنچ پرس",
       "entitle": "French Press",
-      "size": ["۱۱۸,۰۰۰"],
-      "description": ""
+      "size": ["118000"],
+      "description": "",
+      "category": "coffee"
     },
     {
       "id": 58,
       "img": "/img/Siphon-Lamiz-300x300.webp",
       "fatile": "سایفون",
       "entitle": "Siphon",
-      "size": ["۱۱۸,۰۰۰"],
-      "description": ""
+      "size": ["118000"],
+      "description": "",
+      "category": "coffee"
     },
     {
       "id": 59,
       "img": "/img/v60-Lamiz-300x300.webp",
       "fatile": "وی ۶۰",
       "entitle": "v60",
-      "size": ["۱۱۸,۰۰۰"],
-      "description": ""
+      "size": ["118000"],
+      "description": "",
+      "category": "coffee"
     },
     {
       "id": 60,
       "img": "/img/Chemex-Lamiz-300x300.webp",
       "fatile": "کمکس",
       "entitle": "chemex",
-      "size": ["۱۱۸,۰۰۰"],
-      "description": ""
+      "size": ["118000"],
+      "description": "",
+      "category": "coffee"
     },
     {
       "id": 61,
       "img": "/img/Aeropress-Lamiz-300x300.webp",
       "fatile": "آئروپرس",
       "entitle": "Aeropress",
-      "size": ["۱۱۸,۰۰۰"],
-      "description": ""
+      "size": ["118000"],
+      "description": "",
+      "category": "coffee"
     },
     {
       "id": 62,
       "img": "/img/BLACK-TEA-LAMIZ-300x300.webp",
       "fatile": "چای سیاه",
       "entitle": "black tea",
-      "size": ["64,۸۰۰", "68,۸۰۰"],
-      "description": ""
+      "size": ["64800", "68800"],
+      "description": "",
+      "category": "Tea"
     },
     {
       "id": 63,
       "img": "/img/CHAMOMILE-TEA-LAMIZ-300x300.webp",
       "fatile": "چای بابونه",
       "entitle": "Chamomile tea",
-      "size": ["64,۸۰۰", "68,۸۰۰"],
-      "description": ""
+      "size": ["64800", "68800"],
+      "description": "",
+      "category": "Tea"
     },
     {
       "id": 64,
       "img": "/img/GREEN-TEA-LAMIZ-300x300.webp",
       "fatile": "چای سبز",
       "entitle": "green tea",
-      "size": ["64,۸۰۰", "68,۸۰۰"],
-      "description": ""
+      "size": ["64800", "68800"],
+      "description": "",
+      "category": "Tea"
     },
     {
       "id": 65,
       "img": "/img/OXTONGUE-LAMIZ.webp",
       "fatile": "چای گل گاو زبان",
       "entitle": "Borage",
-      "size": ["64,۸۰۰", "68,۸۰۰"],
-      "description": ""
+      "size": ["64800", "68800"],
+      "description": "",
+      "category": "Tea"
     },
     {
       "id": 66,
       "img": "/img/MINT-TEA-LAMIZ-300x300.webp",
       "fatile": "چای نعنا",
       "entitle": "Mint tea",
-      "size": ["64,۸۰۰", "68,۸۰۰"],
-      "description": ""
+      "size": ["64800", "68800"],
+      "description": "",
+      "category": "Tea"
     },
     {
       "id": 67,
       "img": "/img/MATCHAGATO-LAMIZ-300x300.webp",
       "fatile": "ماچا گاتو",
       "entitle": "matchagato",
-      "size": ["176,۰۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم، بستنی وانیلی"
+      "size": ["176000"],
+      "description": "محتویات: پودر ماچا، آب گرم، بستنی وانیلی",
+      "category": "menu"
     },
     {
       "id": 68,
       "img": "/img/ICED-MATCHA-LATTE-LAMIZ-300x300.webp",
       "fatile": "ماچا لاته سرد",
       "entitle": "ICED MATCHA LATTE",
-      "size": ["158,۸۰۰", "188,۸۰۰", "223,۸۰۰"],
-      "description": "محتویات: پودر ماچا، آب گرم، شیر کم چرب، یخ"
+      "size": ["158800", "188800", "223800"],
+      "description": "محتویات: پودر ماچا، آب گرم، شیر کم چرب، یخ",
+      "category": "menu"
     },
     {
       "id": 69,
       "img": "/img/ICED-CHOCOLATE-LAMIZ-300x300.webp",
       "fatile": "شکلات سرد",
       "entitle": "ICED chocolate",
-      "size": ["110,۰۰۰", "121,۰۰۰", "143,۰۰۰"],
-      "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر داغ برای میکس، شیر سرد کم چرب، یخ"
+      "size": ["110000", "121000", "143000"],
+      "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر داغ برای میکس، شیر سرد کم چرب، یخ",
+      "category": "menu"
     },
     {
       "id": 70,
       "img": "/img/ICED-LATTE-COLD-BREW-LAMIZ-300x300.webp",
       "fatile": "لاته سرد دم",
       "entitle": "ICED LATTE COLD BREW",
-      "size": ["110,۰۰۰"],
-      "description": "محتویات: نیترو کلدبرو ساده، شیر، یخ"
+      "size": ["110000"],
+      "description": "محتویات: نیترو کلدبرو ساده، شیر، یخ",
+      "category": "menu"
     },
     {
       "id": 71,
       "img": "/img/ICED-LATTE-COLD-BREW-LAMIZ-300x300.webp",
       "fatile": "لاته سرد دم طعم دار",
       "entitle": "FLAVORED ICED LATTE COLD BREW",
-      "size": ["121,۰۰۰"],
-      "description": "محتویات: نیترو کلدبرو ساده، شیر، یخ، طعم دهنده ( وانیل، کارامل، فندق )"
+      "size": ["121000"],
+      "description": "محتویات: نیترو کلدبرو ساده، شیر، یخ، طعم دهنده ( وانیل، کارامل، فندق )",
+      "category": "menu"
     },
     {
       "id": 72,
       "img": "/img/SAFFRON-ICED-MILKTEA-LAMIZ-300x300.webp",
       "fatile": "شیر چای زعفرانی سرد",
       "entitle": "SAFFRON ICED MILKTEA",
-      "size": ["110,۰۰۰"],
-      "description": "محتویات: چای سیاه دم شده، شیر، طعم دهنده زعفران، یخ"
+      "size": ["110000"],
+      "description": "محتویات: چای سیاه دم شده، شیر، طعم دهنده زعفران، یخ",
+      "category": "menu"
     },
     {
       "id": 73,
       "img": "/img/BARBERRY-ICED-TEA-LAMIZ-300x300.webp",
       "fatile": "آیس تی زرشک",
       "entitle": "BARBERRY ICED TEA",
-      "size": ["88,۰۰۰"],
-      "description": "محتویات: چای سیاه دم شده، آب تصفیه شده، طعم دهنده زرشک، یخ"
+      "size": ["88000"],
+      "description": "محتویات: چای سیاه دم شده، آب تصفیه شده، طعم دهنده زرشک، یخ",
+      "category": "menu"
     },
     {
       "id": 74,
       "img": "/img/BARBERRY-COLD-BREW-LAMIZ.webp",
       "fatile": "قهوه سرد دم زرشک",
       "entitle": "BARBERRY COLD BREW",
-      "size": ["110,۰۰۰"],
-      "description": "محتویات: نیترو کلدبرو ساده، آب، طعم دهنده زرشک، یخ"
+      "size": ["110000"],
+      "description": "محتویات: نیترو کلدبرو ساده، آب، طعم دهنده زرشک، یخ",
+      "category": "menu"
     },
     {
       "id": 75,
       "img": "/img/STRAWBERRY-MILK-LAMIZ-300x300.webp",
       "fatile": "شیرتوت فرنگی",
       "entitle": "STRAWBERRY MILK",
-      "size": ["77,۰۰۰"],
-      "description": "محتویات: پوره توت فرنگی، طعم دهنده توت فرنگی، شیر، یخ"
+      "size": ["77000"],
+      "description": "محتویات: پوره توت فرنگی، طعم دهنده توت فرنگی، شیر، یخ",
+      "category": "menu"
     },
     {
       "id": 76,
-      "img": "/img/NITRO-COLD-BREW-COFFEE-LAMIZ-300x300.webp",
-      "fatile": "قهوه سرد دم نیترو",
-      "entitle": "nitro cold brew",
-      "size": ["119,۶۸۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم نیترو"
-    },
-    {
-      "id": 77,
-      "img": "/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ-300x300.webp",
-      "fatile": "قهوه سرد دم نیترو وانیلی",
-      "entitle": "nitro vanilla cold brew",
-      "size": ["119,۶۸۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم وانیلی"
-    },
-    {
-      "id": 78,
-      "img": "/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ-300x300.webp",
-      "fatile": "قهوه سرد دم نیترو کاراملی",
-      "entitle": "nitro caramel cold brew",
-      "size": ["119,۶۸۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم کاراملی"
-    },
-    {
-      "id": 79,
-      "img": "/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ-300x300.webp",
-      "fatile": "قهوه سرد دم نیترو شکلاتی",
-      "entitle": "nitro chocolate cold brew",
-      "size": ["119,۶۸۰"],
-      "description": "محتویات: قهوه عصاره گیری شده به روش سرد دم با طعم شکلات"
-    },
-    {
-      "id": 80,
       "img": "/img/DUBAI-CHOCOLATE-MOUSSE-LAMIZ-300x300.webp",
       "fatile": "موس دبی چاکلت",
       "entitle": "DUBAI CHOCOLATE MOUSSE",
-      "size": ["۲۸۸,۸۰۰"],
-      "description": "محتویات: شکلات ۶۰%، شکلات ۸۳%، خامه، شکر، تخم مرغ، رشته کادایف و کره پسته"
+      "size": ["288800"],
+      "description": "محتویات: شکلات ۶۰%، شکلات ۸۳%، خامه، شکر، تخم مرغ، رشته کادایف و کره پسته",
+      "category": "cake"
     },
     {
-      "id": 81,
+      "id": 77,
       "img": "/img/CREME-BRULEE-DESSERT-LAMIZ-300x300.webp",
       "fatile": "دسر کرم بروله",
       "entitle": "CREME BRULEE DESSERT",
-      "size": ["۱۸۸,۸۰۰"],
-      "description": "محتویات: دسر بر پایه لبنیات شامل شیر، خامه، شکر، غلات، وانیل"
+      "size": ["188800"],
+      "description": "محتویات: دسر بر پایه لبنیات شامل شیر، خامه، شکر، غلات، وانیل",
+      "category": "cake"
     },
     {
-      "id": 82,
+      "id": 78,
       "img": "/img/CHOCOLATE-MOUSSE-DESSERT-LAMIZ-300x300.webp",
       "fatile": "دسر موس شکلات",
       "entitle": "CHOCOLATE MOUSSE DESSERT",
-      "size": ["۱۸۸,۸۰۰"],
-      "description": "محتویات: ترکیب شکلات ۶۰% و ۸۳%، خامه، شکر، تخم مرغ، پودر کاکائو"
+      "size": ["188800"],
+      "description": "محتویات: ترکیب شکلات ۶۰% و ۸۳%، خامه، شکر، تخم مرغ، پودر کاکائو",
+      "category": "cake"
     },
     {
-      "id": 83,
+      "id": 79,
       "img": "/img/CROISSANT-LAMIZ-300x300.webp",
       "fatile": "کراسان ساده",
       "entitle": "CROISSANT",
-      "size": ["۸۸,۸۰۰"],
-      "description": "محتویات: خمیر هزار لایه، کره نیوزلندی"
+      "size": ["88800"],
+      "description": "محتویات: خمیر هزار لایه، کره نیوزلندی",
+      "category": "cake"
     },
     {
-      "id": 84,
+      "id": 80,
       "img": "/img/PAIN-AU-CHOCOLAT-LAMIZ-300x300.webp",
       "fatile": "پن شکلاتی",
       "entitle": "PAIN AU CHOCOLAT",
-      "size": ["۱۰۸,۸۰۰"],
-      "description": "محتویات: خمیر هزار لایه، کره نیوزلندی، شکلات میله ای"
+      "size": ["108800"],
+      "description": "محتویات: خمیر هزار لایه، کره نیوزلندی، شکلات میله ای",
+      "category": "cake"
     },
     {
-      "id": 85,
+      "id": 81,
       "img": "/img/GATA-LAMIZ-300x300.webp",
       "fatile": "گاتا",
       "entitle": "GATA",
-      "size": ["۹۸,۸۰۰"],
-      "description": "محتویات: نان شیرین، کره ارمنی"
+      "size": ["98800"],
+      "description": "محتویات: نان شیرین، کره ارمنی",
+      "category": "cake"
     },
     {
-      "id": 86,
+      "id": 82,
       "img": "/img/DANISH-LAMIZ-300x300.webp",
       "fatile": "دنیش کرم شیر",
       "entitle": "DANISH",
-      "size": ["۳۸,۸۰۰"],
-      "description": "محتویات: خمیر لایه ای، مغز کرم شیری"
+      "size": ["38800"],
+      "description": "محتویات: خمیر لایه ای، مغز کرم شیری",
+      "category": "cake"
     },
     {
-      "id": 87,
+      "id": 83,
       "img": "/img/CHERRY-TURNOVER-LAMIZ-300x300.webp",
       "fatile": "چری ترن اور",
       "entitle": "CHERRY TURNOVER",
-      "size": ["۱۱۸,۸۰۰"],
-      "description": "محتویات: خمیر هزار لایه، آلبالو تازه، مارمالاد آلبالو"
+      "size": ["118800"],
+      "description": "محتویات: خمیر هزار لایه، آلبالو تازه، مارمالاد آلبالو",
+      "category": "cake"
     },
     {
-      "id": 88,
+      "id": 84,
       "img": "/img/APPLE-TURNOVER-LAMIZ-300x300.webp",
       "fatile": "اپل ترن اور",
       "entitle": "APPLE TURNOVER",
-      "size": ["۱۱۸,۸۰۰"],
-      "description": "محتویات: خمیر هزار لایه، سیب کاراملی شده، دارچین"
+      "size": ["118800"],
+      "description": "محتویات: خمیر هزار لایه، سیب کاراملی شده، دارچین",
+      "category": "cake"
     },
     {
-      "id": 89,
+      "id": 85,
       "img": "/img/ALMOND-GALETTE-LAMIZ-300x300.webp",
       "fatile": "گَلِت بادام درختی",
       "entitle": "ALMOND GALETTE",
-      "size": ["۱۱۸,۸۰۰"],
-      "description": "محتویات: خمیر هزارلایه، مغز کرم بادام درختی"
+      "size": ["118800"],
+      "description": "محتویات: خمیر هزارلایه، مغز کرم بادام درختی",
+      "category": "cake"
     },
     {
-      "id": 90,
+      "id": 86,
       "img": "/img/PEANUT-GALETTE-LAMIZ-300x300.webp",
       "fatile": "گَلِت بادام زمینی",
       "entitle": "PEANUT GALETTE",
-      "size": ["۱۱۸,۸۰۰"],
-      "description": "محتویات: خمیر هزارلایه، مغز کرم بادام زمینی"
+      "size": ["118800"],
+      "description": "محتویات: خمیر هزارلایه، مغز کرم بادام زمینی",
+      "category": "cake"
     },
     {
-      "id": 91,
+      "id": 87,
       "img": "/img/CHOCOLATE-TWIST-LAMIZ-300x300.webp",
       "fatile": "چاکلت توئیست",
       "entitle": "CHOCOLATE TWIST",
-      "size": ["۱۰۸,۸۰۰"],
-      "description": "محتویات: خمیر هزار لایه، کرم پاتیسیر، شکلات چیپسی"
+      "size": ["108800"],
+      "description": "محتویات: خمیر هزار لایه، کرم پاتیسیر، شکلات چیپسی",
+      "category": "cake"
     },
     {
-      "id": 92,
+      "id": 88,
       "img": "/img/CINNAMON-ROLL-LAMIZ-300x300.webp",
       "fatile": "رول دارچین",
       "entitle": "CINNAMON ROLL",
-      "size": ["۱۰۸,۸۰۰"],
-      "description": "محتویات: خمیر هزار لایه، کره‌ نیوزلندی، کرم پاتیسیر، کشمش ، دارچین"
+      "size": ["108800"],
+      "description": "محتویات: خمیر هزار لایه، کره‌ نیوزلندی، کرم پاتیسیر، کشمش ، دارچین",
+      "category": "cake"
     },
     {
-      "id": 93,
+      "id": 89,
       "img": "/img/RAISIN-BARLEY-COOKIE-LAMIZ-300x300.webp",
       "fatile": "کوکی جو و کشمش",
       "entitle": "OATMEAL RAISIN COOKIE",
-      "size": ["۵۸,۸۰۰"],
-      "description": "محتویات: کشمش، شکر قهوه ای، جو، گردو، دارچین، شیره انگور"
+      "size": ["58800"],
+      "description": "محتویات: کشمش، شکر قهوه ای، جو، گردو، دارچین، شیره انگور",
+      "category": "cake"
     },
     {
-      "id": 94,
+      "id": 90,
       "img": "/img/RAISIN-BARLEY-COOKIE-LAMIZ-300x300.webp",
       "fatile": "کوکی جو کشمش لمیز",
       "entitle": "RAISIN BARLEY COOKIE",
-      "size": ["۵۸,۸۰۰"],
-      "description": "محتویات: آرد گندم و بادام، جو پرک، شکر قهوه ای، کره و کشمش"
+      "size": ["58800"],
+      "description": "محتویات: آرد گندم و بادام، جو پرک، شکر قهوه ای، کره و کشمش",
+      "category": "cake"
     },
     {
-      "id": 95,
+      "id": 91,
       "img": "/img/PEANUT-COOKIE-LAMIZ-300x300.webp",
       "fatile": "کوکی بادام زمینی لمیز",
       "entitle": "Peanut cookie",
-      "size": ["۵۸,۸۰۰"],
-      "description": "محتویات: آرد بادام، بادام زمینی، شکر سفید، کره بادام زمینی، کره، تخم مرغ"
+      "size": ["58800"],
+      "description": "محتویات: آرد بادام، بادام زمینی، شکر سفید، کره بادام زمینی، کره، تخم مرغ",
+      "category": "cake"
     },
     {
-      "id": 96,
+      "id": 92,
       "img": "/img/ALMOND-CHOCOLATE-COOKIE-LAMIZ-300x300.webp",
       "fatile": "کوکی شکلات بادام",
       "entitle": "ALMOND CHOCOLATE COOKIE",
-      "size": ["۶۶,۶۰۰"],
-      "description": "محتویات: کوکی به همراه تکه های شکلات و پرک بادام درختی"
+      "size": ["66600"],
+      "description": "محتویات: کوکی به همراه تکه های شکلات و پرک بادام درختی",
+      "category": "cake"
     },
     {
-      "id": 97,
+      "id": 93,
       "img": "/img/DARK-CHOCOLATE-COOKIE-LAMIZ-300x300.webp",
       "fatile": "کوکی دارک چاکلت",
       "entitle": "DARK CHOCOLATE COOKIE",
-      "size": ["۶۶,۶۰۰"],
-      "description": "محتویات: کوکی به همراه تکه های شکلات و شکر قهوه ای"
+      "size": ["66600"],
+      "description": "محتویات: کوکی به همراه تکه های شکلات و شکر قهوه ای",
+      "category": "cake"
     },
     {
-      "id": 98,
+      "id": 94,
       "img": "/img/KETO-COOKIE-LAMIZ-300x300.webp",
       "fatile": "کوکی کتو لمیز",
       "entitle": "KETO COOKIE",
-      "size": ["۹۸,۸۰۰"],
-      "description": "محتویات: آرد بادام، شیرین کننده طبیعی استویا، پودر نارگیل"
+      "size": ["98800"],
+      "description": "محتویات: آرد بادام، شیرین کننده طبیعی استویا، پودر نارگیل",
+      "category": "cake"
     },
     {
-      "id": 99,
+      "id": 95,
       "img": "/img/ENERGY-BAR-LAMIZ-300x300.webp",
       "fatile": "انرژی بار لمیز",
       "entitle": "ENERGY BAR",
-      "size": ["۸۸,۸۰۰"],
-      "description": "محتویات: جو پرک، خرما و مغزیجات رست شده شامل تخم کدو، تخم آفتابگردان، پرک بادام، بادام زمینی"
+      "size": ["88800"],
+      "description": "محتویات: جو پرک، خرما و مغزیجات رست شده شامل تخم کدو، تخم آفتابگردان، پرک بادام، بادام زمینی",
+      "category": "cake"
     },
     {
-      "id": 100,
+      "id": 96,
       "img": "/img/RICORDAT-LAMIZ-300x300.webp",
       "fatile": "ریکوردات",
       "entitle": "RICORDAT",
-      "size": ["۹۸,۸۰۰"],
-      "description": "محتویات: خمیر هزارلایه، کرم کاراملی، شکر کاراملایز شده"
+      "size": ["98800"],
+      "description": "محتویات: خمیر هزارلایه، کرم کاراملی، شکر کاراملایز شده",
+      "category": "cake"
     },
     {
-      "id": 101,
+      "id": 97,
       "img": "/img/TIRAMISU-LAMIZ-300x300.webp",
       "fatile": "تیرامیسو",
       "entitle": "TIRAMISU",
-      "size": ["۱۵۸,۸۰۰"],
-      "description": "محتویات: لیدی فینگر قهوه با طعم دهنده قهوه، کرم ماسکارپونه، پودر کاکائو"
+      "size": ["158800"],
+      "description": "محتویات: لیدی فینگر قهوه با طعم دهنده قهوه، کرم ماسکارپونه، پودر کاکائو",
+      "category": "cake"
     },
     {
-      "id": 102,
+      "id": 98,
       "img": "/img/ALMOND-TART-LAMIZ-300x300.webp",
       "fatile": "تارت بادام",
       "entitle": "ALMOND TART",
-      "size": ["۱۶۸,۸۰۰"],
-      "description": "محتویات: نان تارت ساده با مغز کرم بادام درختی، تاپینگ پرک بادام درختی"
+      "size": ["168800"],
+      "description": "محتویات: نان تارت ساده با مغز کرم بادام درختی، تاپینگ پرک بادام درختی",
+      "category": "cake"
     },
     {
-      "id": 103,
+      "id": 99,
       "img": "/img/SAN-SEBASTIAN-LAMIZ-300x300.webp",
       "fatile": "چیز کیک سن سباستین",
       "entitle": "San Sebastian",
-      "size": ["۱۵۸,۸۰۰"],
-      "description": "محتویات: پنیر، شیر، تخم مرغ، شکر، آرد"
+      "size": ["158800"],
+      "description": "محتویات: پنیر، شیر، تخم مرغ، شکر، آرد",
+      "category": "cake"
     },
     {
-      "id": 104,
+      "id": 100,
       "img": "/img/CHOCOLATE-MOUSSE-CAKE-LAMIZ-300x300.webp",
       "fatile": "کیک موس شکلات",
       "entitle": "CHOCOLATE MOUSSE CAKE",
-      "size": ["۱۵۸,۸۰۰"],
-      "description": "محتویات: کیک شکلاتی اسفنجی همراه با موس شکلات"
+      "size": ["158800"],
+      "description": "محتویات: کیک شکلاتی اسفنجی همراه با موس شکلات",
+      "category": "cake"
     },
     {
-      "id": 105,
+      "id": 101,
       "img": "/img/CARROT-CAKE-LAMIZ.webp",
       "fatile": "کیک هویج",
       "entitle": "Carrot cake",
-      "size": ["۱۲۳,۵۰۰"],
-      "description": "محتویات: کیک اسفنجی به همراه گردو، هویج، شکر سفید، دارچین، گارنیش کرم پنیر"
+      "size": ["123500"],
+      "description": "محتویات: کیک اسفنجی به همراه گردو، هویج، شکر سفید، دارچین، گارنیش کرم پنیر",
+      "category": "cake"
     },
     {
-      "id": 106,
+      "id": 102,
       "img": "/img/CHOCOLATE-RASPBERRY-MOUSSE-LAMIZ-300x300.webp",
       "fatile": "کیک موس رزبری شکلات",
       "entitle": "CHOCOLATE RASPBERRY MOUSSE CAKE",
-      "size": ["۱۷۸,۸۰۰"],
-      "description": "محتویات: کیک لیدی فینگر شکلاتی به همراه موس شکلات کلبو و کنفی بری"
+      "size": ["178800"],
+      "description": "محتویات: کیک لیدی فینگر شکلاتی به همراه موس شکلات کلبو و کنفی بری",
+      "category": "cake"
     },
     {
-      "id": 107,
+      "id": 103,
       "img": "/img/MEDOVIC-CAKE-LAMIZ-300x300.webp",
       "fatile": "کیک مدوویک",
       "entitle": "MEDOVIC",
-      "size": ["۱۷۸,۸۰۰"],
-      "description": "محتویات: کیک با لایه‌های بیسکوییت و کرم شیر عسلی"
+      "size": ["178800"],
+      "description": "محتویات: کیک با لایه‌های بیسکوییت و کرم شیر عسلی",
+      "category": "cake"
     },
     {
-      "id": 108,
+      "id": 104,
       "img": "/img/THREE-MILK-CAKE-LAMIZ-300x300.webp",
       "fatile": "کیک سه شیر",
       "entitle": "Three milk cake",
-      "size": ["۱۶۸,۸۰۰"],
-      "description": "محتویات: کیک اسفنجی به همراه طعم دهنده شیرعسلی، خامه وانیلی و گارنیش پسته و دارچین"
+      "size": ["168800"],
+      "description": "محتویات: کیک اسفنجی به همراه طعم دهنده شیرعسلی، خامه وانیلی و گارنیش پسته و دارچین",
+      "category": "cake"
     },
     {
-      "id": 109,
+      "id": 105,
       "img": "/img/Chocolate-Vanilla-Loaf-Lamiz-300x300.webp",
       "fatile": "لوف وانیل شکلات",
       "entitle": "Chocolate Vanilla Loaf",
-      "size": ["۵۸,۸۰۰"],
-      "description": "محتویات: کیک اسفنجی وانیل، شکلات، شیر"
+      "size": ["58800"],
+      "description": "محتویات: کیک اسفنجی وانیل، شکلات، شیر",
+      "category": "cake"
     },
     {
-      "id": 110,
+      "id": 106,
       "img": "/img/Banana-Walnut-Loaf-Lamiz-300x300.webp",
       "fatile": "لوف موز و گردو",
       "entitle": "Banana walnut loaf",
-      "size": ["۵۸,۸۰۰"],
-      "description": "محتویات: کیک اسفنجی موزی، گردو، دارچین، پودر نارگیل"
+      "size": ["58800"],
+      "description": "محتویات: کیک اسفنجی موزی، گردو، دارچین، پودر نارگیل",
+      "category": "cake"
     },
     {
-      "id": 111,
+      "id": 107,
       "img": "/img/SAN-SEBASTIAN-LAMIZ-300x300.webp",
       "fatile": "چیز کیک سن سباستین لمیز",
       "entitle": "San Sebastian lamiz",
-      "size": ["۱۵۵,۵۰۰"],
-      "description": "محتویات: چیز کیک بر پایه لبنیات پنیر، شیر، تخم مرغ، شکر، آرد، بافت لطیف پنیری، بدون کراست و لایه رویی برشته"
+      "size": ["155500"],
+      "description": "محتویات: چیز کیک بر پایه لبنیات پنیر، شیر، تخم مرغ، شکر، آرد، بافت لطیف پنیری، بدون کراست و لایه رویی برشته",
+      "category": "cake"
     },
     {
-      "id": 112,
+      "id": 108,
       "img": "/img/Chees-Cake-Caramel-Toffee-300x300.webp",
       "fatile": "چیزکیک تافی کارامل",
       "entitle": "CHEESECAKE Caramel Toffee",
-      "size": ["۱۵۵,۵۰۰"],
-      "description": "محتویات: چیزکیک تنوری با کراست بیسکویتی، مایه پنیری، تافی کارامل"
+      "size": ["155500"],
+      "description": "محتویات: چیزکیک تنوری با کراست بیسکویتی، مایه پنیری، تافی کارامل",
+      "category": "cake"
     },
     {
-      "id": 113,
+      "id": 109,
       "img": "/img/AVOCADO-TOAST-CHILI-LAMIZ-1-300x300.webp",
       "fatile": "تست آواکادو چیلی",
       "entitle": "Avocado and chili toast",
-      "size": ["۲۲۲۵۰۰"],
-      "description": "ترکیبات: نان خمیر ترش تست شده، پوره آواکادو(نمک و فلفل و روغن زیتون)، پنیر فتا، پرک چیلی"
+      "size": ["222500"],
+      "description": "ترکیبات: نان خمیر ترش تست شده، پوره آواکادو(نمک و فلفل و روغن زیتون)، پنیر فتا، پرک چیلی",
+      "category": "test"
     },
     {
-      "id": 114,
+      "id": 110,
       "img": "/img/AVOCADO-TOAST-BALSAMIC-LAMIZ-300x300.webp",
       "fatile": "تست آواکادو و بالزامیک",
       "entitle": "Avocado toast with balsamic",
-      "size": ["۲۲۲۵۰۰"],
-      "description": "ترکیبات: نان خمیر ترش تست شده، پنیر خامه‌ای، آواکادو اسلایس شده، روغن زیتون، نمک، فلفل، سس بالزامیک، گوجه اسلایس شده"
+      "size": ["222500"],
+      "description": "ترکیبات: نان خمیر ترش تست شده، پنیر خامه‌ای، آواکادو اسلایس شده، روغن زیتون، نمک، فلفل، سس بالزامیک، گوجه اسلایس شده",
+      "category": "test"
     },
     {
-      "id": 115,
+      "id": 111,
       "img": "/img/Pear-Toast-300x300.webp",
       "fatile": "تست گلابی",
       "entitle": "Pears Toast",
-      "size": ["۱۹۸۸۰۰"],
-      "description": "ترکیبات: نان خمیر ترش ساده، پنیر موزارلا اسلایس شده، روکولا، گلابی، پنیر فتا، بادام درختی رست شده، عسل، روغن زیتون"
+      "size": ["198800"],
+      "description": "ترکیبات: نان خمیر ترش ساده، پنیر موزارلا اسلایس شده، روکولا، گلابی، پنیر فتا، بادام درختی رست شده، عسل، روغن زیتون",
+      "category": "test"
     },
     {
-      "id": 116,
+      "id": 112,
       "img": "/img/CREAM-TOAST-TRUFFLE-LAMIZ-300x300.webp",
       "fatile": "تست خامه و ترافل",
       "entitle": "Cream toast with truffle",
-      "size": ["۸۸۸۰۰"],
-      "description": "ترکیبات: نان بریوش، خامه صبحانه شیرین شده، مربا (فصلی)، ترافل"
+      "size": ["88800"],
+      "description": "ترکیبات: نان بریوش، خامه صبحانه شیرین شده، مربا (فصلی)، ترافل",
+      "category": "test"
     },
     {
-      "id": 117,
+      "id": 113,
       "img": "/img/FRENCH-TOAST-LAMIZ-1-300x300.webp",
       "fatile": "فرنچ تست",
       "entitle": "french toast",
-      "size": ["۱۱۱۰۰۰"],
-      "description": "ترکیبات: نان بریوش پخته شده با رویال، بستنی وانیلی، مربا، عسل، کارامل"
+      "size": ["111000"],
+      "description": "ترکیبات: نان بریوش پخته شده با رویال، بستنی وانیلی، مربا، عسل، کارامل",
+      "category": "test"
     },
     {
-      "id": 118,
+      "id": 114,
       "img": "/img/PEANUT-BUTTER-TOAST-LAMIZ-300x300.webp",
       "fatile": "تست کره بادام زمینی و موز",
       "entitle": "Peanut Butter toast",
-      "size": ["۱۱۱۰۰۰"],
-      "description": "ترکیبات: نان خمیر ترش تست شده، کره بادام زمینی، موز"
+      "size": ["111000"],
+      "description": "ترکیبات: نان خمیر ترش تست شده، کره بادام زمینی، موز",
+      "category": "test"
     },
     {
-      "id": 119,
+      "id": 115,
       "img": "/img/TURKEY-CROISSANT-SANDWICH-LAMIZ-300x300.webp",
       "fatile": "ساندویچ کراسان بوقلمون",
       "entitle": "Turkey Croissant Sandwich",
-      "size": ["۲۲۲,۵۰۰"],
-      "description": "محتویات: کراسان، ژامبون سینه بوقلمون ۹۸%، روکولا، سس خردل، انجیر"
+      "size": ["222500"],
+      "description": "محتویات: کراسان، ژامبون سینه بوقلمون ۹۸%، روکولا، سس خردل، انجیر",
+      "category": "food"
     },
     {
-      "id": 120,
+      "id": 116,
       "img": "/img/PESTO-CROISSANT-SANDWICH-LAMIZ-300x300.webp",
       "fatile": "کراسان پستو",
       "entitle": "Pesto Croissant Sandwich",
-      "size": ["۲۲۲,۵۰۰"],
-      "description": "محتویات: کراسان، سس پستو، گوجه خشک، پنیر موزارلا"
+      "size": ["222500"],
+      "description": "محتویات: کراسان، سس پستو، گوجه خشک، پنیر موزارلا",
+      "category": "food"
     },
     {
-      "id": 121,
+      "id": 117,
       "img": "/img/PEANUT-BUTTER-JAM-CROISSANT-LAMIZ-300x300.webp",
       "fatile": "کراسان کره بادام زمینی و مربا",
       "entitle": "Peanut butter and jam croissants",
-      "size": ["۱۲۸,۸۰۰"],
-      "description": "محتویات: کراسان، کره بادام زمینی، مربا (به انتخاب مشتری)"
+      "size": ["128800"],
+      "description": "محتویات: کراسان، کره بادام زمینی، مربا (به انتخاب مشتری)",
+      "category": "food"
     },
     {
-      "id": 122,
+      "id": 118,
       "img": "/img/CHOCOLATE-BANANA-CROISSANT-LAMIZ-300x300.webp",
       "fatile": "کراسان موز شکلات",
       "entitle": "chocolate banana croissant",
-      "size": ["۱۲۸,۸۰۰"],
-      "description": "محتویات: کراسان، موز اسلایس شده، سس شکلات، پرک بادام"
+      "size": ["128800"],
+      "description": "محتویات: کراسان، موز اسلایس شده، سس شکلات، پرک بادام",
+      "category": "food"
     },
     {
-      "id": 123,
+      "id": 119,
       "img": "/img/WALNUT-CHEESE-CROISSANT-LAMIZ-300x300.webp",
       "fatile": "کراسان پنیر گردو",
       "entitle": "Walnut cheese croissant",
-      "size": ["۱۴۸,۸۰۰"],
-      "description": "محتویات: کراسان، پنیر خامه ای، گردو، ریحان تازه"
+      "size": ["148800"],
+      "description": "محتویات: کراسان، پنیر خامه ای، گردو، ریحان تازه",
+      "category": "food"
     },
     {
-      "id": 124,
+      "id": 120,
       "img": "/img/CHEESE-JAM-CROISSANT-LAMIZ-300x300.webp",
       "fatile": "کراسان پنیر و مربا",
       "entitle": "Cheese and jam croissants",
-      "size": ["۱۳۸,۸۰۰"],
-      "description": "محتویات: کراسان، پنیر خامه ای، مربا (به انتخاب مشتری)"
+      "size": ["138800"],
+      "description": "محتویات: کراسان، پنیر خامه ای، مربا (به انتخاب مشتری)",
+      "category": "food"
     },
     {
-      "id": 125,
+      "id": 121,
       "img": "/img/GRILLED-CHICKEN-SANDWICH-300x300.webp",
       "fatile": "ساندویچ مرغ گریل",
       "entitle": "Grilled chicken sandwich",
-      "size": ["۲۲۵,۵۰۰"],
-      "description": "محتویات: نان باگت فرانسوی، سینه ی مرغ گریل شده، فلفل دلمه ای رنگی رست شده، کاهو، پنیر خامه ای، کره، سس مایونز"
+      "size": ["225500"],
+      "description": "محتویات: نان باگت فرانسوی، سینه ی مرغ گریل شده، فلفل دلمه ای رنگی رست شده، کاهو، پنیر خامه ای، کره، سس مایونز",
+      "category": "food"
     },
     {
-      "id": 126,
+      "id": 122,
       "img": "/img/TURKEY-CROISSANT-SANDWICH-LAMIZ.webp",
       "fatile": "ساندویچ بوقلمون",
       "entitle": "TURKEY CROISSANT SANDWICH",
-      "size": ["۱۸۸,۸۰۰"],
-      "description": "محتویات: نان باگت فرانسوی، ژامبون بوقلمون، کاهو، پنیر گودا، کره، سس خردل"
+      "size": ["188800"],
+      "description": "محتویات: نان باگت فرانسوی، ژامبون بوقلمون، کاهو، پنیر گودا، کره، سس خردل",
+      "category": "food"
+    },
+    {
+      "id": 123,
+      "img": "",
+      "fatile": "عسل",
+      "entitle": "HONEY",
+      "size": ["8500+"],
+      "description": "",
+      "category": "plus"
+    },
+    {
+      "id": 124,
+      "img": "",
+      "fatile": "قهوه بدون کافئین",
+      "entitle": "DECAF COFFEE",
+      "size": ["30000+"],
+      "description": "",
+      "category": "plus"
+    },
+    {
+      "id": 125,
+      "img": "",
+      "fatile": "خامه",
+      "entitle": "Whipped CREAM",
+      "size": ["18000+"],
+      "description": "",
+      "category": "plus"
+    },
+    {
+      "id": 126,
+      "img": "",
+      "fatile": "طعم دهنده‌",
+      "entitle": "FLAVORED SYRUP",
+      "size": ["20000+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 127,
       "img": "",
-      "fatile": "عسل",
-      "entitle": "HONEY",
-      "size": ["۸,۵۰۰+"],
-      "description": ""
+      "fatile": "شات اسپرسو اضافه",
+      "entitle": "EXTRA ESPRESSO SHOT",
+      "size": ["30000+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 128,
       "img": "",
-      "fatile": "قهوه بدون کافئین",
-      "entitle": "DECAF COFFEE",
-      "size": ["۳۰,۰۰۰+"],
-      "description": ""
+      "fatile": "امپریال",
+      "entitle": "imperial",
+      "size": [],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 129,
       "img": "",
-      "fatile": "خامه",
-      "entitle": "Whipped CREAM",
-      "size": ["۱۸,۰۰۰+"],
-      "description": ""
+      "fatile": "شات شیربادام",
+      "entitle": "Almond milk shot",
+      "size": ["12000+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 130,
       "img": "",
-      "fatile": "طعم دهنده‌",
-      "entitle": "FLAVORED SYRUP",
-      "size": ["۲۰,۰۰۰+"],
-      "description": ""
+      "fatile": "نوشیدنی کوچک با شیر بادام",
+      "entitle": "Small almond milk",
+      "size": ["40000+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 131,
       "img": "",
-      "fatile": "شات اسپرسو اضافه",
-      "entitle": "EXTRA ESPRESSO SHOT",
-      "size": ["۳۰,۰۰۰+"],
-      "description": ""
+      "fatile": "نوشیدنی متوسط با شیر بادام",
+      "entitle": "medium almond milk",
+      "size": ["50000+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 132,
       "img": "",
-      "fatile": "امپریال",
-      "entitle": "imperial",
-      "size": [],
-      "description": ""
+      "fatile": "نوشیدنی بزرگ با شیر بادام",
+      "entitle": "Big almond milk",
+      "size": ["60000+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 133,
       "img": "",
-      "fatile": "شات شیربادام",
-      "entitle": "Almond milk shot",
-      "size": ["۱۲,۰۰۰+"],
-      "description": ""
+      "fatile": "موز",
+      "entitle": "banana",
+      "size": ["22500+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 134,
       "img": "",
-      "fatile": "نوشیدنی کوچک با شیر بادام",
-      "entitle": "Small almond milk",
-      "size": ["۴۰,۰۰۰+"],
-      "description": ""
+      "fatile": "کره بادام زمینی",
+      "entitle": "peanut butter",
+      "size": ["12500+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 135,
       "img": "",
-      "fatile": "نوشیدنی متوسط با شیر بادام",
-      "entitle": "medium almond milk",
-      "size": ["۵۰,۰۰۰+"],
-      "description": ""
+      "fatile": "پودر پروتئین وی",
+      "entitle": "Protein",
+      "size": ["58800+"],
+      "description": "",
+      "category": "plus"
     },
     {
       "id": 136,
       "img": "",
-      "fatile": "نوشیدنی بزرگ با شیر بادام",
-      "entitle": "Big almond milk",
-      "size": ["۶۰,۰۰۰+"],
-      "description": ""
-    },
-    {
-      "id": 137,
-      "img": "",
-      "fatile": "موز",
-      "entitle": "banana",
-      "size": ["۲۲,۵۰۰+"],
-      "description": ""
-    },
-    {
-      "id": 138,
-      "img": "",
-      "fatile": "کره بادام زمینی",
-      "entitle": "peanut butter",
-      "size": ["۱۲,۵۰۰+"],
-      "description": ""
-    },
-    {
-      "id": 139,
-      "img": "",
-      "fatile": "پودر پروتئین وی",
-      "entitle": "Protein",
-      "size": ["۵۸,۸۰۰+"],
-      "description": ""
-    },
-    {
-      "id": 140,
-      "img": "",
       "fatile": "ژامبون",
       "entitle": "jambon",
-      "size": ["۳۶,۸۰۰+"],
-      "description": ""
+      "size": ["36800+"],
+      "description": "",
+      "category": "plus"
     }
   ],
-  "menuCategory": [
-    { "name": "نوشیدنی گرم", "slug": "hot-drinks" },
-    { "name": "نوشیدنی سرد", "slug": "cold-drinks" },
-    { "name": "نوشیدنی فصلی", "slug": "season-drinks" },
+  "menuCategorys": [
+    { "name": "نوشیدنی گرم", "slug": "hotdrink" },
+    { "name": "نوشیدنی سرد", "slug": "colddrink" },
+    { "name": "نوشیدنی فصلی", "slug": "seasondrink" },
     { "name": " ماچا", "slug": "macha" },
-    { "name": "Mood And Move ", "slug": "Mood And Move" },
+    { "name": "Mood And Move ", "slug": "mood" },
     { "name": "قهوه دمی", "slug": "coffee" },
     { "name": "چای و دمنوش", "slug": "Tea" },
-    { "name": "منو خاموشی", "slug": "Menu" },
+    { "name": "منو خاموشی", "slug": "menu" },
     { "name": "میان وعده", "slug": "food" },
     { "name": "افزودنی ها", "slug": "plus" }
   ]

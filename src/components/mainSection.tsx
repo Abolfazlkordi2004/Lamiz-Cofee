@@ -61,7 +61,7 @@ function MainSection() {
   return (
     <>
       <div className="flex flex-col">
-        <div className="flex items-center justify-center w-[1100px] h-[2000px] rounded border border-gray-500">
+        <div className="flex  justify-center w-[1100px] h-[2000px] rounded border border-gray-500">
           <div className="grid grid-cols-4 gap-5">
             {data.data.map((e) => (
               <ShopCart
