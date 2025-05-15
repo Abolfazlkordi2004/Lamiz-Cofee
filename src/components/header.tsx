@@ -115,7 +115,7 @@ function Header() {
               { href: "#", text: "فرم درخواست همکاری با ما" },
               { href: "#", text: "سفارش از اسنپ فود" },
               { href: "#", text: "شعبه‌های قهوه لمیز" },
-              { href: "/", text: "منو قهوه لمیز" },
+              { href: "/lamiz-coffee-menu", text: "منو قهوه لمیز" },
             ].map(({ href, text }) => (
               <li key={text} className="hover:text-[#ff6e1f]">
                 <Link href={href} className="text-lg">

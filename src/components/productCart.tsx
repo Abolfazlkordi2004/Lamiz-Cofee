@@ -24,15 +24,17 @@ const ProductCart: React.FC<ProductCartProps> = ({ products }) => {
       {products.map((item) => (
         <div
           key={item.id}
-          className="flex flex-col items-center p-4 rounded bg-[#F0F0F0] shadow text-center"
+          className="flex flex-col items-center p-4 rounded bg-[#F0F0F0] shadow-xl text-center w-[300px] h-[350px]"
         >
           <div className="relative w-[150px] h-[150px]">
-            <Image
-              src={item.img}
-              alt="product-image"
-              fill
-              className="object-cover"
-            />
+            {item.img && (
+              <Image
+                src={item.img}
+                alt="product-image"
+                fill
+                className="object-cover"
+              />
+            )}
           </div>
           <h2 className="text-xl font-bold mt-2">{item.fatile}</h2>
           <h3 className="text-l font-bold">{item.entitle}</h3>
@@ -45,7 +47,7 @@ const ProductCart: React.FC<ProductCartProps> = ({ products }) => {
                       {sizeLabels[index] ?? `سایز ${index + 1}`}
                     </span>
                   )}
-                  <span className="text-lg font-bold">
+                  <span className="text-lg font-bold mt-2">
                     {formatPrice(sizeItem)}
                   </span>
                 </div>

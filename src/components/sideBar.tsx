@@ -34,21 +34,21 @@ export default function Sidebar({ selected, onSelect }: ISideBar) {
   }, []);
 
   return (
-    <aside className="w-40 p-4">
+    <aside className="w-40 self-stretch p-4">
       <ul className="space-y-4">
         {menuCategories.map((cat) => (
           <li
             key={cat.slug}
             className={`cursor-pointer p-2 rounded ${
               selected === cat.slug
-                ? "bg-orange-500 text-white"
+                ? "underline text-[#FE6E1F]"
                 : "hover:bg-gray-200"
             }`}
             onClick={() => onSelect(cat.slug)}
           >
             <div className="flex flex-col justify-center items-center">
               <Image src={cat.img} alt="image" width={80} height={80} />
-              <p className="text-nowrap">{cat.name}</p>
+              <p className="text-nowrap mt-2 text-l">{cat.name}</p>
             </div>
           </li>
         ))}

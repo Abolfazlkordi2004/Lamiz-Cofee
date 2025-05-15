@@ -3251,7 +3251,7 @@
       "id": 123,
       "fatile": "عسل",
       "entitle": "HONEY",
-      "size": ["8500+"],
+      "size": ["8500"],
       "description": "",
       "category": "plus"
     },
@@ -3259,7 +3259,7 @@
       "id": 124,
       "fatile": "قهوه بدون کافئین",
       "entitle": "DECAF COFFEE",
-      "size": ["30000+"],
+      "size": ["30000"],
       "description": "",
       "category": "plus"
     },
@@ -3267,7 +3267,7 @@
       "id": 125,
       "fatile": "خامه",
       "entitle": "Whipped CREAM",
-      "size": ["18000+"],
+      "size": ["18000"],
       "description": "",
       "category": "plus"
     },
@@ -3275,7 +3275,7 @@
       "id": 126,
       "fatile": "طعم دهنده‌",
       "entitle": "FLAVORED SYRUP",
-      "size": ["20000+"],
+      "size": ["20000"],
       "description": "",
       "category": "plus"
     },
@@ -3283,7 +3283,7 @@
       "id": 127,
       "fatile": "شات اسپرسو اضافه",
       "entitle": "EXTRA ESPRESSO SHOT",
-      "size": ["30000+"],
+      "size": ["30000"],
       "description": "",
       "category": "plus"
     },
@@ -3300,7 +3300,7 @@
 
       "fatile": "شات شیربادام",
       "entitle": "Almond milk shot",
-      "size": ["12000+"],
+      "size": ["12000"],
       "description": "",
       "category": "plus"
     },
@@ -3308,7 +3308,7 @@
       "id": 130,
       "fatile": "نوشیدنی کوچک با شیر بادام",
       "entitle": "Small almond milk",
-      "size": ["40000+"],
+      "size": ["40000"],
       "description": "",
       "category": "plus"
     },
@@ -3317,7 +3317,7 @@
       "img": "",
       "fatile": "نوشیدنی متوسط با شیر بادام",
       "entitle": "medium almond milk",
-      "size": ["50000+"],
+      "size": ["50000"],
       "description": "",
       "category": "plus"
     },
@@ -3325,7 +3325,7 @@
       "id": 132,
       "fatile": "نوشیدنی بزرگ با شیر بادام",
       "entitle": "Big almond milk",
-      "size": ["60000+"],
+      "size": ["60000"],
       "description": "",
       "category": "plus"
     },
@@ -3333,7 +3333,7 @@
       "id": 133,
       "fatile": "موز",
       "entitle": "banana",
-      "size": ["22500+"],
+      "size": ["22500"],
       "description": "",
       "category": "plus"
     },
@@ -3341,7 +3341,7 @@
       "id": 134,
       "fatile": "کره بادام زمینی",
       "entitle": "peanut butter",
-      "size": ["12500+"],
+      "size": ["12500"],
       "description": "",
       "category": "plus"
     },
@@ -3349,7 +3349,7 @@
       "id": 135,
       "fatile": "پودر پروتئین وی",
       "entitle": "Protein",
-      "size": ["58800+"],
+      "size": ["58800"],
       "description": "",
       "category": "plus"
     },
@@ -3357,7 +3357,7 @@
       "id": 136,
       "fatile": "ژامبون",
       "entitle": "jambon",
-      "size": ["36800+"],
+      "size": ["36800"],
       "description": "",
       "category": "plus"
     }
@@ -3403,9 +3403,21 @@
       "slug": "menu",
       "img": "/img/ICED-LATTE-COLD-BREW-LAMIZ-300x300.webp"
     },
-    { "name": " کیک ", "slug": "cake", "img": "/img/CROISSANT-LAMIZ-300x300.webp" },
-    { "name": " تست ها ", "slug": "test", "img": "/img/AVOCADO-TOAST-BALSAMIC-LAMIZ-300x300.webp" },
-    { "name": "میان وعده", "slug": "food", "img": "/img/CHEESE-JAM-CROISSANT-LAMIZ-300x300.webp" },
+    {
+      "name": " کیک ",
+      "slug": "cake",
+      "img": "/img/CROISSANT-LAMIZ-300x300.webp"
+    },
+    {
+      "name": " تست ها ",
+      "slug": "test",
+      "img": "/img/AVOCADO-TOAST-BALSAMIC-LAMIZ-300x300.webp"
+    },
+    {
+      "name": "میان وعده",
+      "slug": "food",
+      "img": "/img/CHEESE-JAM-CROISSANT-LAMIZ-300x300.webp"
+    },
     { "name": "افزودنی ها", "slug": "plus", "img": "/img/extra-drinks.webp" }
   ]
 }

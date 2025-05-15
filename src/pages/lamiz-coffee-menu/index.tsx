@@ -8,8 +8,7 @@ import { IProductcCartProps } from "@/components/productCart";
 
 const Menu: React.FC = () => {
   const [allProducts, setAllProducts] = useState<IProductcCartProps[]>([]);
-  const [selectedCategory, setSelectedCategory] =
-    useState<string>("نوشیدنی گرم");
+  const [selectedCategory, setSelectedCategory] = useState<string>("hotdrink");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,7 +40,10 @@ const Menu: React.FC = () => {
         header="منو قهوه لمیز"
         text="سرو در همه شعبه های قهوه لمیز"
       />
-      <div className="bg-[#F0F0F0] mx-8 my-8 flex items-start gap-8 justify-center rounded-xl p-8" dir="rtl">
+      <div
+        className="bg-[#F0F0F0] mx-8 my-8 flex flex-row gap-8 items-start rounded-xl p-8"
+        dir="rtl"
+      >
         <Sidebar selected={selectedCategory} onSelect={setSelectedCategory} />
         <ProductCart products={filteredProduct} />
       </div>
