@@ -1,99 +1,82 @@
-// pages/shop.js
+"use client";
+
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/compat/router"; // استفاده از next/compat/router
-import ShopCart from "@/components/shopCart"; // مسیر را با پروژه خود تنظیم کنید
-import { useFormatPrice } from "@/hooks/formatPrice";
-import ReactPaginate from "react-paginate";
+import { useSearchParams } from "next/navigation";
+import ShopCart from "./shopCart";
+import Pagination from "./pagination";
 
-const ITEMS_PER_PAGE = 20;
-
-type IProductShop = {
+type IProduct = {
   id: number;
   img: string;
   title: string;
   price: string;
 };
 
-export default function MainSection() {
-  const router = useRouter();
-  const formatPrice = useFormatPrice();
+type IproductProps = {
+  first: number;
+  items: number;
+  last: number;
+  next: number;
+  pages: number;
+  prev: number;
+  data: IProduct[];
+};
 
-  const currentPage = parseInt((router?.query.page as string) || "1", 10) - 1; // React Paginate از صفر شروع می‌کند
-  const [data, setData] = useState<IProductShop[]>([]);
-  const [totalCount, setTotalCount] = useState(0);
-  const [isLoading, setIsLoading] = useState(true);
+function MainSection() {
+  const searchParams = useSearchParams();
+  const [data, setData] = useState<IproductProps | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!router?.isReady) return;
-    setIsLoading(true);
-    fetch(
-      `http://localhost:3001/productShop?_page=${
-        currentPage + 1
-      }&_limit=${ITEMS_PER_PAGE}`
-    )
-      .then((res) => {
-        const total = res.headers.get("X-Total-Count");
-        if (total) setTotalCount(parseInt(total, 10));
-        return res.json();
-      })
-      .then((data) => {
-        setData(data);
-        setIsLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-        setData([]);
-        setIsLoading(false);
-      });
-  }, [router?.isReady, currentPage]);
+    async function fetchData() {
+      try {
+        const page = searchParams ? searchParams.get("page") ?? "1" : "1";
+        const per_page = searchParams
+          ? searchParams.get("per_page") ?? "20"
+          : "20";
 
-  const totalPages = Math.ceil(totalCount / ITEMS_PER_PAGE);
+        const result = await fetch(
+          `http://localhost:3001/productShop?_page=${page}&_per_page=${per_page}`
+        );
+        if (!result.ok) {
+          throw new Error("Failed to fetch products");
+        }
+        const jsonData = (await result.json()) as IproductProps;
+        setData(jsonData);
+      } catch {
+        setError("خطا در دریافت محصولات");
+      }
+    }
+    fetchData();
+  }, [searchParams]);
 
-  const handlePageChange = ({ selected }: { selected: number }) => {
-    router?.push(`/shop?page=${selected + 1}`);
-  };
+  if (error) {
+    return <div>{error}</div>;
+  }
+
+  if (!data) {
+    return <div>در حال بارگذاری...</div>;
+  }
 
   return (
-    <div>
-      <div className="w-[940px] rounded border border-gray-400 grid grid-cols-4 gap-4 p-4">
-        {isLoading ? (
-          <div className="col-span-4 text-center p-10">در حال بارگذاری...</div>
-        ) : data.length ? (
-          data.map((item) => (
-            <ShopCart
-              key={item.id}
-              img={item.img}
-              title={item.title}
-              price={formatPrice(item.price)}
-            />
-          ))
-        ) : (
-          <div className="col-span-4 text-center p-10">داده‌ای یافت نشد</div>
-        )}
+    <>
+      <div className="flex flex-col">
+        <div className="flex items-center justify-center w-[1100px] h-[2000px] rounded border border-gray-500">
+          <div className="grid grid-cols-4 gap-5">
+            {data.data.map((e) => (
+              <ShopCart
+                key={e.id}
+                img={e.img}
+                price={e.price}
+                title={e.title}
+              />
+            ))}
+          </div>
+        </div>
+        <Pagination pageCount={data.pages} />
       </div>
-      <div className="flex justify-center mt-8 gap-2">
-        <ReactPaginate
-          previousLabel="قبلی"
-          nextLabel="بعدی"
-          breakLabel="..."
-          pageCount={totalPages}
-          onPageChange={handlePageChange}
-          forcePage={currentPage}
-          containerClassName="pagination flex gap-2"
-          pageClassName="page-item"
-          pageLinkClassName="px-4 py-2 border rounded text-black hover:bg-gray-100"
-          activeLinkClassName="bg-orange-500 text-white border-orange-500"
-          previousClassName="page-item"
-          previousLinkClassName="px-4 py-2 border rounded text-black hover:bg-gray-100"
-          nextClassName="page-item"
-          nextLinkClassName="px-4 py-2 border rounded text-black hover:bg-gray-100"
-          disabledClassName="opacity-50 cursor-not-allowed"
-          breakClassName="page-item"
-          breakLinkClassName="px-4 py-2 border rounded text-black"
-          previousAriaLabel="صفحه قبلی"
-          nextAriaLabel="صفحه بعدی"
-        />
-      </div>
-    </div>
+    </>
   );
 }
+
+export default MainSection;
