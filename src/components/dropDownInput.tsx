@@ -4,15 +4,15 @@ import { useState, useRef, useEffect } from "react";
 
 type IDropDownInput = {
   placeholder: string;
-  data: { id: number; number: number }[]; // اصلاح lowercase
+  data: { id: number; number: number }[];  
 };
 
 export default function DropdownInput({ placeholder, data }: IDropDownInput) {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState<string>(""); // مقدار انتخاب‌شده
+  const [selectedValue, setSelectedValue] = useState<string>("");  
   const wrapperRef = useRef<HTMLDivElement>(null);
 
-  // بستن منو با کلیک بیرون
+ 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -27,8 +27,8 @@ export default function DropdownInput({ placeholder, data }: IDropDownInput) {
   }, []);
 
   const handleSelect = (value: number) => {
-    setSelectedValue(value.toString()); // انتخاب مقدار
-    setIsOpen(false); // بستن منو
+    setSelectedValue(value.toString());  
+    setIsOpen(false); 
   };
 
   return (

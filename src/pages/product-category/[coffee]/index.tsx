@@ -1,6 +1,5 @@
 import CoffeeCart from "@/components/coffeeCart";
 import HeaderSection from "@/components/headerSection";
-// import MainSection from '@/components/mainSection'
 import React from "react";
 
 function Coffee() {

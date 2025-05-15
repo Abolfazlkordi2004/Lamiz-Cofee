@@ -2,31 +2,40 @@ import DropdownInput from "@/components/dropDownInput";
 import HeaderSection from "@/components/headerSection";
 import axios from "axios";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 type DayItem = {
   id: number;
   number: number;
 };
 
-async function Form() {
-  const responseDays = await axios.get<DayItem[]>("http://localhost:3001/days");
-  const days = responseDays.data;
+export default function Form() {
+  const [days, setDays] = useState<DayItem[]>([]);
+  const [months, setMonths] = useState<DayItem[]>([]);
+  const [years, setYears] = useState<DayItem[]>([]);
+  const [region, setRegion] = useState<DayItem[]>([]);
 
-  const responseMonth = await axios.get<DayItem[]>(
-    "http://localhost:3001/months"
-  );
-  const months = responseMonth.data;
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [daysRes, monthsRes, yearsRes, regionRes] = await Promise.all([
+          axios.get<DayItem[]>("http://localhost:3001/days"),
+          axios.get<DayItem[]>("http://localhost:3001/months"),
+          axios.get<DayItem[]>("http://localhost:3001/year"),
+          axios.get<DayItem[]>("http://localhost:3001/regions"),
+        ]);
 
-  const responseYears = await axios.get<DayItem[]>(
-    "http://localhost:3001/year"
-  );
-  const years = responseYears.data;
+        setDays(daysRes.data);
+        setMonths(monthsRes.data);
+        setYears(yearsRes.data);
+        setRegion(regionRes.data);
+      } catch (err) {
+        console.error("خطا در دریافت داده‌ها:", err);
+      }
+    };
 
-  const responseRegion = await axios.get<DayItem[]>(
-    "http://localhost:3001/regions"
-  );
-  const region = responseRegion.data;
+    fetchData();
+  }, []);
 
   return (
     <div>
@@ -42,11 +51,10 @@ async function Form() {
               درخواست همکاری با شعبه های قهوه لمیز ( باریستا )
             </h1>
           </div>
+
           <div className="flex flex-row-reverse mt-20 gap-10  justify-center">
             <div className="relative w-[500px] text-right">
-              <label htmlFor="" className="text-lg text-gray-800">
-                نام
-              </label>
+              <label className="text-lg text-gray-800">نام</label>
               <input
                 type="text"
                 placeholder="نام"
@@ -54,9 +62,7 @@ async function Form() {
               />
             </div>
             <div className="relative w-[500px] text-right">
-              <label htmlFor="" className="text-lg text-gray-800">
-                نام خانوادگی
-              </label>
+              <label className="text-lg text-gray-800">نام خانوادگی</label>
               <input
                 type="text"
                 placeholder="نام خانوادگی"
@@ -64,33 +70,10 @@ async function Form() {
               />
             </div>
           </div>
-          <div className="flex flex-row-reverse mt-20 gap-10  justify-center">
-            <div className="relative w-[500px] text-right">
-              <label htmlFor="" className="text-lg text-gray-800">
-                کد ملی
-              </label>
-              <input
-                type="text"
-                placeholder="کد ملی"
-                className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
-              />
-            </div>
-            <div className="relative w-[500px] text-right">
-              <label htmlFor="" className="text-lg text-gray-800">
-                تلفن همراه
-              </label>
-              <input
-                type="text"
-                placeholder="تلفن همراه"
-                className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
-              />
-            </div>
-          </div>
+
           <div className="flex flex-col mt-20 justfiy-center mr-25">
             <div className="flex justify-end">
-              <label htmlFor="" className="text-lg text-gray-800">
-                تاریخ تولد
-              </label>
+              <label className="text-lg text-gray-800">تاریخ تولد</label>
             </div>
             <div className="flex flex-row-reverse gap-8">
               <DropdownInput data={days} placeholder="روز" />
@@ -98,11 +81,10 @@ async function Form() {
               <DropdownInput data={years} placeholder="سال" />
             </div>
           </div>
+
           <div className="flex flex-row-reverse mt-20 gap-8 justify-center">
             <div className="relative w-[500px] text-right">
-              <label htmlFor="" className="text-lg text-gray-800">
-                شهر محل سکونت
-              </label>
+              <label className="text-lg text-gray-800">شهر محل سکونت</label>
               <input
                 type="text"
                 placeholder="شهر محل سکونت"
@@ -110,16 +92,11 @@ async function Form() {
               />
             </div>
             <div className="text-right text-gray-800">
-              <label htmlFor="" className="text-lg">
-                ادرس منطقه شهرداری
-              </label>
+              <label className="text-lg">آدرس منطقه شهرداری</label>
               <DropdownInput data={region} placeholder="منطقه" />
             </div>
             <div className="relative w-[220px] text-right">
-              <label htmlFor="" className="text-lg text-gray-800">
-                {" "}
-                محدوده محل سکونت{" "}
-              </label>
+              <label className="text-lg text-gray-800">محدوده محل سکونت</label>
               <input
                 type="text"
                 placeholder="محدوده محل سکونت"
@@ -136,11 +113,11 @@ async function Form() {
             <div className="flex justify-end gap-5 mt-5">
               <div>
                 <span className="mr-2">خیر</span>
-                <input type="radio" name="work"/>
+                <input type="radio" name="work" />
               </div>
               <div>
                 <span className="mr-2">بله</span>
-                <input type="radio" name="work"/>
+                <input type="radio" name="work" />
               </div>
             </div>
           </div>
@@ -150,7 +127,10 @@ async function Form() {
                 انگیزه شما برای انتخاب این شغل چیست؟ (اختیاری)
               </h2>
             </div>
-            <div className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border text-right" dir="rtl">
+            <div
+              className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border text-right"
+              dir="rtl"
+            >
               <textarea className="w-full h-full"></textarea>
             </div>
           </div>
@@ -160,7 +140,10 @@ async function Form() {
                 خوشحال میشویم اگر از علایق کلی شما بیشتر بشنویم ؟ (اختیاری)
               </h2>
             </div>
-            <div className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border" dir="rtl">
+            <div
+              className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border"
+              dir="rtl"
+            >
               <textarea className="w-full h-full"></textarea>
             </div>
           </div>
@@ -201,5 +184,3 @@ async function Form() {
     </div>
   );
 }
-
-export default Form;

@@ -13,10 +13,10 @@ type IDropDownInput = {
 
 export default function DropdownInputCare({ name }: IDropDownInput) {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState<string>(""); // مقدار انتخاب‌شده
+  const [selectedValue, setSelectedValue] = useState<string>("");   
   const wrapperRef = useRef<HTMLDivElement>(null);
 
-  // بستن منو با کلیک بیرون
+ 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -31,8 +31,8 @@ export default function DropdownInputCare({ name }: IDropDownInput) {
   }, []);
 
   const handleSelect = (value: string) => {
-    setSelectedValue(value); // انتخاب مقدار
-    setIsOpen(false); // بستن منو
+    setSelectedValue(value);  
+    setIsOpen(false);  
   };
 
   return (

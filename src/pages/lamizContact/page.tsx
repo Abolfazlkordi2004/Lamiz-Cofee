@@ -6,7 +6,7 @@ import Image from "next/image";
 import React from "react";
 
 const DynamicMap = dynamic(() => import("@/components/map"), {
-  ssr: false, // 👈 غیرفعال‌سازی رندر سمت سرور
+  ssr: false,  
 });
 
 function Contact() {

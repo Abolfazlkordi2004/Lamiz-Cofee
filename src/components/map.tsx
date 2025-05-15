@@ -8,13 +8,12 @@ import { useEffect, useState } from "react";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
-// تنظیم آیکون Marker
 L.Icon.Default.mergeOptions({
   iconUrl: markerIcon.src,
   shadowUrl: markerShadow.src,
 });
 
-const position: [number, number] = [35.6892, 51.389]; // تهران
+const position: [number, number] = [35.6892, 51.389];  
 
 export default function MapClient() {
   const [mounted, setMounted] = useState(false);
@@ -23,7 +22,7 @@ export default function MapClient() {
     setMounted(true);
   }, []);
 
-  // جلوگیری از اجرا در SSR یا قبل از mount
+ 
   if (!mounted) return null;
 
   return (

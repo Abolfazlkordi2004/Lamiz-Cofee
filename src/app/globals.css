@@ -1,6 +1,5 @@
 @import "tailwindcss";
-@import 'leaflet/dist/leaflet.css';
-
+@import "leaflet/dist/leaflet.css";
 
 :root {
   --background: #ffffff;
@@ -27,16 +26,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* YekanBakh Custom Font by fontchi.com */
 @font-face {
-  font-family: "YekanBakh";
-  src: url("/fonts/YekanBakh.woff2") format("woff2");
+  font-family: "Vaziri";
+  src: url("/fonts/webfonts/Vazirmatn-Regular.woff2") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "YekanBakh";
-  src: url("/fonts/YekanBakh-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
+
+body {
+  font-family: "Vaziri", sans-serif;
 }

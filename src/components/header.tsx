@@ -54,7 +54,7 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <a href="#" className="text-lg">
+                <a href="#" className="text-[16px]">
                   سایر
                 </a>
               </div>
@@ -70,7 +70,7 @@ function Header() {
                     ].map((item) => (
                       <li
                         key={item}
-                        className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg hover:text-[#ff6e1f]"
+                        className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] hover:text-[#ff6e1f]"
                       >
                         {item}
                       </li>
@@ -92,7 +92,7 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <a href="#" className="text-lg">
+                <a href="#" className="text-[16px] text-nowrap">
                   تماس با ما
                 </a>
               </div>
@@ -102,7 +102,7 @@ function Header() {
                     {["درباره ما", "تماس با ما"].map((item) => (
                       <li
                         key={item}
-                        className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg hover:text-[#ff6e1f]"
+                        className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] text-nowrap hover:text-[#ff6e1f]"
                       >
                         {item}
                       </li>
@@ -112,13 +112,13 @@ function Header() {
               )}
             </div>
             {[
-              { href: "#", text: "فرم درخواست همکاری با ما" },
-              { href: "#", text: "سفارش از اسنپ فود" },
-              { href: "#", text: "شعبه‌های قهوه لمیز" },
+              { href: "/employmentForms", text: "فرم درخواست همکاری با ما" },
+              { href: "/snappfood-branches", text: "سفارش از اسنپ فود" },
+              { href: "/branches", text: "شعبه‌های قهوه لمیز" },
               { href: "/lamiz-coffee-menu", text: "منو قهوه لمیز" },
             ].map(({ href, text }) => (
               <li key={text} className="hover:text-[#ff6e1f]">
-                <Link href={href} className="text-lg">
+                <Link href={href} className="text-[16px] text-nowrap">
                   {text}
                 </Link>
               </li>
@@ -136,7 +136,7 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <Link href="/shop" className="text-lg">
+                <Link href="/shop" className="text-[16px] text-nowrap">
                   فروشگاه محصولات
                 </Link>
               </div>
@@ -188,7 +188,7 @@ function Header() {
                     ].map(({ text, href }) => (
                       <li
                         key={text}
-                        className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-lg hover:text-[#ff6e1f]"
+                        className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] hover:text-[#ff6e1f]"
                       >
                         <Link href={href}>{text}</Link>
                       </li>
@@ -199,7 +199,7 @@ function Header() {
             </div>
           </ul>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center ml-5">
           <Link href="/">
             <Image
               src="/icons/Lamiz-logo.webp"
