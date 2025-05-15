@@ -10,12 +10,12 @@ export function useFormatPrice() {
             const number = Number(p.trim());
             return isNaN(number) ? p : number.toLocaleString("fa-IR");
           })
-          .join(" ")
+          .join(" تومان – ") + " تومان"
       );
     }
 
     const number = Number(price.trim());
-    return isNaN(number) ? price : number.toLocaleString("fa-IR") + " تومان";
+    return isNaN(number) ? price : number.toLocaleString("fa-IR");
   }, []);
 
   return formatPriceIfRange;

@@ -1,11 +1,13 @@
 "use client";
 
 import axios from "axios";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 type IMenuCoffee = {
   name: string;
   slug: string;
+  img: string;
 };
 
 type ISideBar = {
@@ -42,9 +44,12 @@ export default function Sidebar({ selected, onSelect }: ISideBar) {
                 ? "bg-orange-500 text-white"
                 : "hover:bg-gray-200"
             }`}
-            onClick={() => onSelect(cat.slug)} 
+            onClick={() => onSelect(cat.slug)}
           >
-            {cat.name}
+            <div className="flex flex-col justify-center items-center">
+              <Image src={cat.img} alt="image" width={80} height={80} />
+              <p className="text-nowrap">{cat.name}</p>
+            </div>
           </li>
         ))}
       </ul>

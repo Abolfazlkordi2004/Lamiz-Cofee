@@ -40,17 +40,19 @@ const ProductCart: React.FC<ProductCartProps> = ({ products }) => {
             <div className="mt-2 flex flex-row gap-4 justify-center">
               {item.size.map((sizeItem, index) => (
                 <div key={index} className="flex flex-col items-center">
-                  <span className="text-lg ">
-                    {sizeLabels[index] ?? `سایز ${index + 1}`}
-                  </span>
-                  <span className="text-lg text-gray-700 font-semibold">
+                  {item.size.length > 1 && (
+                    <span className="text-lg">
+                      {sizeLabels[index] ?? `سایز ${index + 1}`}
+                    </span>
+                  )}
+                  <span className="text-lg font-bold">
                     {formatPrice(sizeItem)}
                   </span>
                 </div>
               ))}
             </div>
           )}
-          <p className="mt-2 text-lg text-gray-600">{item.description}</p>
+          <p className="mt-2 text-l text-gray-600">{item.description}</p>
         </div>
       ))}
     </div>

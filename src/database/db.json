@@ -2209,7 +2209,7 @@
       "fatile": "کورتادو",
       "entitle": "CORTADO",
       "size": ["0", "118800", "0"],
-      "description": "",
+      "description": "محتویات: شات اسپرسو، شیر با فوم کم، طعم دهنده (به درخواست مشتری)",
       "category": "hotdrink"
     },
     {
@@ -2344,7 +2344,7 @@
       "fatile": "کپوچینو سرد",
       "entitle": "ICED cappuccino",
       "size": ["123800", "134800", "158800"],
-      "description": "",
+      "description": "محتویات: شات اسپرسو، طعم دهنده وانیل، شیر سرد کم چرب، یخ",
       "category": "colddrink"
     },
     {
@@ -2362,7 +2362,7 @@
       "fatile": "کارامل کاپاچیلو",
       "entitle": "caramel cappachillo",
       "size": ["138800", "168800", "188800"],
-      "description": "",
+      "description": "محتویات: شات اسپرسو، سس کارامل، بستنی وانیلی، شیر سرد کم چرب، یخ",
       "category": "colddrink"
     },
     {
@@ -3249,7 +3249,6 @@
     },
     {
       "id": 123,
-      "img": "",
       "fatile": "عسل",
       "entitle": "HONEY",
       "size": ["8500+"],
@@ -3258,7 +3257,6 @@
     },
     {
       "id": 124,
-      "img": "",
       "fatile": "قهوه بدون کافئین",
       "entitle": "DECAF COFFEE",
       "size": ["30000+"],
@@ -3267,7 +3265,6 @@
     },
     {
       "id": 125,
-      "img": "",
       "fatile": "خامه",
       "entitle": "Whipped CREAM",
       "size": ["18000+"],
@@ -3276,7 +3273,6 @@
     },
     {
       "id": 126,
-      "img": "",
       "fatile": "طعم دهنده‌",
       "entitle": "FLAVORED SYRUP",
       "size": ["20000+"],
@@ -3285,7 +3281,6 @@
     },
     {
       "id": 127,
-      "img": "",
       "fatile": "شات اسپرسو اضافه",
       "entitle": "EXTRA ESPRESSO SHOT",
       "size": ["30000+"],
@@ -3294,7 +3289,6 @@
     },
     {
       "id": 128,
-      "img": "",
       "fatile": "امپریال",
       "entitle": "imperial",
       "size": [],
@@ -3303,7 +3297,7 @@
     },
     {
       "id": 129,
-      "img": "",
+
       "fatile": "شات شیربادام",
       "entitle": "Almond milk shot",
       "size": ["12000+"],
@@ -3312,7 +3306,6 @@
     },
     {
       "id": 130,
-      "img": "",
       "fatile": "نوشیدنی کوچک با شیر بادام",
       "entitle": "Small almond milk",
       "size": ["40000+"],
@@ -3330,7 +3323,6 @@
     },
     {
       "id": 132,
-      "img": "",
       "fatile": "نوشیدنی بزرگ با شیر بادام",
       "entitle": "Big almond milk",
       "size": ["60000+"],
@@ -3339,7 +3331,6 @@
     },
     {
       "id": 133,
-      "img": "",
       "fatile": "موز",
       "entitle": "banana",
       "size": ["22500+"],
@@ -3348,7 +3339,6 @@
     },
     {
       "id": 134,
-      "img": "",
       "fatile": "کره بادام زمینی",
       "entitle": "peanut butter",
       "size": ["12500+"],
@@ -3357,7 +3347,6 @@
     },
     {
       "id": 135,
-      "img": "",
       "fatile": "پودر پروتئین وی",
       "entitle": "Protein",
       "size": ["58800+"],
@@ -3366,7 +3355,6 @@
     },
     {
       "id": 136,
-      "img": "",
       "fatile": "ژامبون",
       "entitle": "jambon",
       "size": ["36800+"],
@@ -3375,15 +3363,49 @@
     }
   ],
   "menuCategorys": [
-    { "name": "نوشیدنی گرم", "slug": "hotdrink" },
-    { "name": "نوشیدنی سرد", "slug": "colddrink" },
-    { "name": "نوشیدنی فصلی", "slug": "seasondrink" },
-    { "name": " ماچا", "slug": "macha" },
-    { "name": "Mood And Move ", "slug": "mood" },
-    { "name": "قهوه دمی", "slug": "coffee" },
-    { "name": "چای و دمنوش", "slug": "Tea" },
-    { "name": "منو خاموشی", "slug": "menu" },
-    { "name": "میان وعده", "slug": "food" },
-    { "name": "افزودنی ها", "slug": "plus" }
+    {
+      "name": "نوشیدنی گرم",
+      "slug": "hotdrink",
+      "img": "/img/MOCHA-LAMIZ-300x300.webp"
+    },
+    {
+      "name": "نوشیدنی سرد",
+      "slug": "colddrink",
+      "img": "/img/ICED-MOCHA-LAMIZ-300x300.webp"
+    },
+    {
+      "name": "نوشیدنی فصلی",
+      "slug": "seasondrink",
+      "img": "/img/MASALLA-POWDER-LAMIZ.webp"
+    },
+    {
+      "name": " ماچا",
+      "slug": "macha",
+      "img": "/img/MATCHA-LATTE-LAMIZ-300x300.webp"
+    },
+    {
+      "name": "Mood And Move ",
+      "slug": "mood",
+      "img": "/img/BULLETPROOF-COFFEE-BUTTER-LAMIZ-300x300.webp"
+    },
+    {
+      "name": "قهوه دمی",
+      "slug": "coffee",
+      "img": "/img/v60-Lamiz-300x300.webp"
+    },
+    {
+      "name": "چای و دمنوش",
+      "slug": "Tea",
+      "img": "/img/BLACK-TEA-LAMIZ-300x300.webp"
+    },
+    {
+      "name": "منو خاموشی",
+      "slug": "menu",
+      "img": "/img/ICED-LATTE-COLD-BREW-LAMIZ-300x300.webp"
+    },
+    { "name": " کیک ", "slug": "cake", "img": "/img/CROISSANT-LAMIZ-300x300.webp" },
+    { "name": " تست ها ", "slug": "test", "img": "/img/AVOCADO-TOAST-BALSAMIC-LAMIZ-300x300.webp" },
+    { "name": "میان وعده", "slug": "food", "img": "/img/CHEESE-JAM-CROISSANT-LAMIZ-300x300.webp" },
+    { "name": "افزودنی ها", "slug": "plus", "img": "/img/extra-drinks.webp" }
   ]
 }
