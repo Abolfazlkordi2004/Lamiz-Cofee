@@ -3,32 +3,31 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-
 import { Pagination } from "swiper/modules";
 import Image from "next/image";
 
-const images = [
-  "/img/60-dark-chocolate-box.webp",
-  "/img/60-dark-chocolate-mug.webp",
-  "/img/83-dark-chocolate-mug.webp",
-];
 
-export default function ImageSlider() {
+
+type IsliderProps={
+  images:[],
+}
+
+export default function ImageSlider({images}:IsliderProps) {
   return (
-    <div className="w-full max-w-xl mx-auto">
+    <div className="w-full">
       <Swiper
         pagination={{ clickable: true }}
         modules={[Pagination]}
-        className="rounded-lg overflow-hidden"
+        className="overflow-hidden"
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
-            <div className="w-full h-[550px]">
+            <div className="w-full h-[750px]">
               <Image
                 src={src}
                 alt={`Slide ${index}`}
                 fill
-                className="object-contain"
+                className="object-cover"
               />
             </div>
           </SwiperSlide>

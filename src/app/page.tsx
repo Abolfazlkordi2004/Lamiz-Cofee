@@ -1,12 +1,13 @@
-import ImageSlider from "@/components/imageSlider";
-// import Menu from "@/pages/lamiz-coffee-menu";
+import BranchDetailsPage from "@/pages/branches/[slug]";
+
+
 
  
 
 export default function Home() {
   return (
     <>
-      <ImageSlider />
+      <BranchDetailsPage />
     </>
   );
 }

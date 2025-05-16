@@ -1607,131 +1607,163 @@
   "branch": [
     {
       "img": "/img/branchs/Cover-4rahvaliasr.webp",
-      "header": "شعبه چهار راه ولیعصر"
+      "header": "شعبه چهار راه ولیعصر",
+      "slug": "4rahValiasr"
     },
     {
       "img": "/img/branchs/Cover-Bagh-Ferdos.webp",
-      "header": "شعبه باغ فردوس"
+      "header": "شعبه باغ فردوس",
+      "slug": "Bagh-Ferdos"
     },
     {
       "img": "/img/branchs/Cover-Esfehan.webp",
-      "header": "شعبه اصفهان"
+      "header": "شعبه اصفهان",
+      "slug": "Esfehan"
     },
     {
       "img": "/img/branchs/Cover-Izadshahr.webp",
-      "header": "شعبه ایزدشهر"
+      "header": "شعبه ایزدشهر",
+      "slug": "Izadshahr"
     },
     {
       "img": "/img/branchs/Cover-Mirdamad.webp",
-      "header": "شعبه  میرداماد "
+      "header": "شعبه  میرداماد ",
+      "slug": "Mirdamad"
     },
     {
       "img": "/img/branchs/Cover-Paydar-Fard.webp",
-      "header": "شعبه  پایدار فرد "
+      "header": "شعبه  پایدار فرد ",
+      "slug": "Paydar-Fard"
     },
     {
       "img": "/img/branchs/Cover-Pol-Romi.webp",
-      "header": "شعبه پل رومی "
+      "header": "شعبه پل رومی ",
+      "slug": "Pol-Romi"
     },
     {
       "img": "/img/branchs/Cover-qom.webp",
-      "header": "شعبه قم "
+      "header": "شعبه قم ",
+      "slug": "qom"
     },
     {
       "img": "/img/branchs/Cover-Sadabad-1.webp",
-      "header": "شعبه  سعداباد  "
+      "header": "شعبه  سعداباد  ",
+      "slug": "Sadabad"
     },
     {
       "img": "/img/branchs/Cover-Shahrak-e-Gharb.webp",
-      "header": "شعبه شهرک غرب "
+      "header": "شعبه شهرک غرب ",
+      "slug": "Shahrak-e-Gharb"
     },
     {
       "img": "/img/branchs/Cover-Tochal.webp",
-      "header": "شعبه توچال "
+      "header": "شعبه توچال ",
+      "slug": "Tochal"
     },
     {
       "img": "/img/branchs/Enghelab-Branches-Cover.webp",
-      "header": "شعبه انقلاب "
+      "header": "شعبه انقلاب ",
+      "slug": "Enghelab"
     },
     {
       "img": "/img/branchs/Fakhar-Moghadam-Branches.webp",
-      "header": "شعبه فخارمقدم "
+      "header": "شعبه فخارمقدم ",
+      "slug": "Fakhar-Moghadam"
     },
     {
       "img": "/img/branchs/Farmanieh.webp",
-      "header": "شعبه فرمانیه "
+      "header": "شعبه فرمانیه ",
+      "slug": "Farmanieh"
     },
     {
       "img": "/img/branchs/FATEMI-COVER.jpg",
-      "header": "شعبه فاطمی "
+      "header": "شعبه فاطمی ",
+      "slug": "FATEMI"
     },
     {
       "img": "/img/branchs/Gisha-Cover-Branche.webp",
-      "header": "شعبه گیشا "
+      "header": "شعبه گیشا ",
+      "slug": "Gisha"
     },
     {
       "img": "/img/branchs/Iranmal-Covers.webp",
-      "header": "شعبه ایرانمال "
+      "header": "شعبه ایرانمال ",
+      "slug": "Iranmal"
     },
     {
       "img": "/img/branchs/Jam-Cover-Branch.webp",
-      "header": "شعبه جم "
+      "header": "شعبه جم ",
+      "slug": "Jam"
     },
     {
       "img": "/img/branchs/Jordan.webp",
-      "header": "شعبه جردن "
+      "header": "شعبه جردن ",
+      "slug": "Jordan"
     },
     {
       "img": "/img/branchs/Kish.webp",
-      "header": "شعبه کیش "
+      "header": "شعبه کیش ",
+      "slug": "Kish"
     },
     {
       "img": "/img/branchs/Lavasan-Cover.webp",
-      "header": "شعبه لواسان "
+      "header": "شعبه لواسان ",
+      "slug": "Lavasan"
     },
     {
       "img": "/img/branchs/Modireat-bridge-Covers.webp",
-      "header": "شعبه مدیریت "
+      "header": "شعبه مدیریت ",
+      "slug": "Modireat"
     },
     {
       "img": "/img/branchs/Motahari-Branches-Cover.webp",
-      "header": "شعبه مطهری "
+      "header": "شعبه مطهری ",
+      "slug": "Motahari"
     },
     {
       "img": "/img/branchs/Motel-Ghoo-Cover.webp",
-      "header": "شعبه متل قو "
+      "header": "شعبه متل قو ",
+      "slug": "Motel-Ghoo"
     },
     {
       "img": "/img/branchs/Pasdaran.webp",
-      "header": "شعبه پاسداران "
+      "header": "شعبه پاسداران ",
+      "slug": "Pasdaran"
     },
     {
       "img": "/img/branchs/Royan-Branches-Cover.webp",
-      "header": "شعبه رویان "
+      "header": "شعبه رویان ",
+      "slug": "Royan"
     },
     {
       "img": "/img/branchs/saatdat-abad-cover.webp",
-      "header": "شعبه سعادت اباد  "
+      "header": "شعبه سعادت اباد  ",
+      "slug": "saatdat-abad"
     },
     {
       "img": "/img/branchs/Tajrish-Monin.webp",
-      "header": "شعبه مونین "
+      "header": "شعبه مونین ",
+      "slug": "Tajrish-Monin"
     },
     {
       "img": "/img/branchs/Vanak-Branches-Cover.webp",
-      "header": "شعبه ونک "
+      "header": "شعبه ونک ",
+      "slug": "Vanak"
     },
     {
       "img": "/img/branchs/Yosef-Abad-Cover-Branches.jpg",
-      "header": "شعبه یوسف اباد  "
+      "header": "شعبه یوسف اباد  ",
+      "slug": "Yosef-Abad"
     },
     {
       "img": "/img/branchs/karaj-branches-cover.webp",
-      "header": "شعبه کرج "
+      "header": "شعبه کرج ",
+      "slug": "karaj"
     },
     {
       "img": "/img/branchs/Heravi-Branches-Cover.webp",
-      "header": "شعبه هروی "
+      "header": "شعبه هروی ",
+      "slug": "Heravi"
     }
   ],
   "refund": [
@@ -3419,5 +3451,489 @@
       "img": "/img/CHEESE-JAM-CROISSANT-LAMIZ-300x300.webp"
     },
     { "name": "افزودنی ها", "slug": "plus", "img": "/img/extra-drinks.webp" }
+  ],
+  "infoBranch": [
+    {
+      "id": 1,
+      "image": [
+        "/img/INSIDE-BRANCHES-4RAH-VALLI-ASR-FIVE.webp",
+        "/img/INSIDE-BRANCHES-4RAH-VALLI-ASR-FOUR.webp",
+        "/img/INSIDE-BRANCHES-4RAH-VALLI-ASR-THERE.webp",
+        "/img/INSIDE-BRANCHES-4RAH-VALLI-ASR-TOW.webp",
+        "/img/INSIDE-BRANCHES-4RAH-VALLI-ASR-ONE.webp",
+        "/img/INSIDE-BRANCHES-4RAH-VALLI-ASR-SIX.webp",
+        "/img/INSIDE-BRANCHES-4RAH-VALLI-ASR-SEVEN.webp"
+      ],
+      "map": "/img/Map-4rahValiasr.webp",
+      "phone": "02166462205",
+      "address": "ضلع شمال شرقی چهار راه ولیعصر - پلاک 1435 - قهوه لمیز",
+      "img": "/img/Cover-4rahvaliasr.webp",
+      "name": "شعبه چهارراه ولیعصر",
+      "time": "روزهای عادی 06:30 الی 22:30 - روزهای تعطیل 08:00 الی 22:30",
+      "slug": "4rahValiasr"
+    },
+    {
+      "id": 2,
+      "image": [
+        "/img/inside-branches-mirdamad-1.webp",
+        "/img/inside-branches-mirdamad-2.webp",
+        "/img/inside-branches-mirdamad-3.webp",
+        "/img/inside-branches-mirdamad-4.webp"
+      ],
+      "map": "/img/Map-Mirdamad.webp",
+      "phone": "02126401507",
+      "address": "خیابان میرداماد - پاساژ رز (جنب مترو) - طبقه همکف - قهوه لمیز",
+      "img": "/img/Cover-Mirdamad.webp",
+      "name": "شعبه میرداماد",
+      "time": " روزهای عادی 07:30 الی 22:30 - روزهای تعطیل 08:00 الی 22:30 ",
+      "slug": "Mirdamad"
+    },
+    {
+      "id": 3,
+      "image": [
+        "/img/Royan-Branches-Inside-01.webp",
+        "/img/Royan-Branches-Inside-02.webp",
+        "/img/Royan-Branches-Inside-03.webp",
+        "/img/Royan-Branches-Inside-05.webp",
+        "/img/Royan-Branches-Inside-06.webp"
+      ],
+      "map": "/img/Map-Royan.webp",
+      "phone": "01144652840",
+      "address": "رویان - کیلومتر 1 جاده نوشهر - جنب شهرک شقایق - پلاک 1394 - قهوه لمیز",
+      "img": "/img/Royan-Branches-Cover.webp",
+      "name": "شعبه رویان",
+      "time": "روزهای عادی 08:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Royan"
+    },
+    {
+      "id": 4,
+      "image": [
+        "/img/inside-branches-Tajrish-Monin.webp",
+        "/img/inside-branches-Tajrish-Monin-1.webp"
+      ],
+      "map": "/img/Map-Tajrish-Monin.webp",
+      "phone": "02126851876",
+      "address": "تهران - میدان تجریش - ابتدای خیابان ملکی (سعدآباد) - پلاک 4 - قهوه لمیز",
+      "img": "/img/Tajrish-Monin.webp",
+      "name": "شعبه مونین",
+      "time": "روزهای عادی: 07:00 الی 23:00 - روزهای تعطیل 08:00 الی 23:00 - جمعه: 07:00 الی 23:00",
+      "slug": "Tajrish-Monin"
+    },
+    {
+      "id": 5,
+      "image": ["/img/Sadabad.webp"],
+      "map": "/img/Map-Tajrish-Monin.webp",
+      "phone": "02122708061",
+      "address": "میدان تجریش - ابتدای خیابان ملکی (سعدآباد) - پلاک 6 - قهوه لمیز",
+      "img": "/img/Sadabad.webp",
+      "name": "شعبه سعدآباد",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 07:00 الی 23:30",
+      "slug": "Sadabad"
+    },
+    {
+      "id": 6,
+      "image": [
+        "/img/inside-branches-farmaneh-1.webp",
+        "/img/inside-branches-farmaneh-2.webp",
+        "/img/inside-branches-farmaneh-3.webp",
+        "/img/inside-branches-farmaneh-4.webp"
+      ],
+      "map": "/img/Map-Farmanieh.webp",
+      "phone": "02126125853",
+      "address": "فرمانیه - روبروی بیمارستان فرمانیه - بام سنتر - پلاک 9 - قهوه لمیز",
+      "img": "/img/Farmanieh.webp",
+      "name": "شعبه فرمانیه",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Farmanieh"
+    },
+    {
+      "id": 7,
+      "image": [
+        "/img/inside-branches-Pasdaran-1.webp",
+        "/img/inside-branches-Pasdaran-2.webp",
+        "/img/inside-branches-Pasdaran-3.webp",
+        "/img/inside-branches-Pasdaran-4.webp"
+      ],
+      "map": "/img/Map-Pasdaran.webp",
+      "phone": "02122577758",
+      "address": "خیابان پاسداران - روبروی بوستان نهم - پلاک 288 - قهوه لمیز",
+      "img": "/img/Pasdaran.webp",
+      "name": "شعبه پاسداران",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 07:00 الی 23:30",
+      "slug": "Pasdaran"
+    },
+    {
+      "id": 8,
+      "image": [
+        "/img/Vanak-Branches-Inside-01.webp",
+        "/img/Vanak-Branches-Inside-02.webp",
+        "/img/Vanak-Branches-Inside-03.webp",
+        "/img/Vanak-Branches-Inside-04.webp"
+      ],
+      "map": "/img/Map-Vanak.webp",
+      "phone": "02188783139",
+      "address": "خیابان ولیعصر - بالا تر از میدان ونک - خیابان برادران شریفی - پلاک 54 - قهوه لمیز",
+      "img": "/img/Vanak-Branches-Cover.webp",
+      "name": "شعبه ونک",
+      "time": "روزهای عادی 06:30 الی 22:30 - روزهای تعطیل 08:00 الی 22:30",
+      "slug": "Vanak"
+    },
+    {
+      "id": 9,
+      "image": [
+        "/img/inside-branches-qom-1.webp",
+        "/img/inside-branches-qom-2.webp"
+      ],
+      "map": "",
+      "phone": "02533361048",
+      "address": "کیلومتر 6 اتوبان قم-تهران - سرای گردشگری مهر و ماه - قهوه لمیز",
+      "img": "/img/Cover-qom.webp",
+      "name": "شعبه قم",
+      "time": "24 ساعته",
+      "slug": "qom"
+    },
+    {
+      "id": 10,
+      "image": [
+        "/img/INSIDE-BRANCHES-FATEMI-ONE.webp",
+        "/img/INSIDE-BRANCHES-FATEMI-TOW.webp",
+        "/img/INSIDE-BRANCHES-FATEMI-THERE.webp",
+        "/img/INSIDE-BRANCHES-FATEMI-FOUR.webp",
+        "/img/INSIDE-BRANCHES-FATEMI-FOUR.webp",
+        "/img/INSIDE-BRANCHES-FATEMI-SIX.webp"
+      ],
+      "map": "/img/Map-Fatemi.webp",
+      "phone": "02186126271",
+      "address": "میدان (جهاد) فاطمی، ابتدای خیابان گمنام، پلاک ۳، طبقه همکف - قهوه لمیز",
+      "img": "/img/FATEMI-COVER.jpg",
+      "name": "شعبه فاطمی",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Fatemi"
+    },
+    {
+      "id": 11,
+      "image": ["/img/inside-Branches-saadatabad.webp"],
+      "map": "/img/Map-Saadat-Abad.webp",
+      "phone": "۰۲۱۵۴۴۲۹۰۰۰ داخلی ( 304 )",
+      "address": "سعادت آباد - میدان کاج - خیابان سرو شرقی - مجتمع مارکیز سنتر - قهوه لمیز",
+      "img": "/img/saatdat-abad-cover.webp",
+      "name": "شعبه سعادت آباد",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Saadat-Abad"
+    },
+    {
+      "id": 12,
+      "image": ["/img/Jordan.webp"],
+      "map": "/img/Map-Jordan.webp",
+      "phone": "02126207976",
+      "address": "جردن - نبش گلخانه - پلاک ۲۵۷ - قهوه لمیز",
+      "img": "/img/Jordan.webp",
+      "name": "شعبه جردن",
+      "time": "روزهای عادی 06:30 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Jordan"
+    },
+    {
+      "id": 13,
+      "image": ["/img/inside-branche-esfahan-1.webp"],
+      "map": "/img/Map-Esfehan.webp",
+      "phone": "03132247982",
+      "address": "اصفهان - خیابان استانداری - روبروی بلوار هشت بهشت - پلاک 50 - قهوه لمیز",
+      "img": "/img/Cover-Esfehan.webp",
+      "name": "شعبه اصفهان",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 07:00 الی 23:30",
+      "slug": "Esfehan"
+    },
+    {
+      "id": 14,
+      "image": [
+        "/img/inside-branches-bagh-ferdos-1.webp",
+        "/img/inside-branches-bagh-ferdos-2.webp",
+        "/img/inside-branches-bagh-ferdos-3.webp",
+        "/img/inside-branches-bagh-ferdos-4.webp",
+        "/img/inside-branches-bagh-ferdos-5.webp",
+        "/img/inside-branches-bagh-ferdos-6.webp"
+      ],
+      "map": "/img/Map-Bagh-Ferdos.webp",
+      "phone": "02122716620",
+      "address": "میدان تجریش - ابتدای خیابان ولیعصر - جنب بانک اقتصاد نوین - پلاک 3064 - قهوه لمیز",
+      "img": "/img/Cover-Bagh-Ferdos.webp",
+      "name": "شعبه باغ فردوس",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 07:00 الی 23:30",
+      "slug": "Bagh-Ferdos"
+    },
+    {
+      "id": 15,
+      "image": ["/img/inside-Tochal.webp"],
+      "map": "/img/Map-Tochal.webp",
+      "phone": "02126706294",
+      "address": "انتهای ولنجک - مجموعه تله‌کابین توچال - قبل از ایستگاه اول - مجموعه کیوب کلاب - قهوه لمیز",
+      "img": "/img/Cover-Tochal.webp",
+      "name": "شعبه توچال",
+      "time": "شنبه تا چهارشنبه 16:00 الی 23:30 - پنجشنبه، جمعه و روزهای تعطیل 7:00 - 23:30",
+      "slug": "Tochal"
+    },
+    {
+      "id": 16,
+      "image": [
+        "/img/INSIDE-BRANCHES-MOTAHARI-ONE.webp",
+        "/img/INSIDE-BRANCHES-MOTAHARI-TOW.webp",
+        "/img/INSIDE-BRANCHES-MOTAHARI-THERE.webp",
+        "/img/INSIDE-BRANCHES-MOTAHARI-FOUR.webp"
+      ],
+      "map": "/img/Map-Motahari.webp",
+      "phone": "02188450417",
+      "address": "خیابان مطهری - بعد از سهروردی - نرسیده به خیابان ترکمنستان - پلاک 14/1 - قهوه لمیز",
+      "img": "/img/Motahari-Branches-Cover.webp",
+      "name": "شعبه مطهری",
+      "time": "روزهای عادی 07:00 الی 22:30 - روزهای تعطیل 08:00 الی 22:30",
+      "slug": "Motahari"
+    },
+    {
+      "id": 17,
+      "image": [
+        "/img/inside-branches-Kish-1-1.webp",
+        "/img/inside-branches-Kish-2-1.webp",
+        "/img/inside-branches-Kish-3-1 (1).webp"
+      ],
+      "map": "/img/Kish-1.webp",
+      "phone": "076-44486815",
+      "address": "کیش - مرکز تجاری میکامال - طبقه همکف - واحد های 272-519-520 - قهوه لمیز",
+      "img": "/img/Kish.webp",
+      "name": "شعبه کیش",
+      "time": "روزهای عادی 08:00 الی 00:00 - روزهای تعطیل 08:00 الی 00:00",
+      "slug": "Kish"
+    },
+    {
+      "id": 18,
+      "image": [
+        "/img/inside-branches-Pol-Romi-1-1.webp",
+        "/img/inside-branches-Pol-Romi-2-1.webp",
+        "/img/inside-branches-Pol-Romi-3-1.webp"
+      ],
+      "map": "/img/Map-Pol-Romi.webp",
+      "phone": "02154429000 (داخلی 300)",
+      "address": "خیابان شریعتی - روبروی مترو قیطریه - ساختمان ردیوم - پلاک 1818 - قهوه لمیز",
+      "img": "/img/Cover-Pol-Romi.webp",
+      "name": "شعبه پل رومی",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Pol-Romi"
+    },
+    {
+      "id": 19,
+      "image": ["/img/inside-branches-Shahrak-e-Gharb.webp"],
+      "map": "/img/Map-Shahrak-e-Gharb.webp",
+      "phone": "02188580026",
+      "address": "بلوار ایران زمین - خیابان مهستان - نبش کوچه دوم - قهوه لمیز",
+      "img": "/img/Cover-Shahrak-e-Gharb.webp",
+      "name": "شعبه شهرک غرب",
+      "time": "روزهای عادی 07:00 الی 23:45 - روزهای تعطیل 08:00 الی 00:00",
+      "slug": "Shahrak-e-Gharb"
+    },
+    {
+      "id": 20,
+      "image": [
+        "/img/inside-branches-Paydar-Fard-1-1.webp",
+        "/img/inside-branches-Paydar-Fard-2-1.webp",
+        "/img/inside-branches-Paydar-Fard-3-1.webp",
+        "/img/inside-branches-Paydar-Fard-4-1.webp",
+        "/img/inside-branches-Paydar-Fard-5-1.webp"
+      ],
+      "map": "/img/Map-Paydar-Fard.webp",
+      "phone": "02122581260",
+      "address": "پاسداران - خیابان پایدارفرد - مقابل بوستان سوم - پلاک ۵ - قهوه لمیز",
+      "img": "/img/Cover-Paydar-Fard.webp",
+      "name": "شعبه پایدارفرد",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Paydar-Fard"
+    },
+    {
+      "id": 21,
+      "image": [
+        "/img/Yosef-Abad-Cover-Inside-Branches-One.webp",
+        "/img/Yosef-Abad-Cover-Inside-Branches-Tow.webp",
+        "/img/Yosef-Abad-Cover-Inside-Branches-There.webp",
+        "/img/Yosef-Abad-Cover-Inside-Branches-Four.webp",
+        "/img/Yosef-Abad-Cover-Inside-Branches-six.webp"
+      ],
+      "map": "/img/Map-Fatemi.webp",
+      "phone": "۰۲۱۵۴۴۲۹۰۰۰ ( داخلی 305 )",
+      "address": "یوسف آباد - میدان فرهنگ - پلاک 2 - قهوه لمیز",
+      "img": "/img/Yosef-Abad-Cover-Branches.jpg",
+      "name": "شعبه یوسف آباد",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Yosef-Abad"
+    },
+    {
+      "id": 22,
+      "image": [
+        "/img/inside-branches-Karaj-01.webp",
+        "/img/inside-branches-Karaj-02.webp",
+        "/img/inside-branches-Karaj-03.webp",
+        "/img/inside-branches-Karaj-04.webp"
+      ],
+      "map": "",
+      "phone": "۰۲۱۵۴۴۲۹۰۰۰ ( داخلی 303 )",
+      "address": "کرج - عظیمیه - بلوار شریعتی - بین نیک نژاد شمالی و غلامی - مجتمع مهراد مال - طبقه همکف - قهوه لمیز",
+      "img": "/img/karaj-branches-cover.webp",
+      "name": "شعبه کرج",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Karaj"
+    },
+    {
+      "id": 23,
+      "image": [
+        "/img/Izadshahr-Branches-inside-1.webp",
+        "/img/Izadshahr-Branches-inside-2.webp",
+        "/img/Izadshahr-Branches-inside-3.webp"
+      ],
+      "map": "/img/Map-Motel-Ghoo.webp",
+      "phone": "01144533233",
+      "address": "ایزدشهر - بعد از پمپ بنزین - نبش گلستان 70/4 - قهوه لمیز",
+      "img": "/img/Cover-Izadshahr.webp",
+      "name": "شعبه ایزدشهر",
+      "time": "روزهای عادی 08:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Izadshahr"
+    },
+    {
+      "id": 24,
+      "image": [
+        "/img/lavasan01.webp",
+        "/img/lavasan-02.webp",
+        "/img/lavasan-03.webp"
+      ],
+      "map": "/img/Map-Lavasan.webp",
+      "phone": "02126543715",
+      "address": "تهران - لواسان - بلوار امام خمینی (ره) - اسکای سنتر - طبقه همکف - قهوه لمیز",
+      "img": "/img/Lavasan-Cover.webp",
+      "name": "شعبه لواسان",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Lavasan"
+    },
+    {
+      "id": 25,
+      "image": ["/img/Motel-Ghoo.webp"],
+      "map": "/img/Map-Motel-Ghoo.webp",
+      "phone": "021-54429000 (داخلی 302)",
+      "address": "سلمان‌شهر (متل‌قو) - جاده ساحلی (لاین جنوبی) - نرسیده به برج‌های عظیم‌زاده (از سمت چالوس) - بین بلوار فرج‌پور و باهنر - قهوه لمیز",
+      "img": "/img/Motel-Ghoo-Cover.webp",
+      "name": "شعبه متل قو",
+      "time": "روزهای عادی 08:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Motel-Ghoo"
+    },
+    {
+      "id": 26,
+      "image": [
+        "/img/Inside-Branche-Gisha-One.webp",
+        "/img/Inside-Branche-Gisha-Tow.webp",
+        "/img/Inside-Branche-Gisha-There.webp",
+        "/img/Inside-Branche-Gisha-Four.webp",
+        "/img/Inside-Branche-Gisha-Five.webp",
+        "/img/Inside-Branche-Gisha-Six.webp",
+        "/img/Inside-Branche-Gisha-Seven.webp",
+        "/img/Inside-Branche-Gisha-Eight.webp"
+      ],
+      "map": "/img/Map-Gisha.webp",
+      "phone": "02188255546",
+      "address": "بزرگراه جلال آل احمد، خیابان گیشا، نبش کوچه یکم، پلاک 16 - قهوه لمیز",
+      "img": "/img/Gisha-Cover-Branche.webp",
+      "name": "شعبه گیشا",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Gisha"
+    },
+    {
+      "id": 27,
+      "image": ["/img/Inside-Branche-FakharMoghadam-One.webp"],
+      "map": "/img/Map-Dadman.webp",
+      "phone": "02188364643",
+      "address": "شهرک غرب، بلوار دادمان، خیابان فخارمقدم، پلاک 3، طبقه همکف - قهوه لمیز",
+      "img": "/img/Fakhar-Moghadam-Branches.webp",
+      "name": "شعبه فخارمقدم",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "FakharMoghadam"
+    },
+    {
+      "id": 28,
+      "image": [
+        "/img/Inside-Branche-Heravi-One.webp",
+        "/img/Inside-Branche-Heravi-Tow.webp",
+        "/img/Inside-Branche-Heravi-There.webp",
+        "/img/Inside-Branche-Heravi-Four.webp",
+        "/img/Inside-Branche-Heravi-Five.webp"
+      ],
+      "map": "/img/Map-Heravi.webp",
+      "phone": "02121008925",
+      "address": "خیابان هروی، نبش مکران شمالی، مجتمع تیدا سنتر، طبقه همکف، واحد 3 - قهوه لمیز",
+      "img": "/img/Heravi-Branches-Cover.webp",
+      "name": "شعبه هروی",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Heravi"
+    },
+    {
+      "id": 29,
+      "image": [
+        "/img/INSIDE-BRANCHES-IRANMAL-ONE.webp",
+        "/img/INSIDE-BRANCHES-IRANMAL-TOW.webp",
+        "/img/INSIDE-BRANCHES-IRANMAL-THERE.webp",
+        "/img/INSIDE-BRANCHES-IRANMAL-FOUR.webp",
+        "/img/INSIDE-BRANCHES-IRANMAL-FIVE.webp"
+      ],
+      "map": "/img/Map-Iranmal.webp",
+      "phone": "02147673925",
+      "address": "تهران - اتوبان خرازی - مجتمع تجاری ایران‌مال - طبقه G3 - جنب کتابخانه مرکزی - واحد فودپلازا - قهوه لمیز",
+      "img": "/img/Iranmal-Covers.webp",
+      "name": "شعبه ایران‌مال",
+      "time": "روزهای عادی 10:00 الی 23:00 - روزهای تعطیل و ماقبل تعطیل 10:00 الی 00:00",
+      "slug": "Iranmal"
+    },
+    {
+      "id": 30,
+      "image": [
+        "/img/INSIDE-BRANCHES-ENGHELAB-ONE.webp",
+        "/img/INSIDE-BRANCHES-ENGHELAB-TOW.webp",
+        "/img/INSIDE-BRANCHES-ENGHELAB-THERE.webp",
+        "/img/INSIDE-BRANCHES-ENGHELAB-FOUR.webp",
+        "/img/INSIDE-BRANCHES-ENGHELAB-FIVE.webp",
+        "/img/INSIDE-BRANCHES-ENGHELAB-SIX.webp"
+      ],
+      "map": "/img/Map-Enghelab.webp",
+      "phone": "02166562406",
+      "address": "تهران - میدان انقلاب - کارگر شمالی - نبش چهار راه نصرت - پلاک 1040 - قهوه لمیز",
+      "img": "/img/Enghelab-Branches-Cover.webp",
+      "name": "شعبه انقلاب",
+      "time": "روزهای عادی 07:00 الی 22:30 - روزهای تعطیل 08:00 الی 22:30",
+      "slug": "Enghelab"
+    },
+    {
+      "id": 31,
+      "image": [
+        "/img/Modireat-bridge-Inside-Beanches-One.webp",
+        "/img/Modireat-bridge-Inside-Beanches-Tow.webp",
+        "/img/Modireat-bridge-Inside-Beanches-There.webp",
+        "/img/Modireat-bridge-Inside-Beanches-Four.webp"
+      ],
+      "map": "/img/Map-Heravi.webp",
+      "phone": "021-54429000 (داخلی 307)",
+      "address": "خیابان استاد مطهری، خیابان فجر (جم)، پلاک 30، قهوه لمیز",
+      "img": "/img/Jam-Cover-Branch.webp",
+      "name": "شعبه جم",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Jam"
+    },
+    {
+      "id": 32,
+      "image": [
+        "/img/Inside-Branche-Jam-One.webp",
+        "/img/Inside-Branche-Jam-Tow.webp",
+        "/img/Inside-Branche-Jam-There.webp",
+        "/img/Inside-Branche-Jam-Four.webp"
+      ],
+      "map": "/img/Map-Shahrak-e-Gharb.webp",
+      "phone": "02154429000 داخلی (306)",
+      "address": "شهرک غرب، بلوار شریفی، کوچه مسعود، مجتمع تجاری دومان، طبقه GA، واحد 25 - قهوه لمیز",
+      "img": "/img/Modireat-bridge-Covers.webp",
+      "name": "پل مدیریت",
+      "time": "روزهای عادی 07:00 الی 23:30 - روزهای تعطیل 08:00 الی 23:30",
+      "slug": "Modireat"
+    }
   ]
 }
