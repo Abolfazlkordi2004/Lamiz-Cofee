@@ -11,7 +11,7 @@ function Header() {
       <div className="flex flex-row items-center justify-around bg-black h-[90px] w-full px-50">
         <div className="flex flex-row items-center space-x-6">
           {[
-            { href: "#", src: "/icons/icons8-account-50.png", alt: "account" },
+            { href: "/login", src: "/icons/icons8-account-50.png", alt: "account" },
             {
               href: "#",
               src: "/icons/icons8-favourite-50.png",
