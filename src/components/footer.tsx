@@ -28,7 +28,7 @@ function Footer() {
                 <Link href="/branches"> شعبه‌های قهوه لمیز</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                پیگیری سفارشات
+                <Link href="/order-tracking">پیگیری سفارشات</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
                 <Link href="/shop">فروشگاه محصولات</Link>

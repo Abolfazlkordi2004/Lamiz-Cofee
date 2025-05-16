@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Body() {
@@ -63,7 +64,7 @@ function Body() {
             />
             <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
               <button className="cursor-pointer text-white font-bold text-xl">
-                فروشگاه محصولات
+                <Link href="/shop"> فروشگاه محصولات</Link>
               </button>
             </div>
           </div>
@@ -76,7 +77,7 @@ function Body() {
             />
             <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
               <button className="cursor-pointer text-white font-bold text-xl">
-                منو قهوه لمیز
+                <Link href="/lamiz-coffee-menu"> منو قهوه لمیز</Link>
               </button>
             </div>
           </div>
@@ -127,7 +128,7 @@ function Body() {
             />
             <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
               <button className="cursor-pointer text-white font-bold text-xl">
-                شعب قهوه لمیز
+                <Link href="/branches">شعب قهوه لمیز</Link>
               </button>
             </div>
           </div>
@@ -140,7 +141,7 @@ function Body() {
             />
             <div className="bg-[#211F1C]/30 backdrop-blur-md w-[180px] h-[50px] translate-x-[-50%] translate-y-[200%] z-10 absolute flex justify-center items-center top-1/2 left-1/2 rounded">
               <button className="cursor-pointer text-white font-bold text-xl">
-                نوشیدنی‌های فصلی
+                <Link href="/lamiz-coffee-menu">نوشیدنی‌های فصلی</Link>
               </button>
             </div>
           </div>
