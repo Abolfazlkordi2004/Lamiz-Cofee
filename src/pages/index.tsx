@@ -1,10 +1,10 @@
-import HomePage from "@/components/body";
+import Body from "@/components/body";
 import React from "react";
 
 function Home_page() {
   return (
     <>
-      <HomePage />
+      <Body />
     </>
   );
 }

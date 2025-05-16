@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, ChangeEvent } from "react";
 
 type DropDownItem = {
   id: number;
@@ -9,14 +9,14 @@ type DropDownItem = {
 
 type IDropDownInput = {
   name: DropDownItem[];
+  value: string;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 };
 
-export default function DropdownInputCare({ name }: IDropDownInput) {
+export default function DropdownInputCare({ name, value, onChange }: IDropDownInput) {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState<string>("");   
   const wrapperRef = useRef<HTMLDivElement>(null);
 
- 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -30,17 +30,23 @@ export default function DropdownInputCare({ name }: IDropDownInput) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const handleSelect = (value: string) => {
-    setSelectedValue(value);  
-    setIsOpen(false);  
+  const handleSelect = (selectedName: string) => {
+    // Create a synthetic change event for the input
+    const syntheticEvent = {
+      target: { name: "branch", value: selectedName },
+    } as ChangeEvent<HTMLInputElement>;
+    onChange(syntheticEvent);
+    setIsOpen(false);
   };
 
   return (
     <div ref={wrapperRef} className="relative w-[400px]">
       <input
         type="text"
-        value={selectedValue ?? ""}
-        className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
+        value={typeof value === "string" ? value : ""} // Ensure value is a string
+        onChange={onChange}
+        name="branch"
+        className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
         onClick={() => setIsOpen((prev) => !prev)}
         readOnly
       />

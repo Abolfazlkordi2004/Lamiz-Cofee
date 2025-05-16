@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function HomePage() {
+function Body() {
   return (
     <div>
       <div className="relative w-full h-[650px]">
@@ -278,7 +278,7 @@ function HomePage() {
               />
 
               <div className="absolute inset-0 bg-[#211F1C] text-white p-4 rounded-lg flex flex-col justify-center items-center rotate-y-180 backface-hidden">
-                <h3 className="text-xl font-bold mb-10 text-[#ff6e1f]">
+                <h3 className="text-xl text-center font-bold mb-10 text-[#ff6e1f]">
                   سیروپ نعنا‌ سبز مونین
                 </h3>
                 <p className="text-l text-center mb-5">
@@ -302,7 +302,7 @@ function HomePage() {
               />
 
               <div className="absolute inset-0 bg-[#211F1C] text-white p-4 rounded-lg flex flex-col justify-center items-center rotate-y-180 backface-hidden">
-                <h3 className="text-xl font-bold mb-10 text-[#ff6e1f]">
+                <h3 className="text-xl text-center font-bold mb-10 text-[#ff6e1f]">
                   سیروپ نعنا‌ یخی مونین
                 </h3>
                 <p className="text-l text-center mb-5">
@@ -326,7 +326,7 @@ function HomePage() {
               />
 
               <div className="absolute inset-0 bg-[#211F1C] text-white px-4  rounded-lg flex flex-col justify-center items-center rotate-y-180 backface-hidden">
-                <h3 className="text-xl font-bold mb-10 text-[#ff6e1f]">
+                <h3 className="text-xl text-center font-bold mb-10 text-[#ff6e1f]">
                   سیروپ تریپل سک کراسائو
                 </h3>
                 <p className="text-l text-center text-white mb-5">
@@ -345,4 +345,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Body;

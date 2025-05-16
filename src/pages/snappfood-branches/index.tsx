@@ -1,4 +1,4 @@
-// ❗️نباید async باشه
+
 import HeaderSection from "@/components/headerSection";
 import SnappFoodCart from "@/components/snappFoodCart";
 import React, { useEffect, useState } from "react";

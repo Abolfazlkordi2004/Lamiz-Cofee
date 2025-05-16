@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -7,31 +8,33 @@ function Footer() {
       <div className="w-full h-[350px] bg-black">
         <div className="flex flex-row-reverse justify-around items-center py-10 px-40">
           <div>
-            <Image
-              src="/icons/Lamiz-logo.webp"
-              alt="Lamiz-logo"
-              width={120}
-              height={120}
-              className="cursor-pointer"
-            />
+            <Link href="/">
+              <Image
+                src="/icons/Lamiz-logo.webp"
+                alt="Lamiz-logo"
+                width={120}
+                height={120}
+                className="cursor-pointer"
+              />
+            </Link>
           </div>
           <div>
             <h3 className="text-white font-bold text-xl">دسترسی سریع</h3>
             <ul className="text-center mt-8 cursor-pointer hover:text-[#ff6e1f]">
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                منو قهوه لمیز
+                <Link href="/lamiz-coffee-menu"> منو قهوه لمیز</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                شعبه‌های قهوه لمیز
+                <Link href="/branches"> شعبه‌های قهوه لمیز</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
                 پیگیری سفارشات
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                فروشگاه محصولات
+                <Link href="/shop">فروشگاه محصولات</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                مقالات
+                <Link href="/article"> مقالات</Link>
               </li>
             </ul>
           </div>
@@ -39,19 +42,19 @@ function Footer() {
             <h3 className="text-white font-bold text-lg">منوی قهوه لمیز</h3>
             <ul className="text-center mt-8 cursor-pointer hover:text-[#ff6e1f]">
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                درباره ما
+                <Link href="/lamizCoffeeAbout"> درباره ما</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                ارتباط با ما
+                <Link href="/lamizContact"> ارتباط با ما</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                سوالات متداول
+                <Link href="/lamizFaq">سوالات متداول</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                قوانین و مقررات
+                <Link href="/privacyPolicy"> قوانین و مقررات</Link>
               </li>
               <li className="text-white text-lg hover:text-[#ff6e1f] mt-1">
-                سیاست مرجوعی
+                <Link href="/refundReturns"> سیاست مرجوعی</Link>
               </li>
             </ul>
           </div>

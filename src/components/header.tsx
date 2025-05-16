@@ -59,20 +59,35 @@ function Header() {
                 </a>
               </div>
               {hoveredMenu === "another" && (
-                <div className="absolute top-full right-0 mt-0 w-48 z-50">
+                <div className="absolute top-full right-0 mt-0 w-50 z-50">
                   <ul className="rounded-md bg-white shadow-lg">
                     {[
-                      "سیاست مرجوعی و عودت",
-                      "انتقادات و پیشنهادات",
-                      "قوانین و مقررات",
-                      "سوالات متداول",
-                      "مقالات",
-                    ].map((item) => (
+                      {
+                        href: "/refundReturns",
+                        text: "سیاست مرجوعی و انتقادات",
+                      },
+                      {
+                        href: "/lamizcare",
+                        text: "انتقادات و پیشنهادات",
+                      },
+                      {
+                        href: "/privacyPolicy",
+                        text: "قوانین و مقررات",
+                      },
+                      {
+                        href: "/lamizFaq",
+                        text: "سوالات متداول",
+                      },
+                      {
+                        href: "/article",
+                        text: "مقالات",
+                      },
+                    ].map(({ href, text }) => (
                       <li
-                        key={item}
+                        key={text}
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] hover:text-[#ff6e1f]"
                       >
-                        {item}
+                        <Link href={href}>{text}</Link>
                       </li>
                     ))}
                   </ul>
@@ -99,12 +114,15 @@ function Header() {
               {hoveredMenu === "call" && (
                 <div className="absolute top-full right-0 mt-0 w-32 z-50">
                   <ul className="rounded-md bg-white shadow-lg">
-                    {["درباره ما", "تماس با ما"].map((item) => (
+                    {[
+                      { href: "/lamizCoffeeAbout", text: "درباره ما" },
+                      { href: "/lamizContact", text: "ارتباط با ما" },
+                    ].map(({ href, text }) => (
                       <li
-                        key={item}
+                        key={text}
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] text-nowrap hover:text-[#ff6e1f]"
                       >
-                        {item}
+                        <Link href={href}>{text}</Link>
                       </li>
                     ))}
                   </ul>
