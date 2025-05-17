@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import SwitchComponent from "@/components/shiftBox";
+import Image from "next/image";
 
 function Login() {
   const [mode, setMode] = useState<"login" | "register" | "reset">("login");
@@ -17,6 +18,43 @@ function Login() {
   const renderFormFields = () => {
     switch (mode) {
       case "login":
+        return (
+          <>
+            <div>
+              <div className="flex flex-row mt-15 gap-2">
+                <div className="relative w-[20px] h-[20px]">
+                  <Image
+                    src="/icons/icons8-account-48.png"
+                    alt="account-icon"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <input
+                  type="text"
+                  placeholder="ادرس ایمیل , نام کاربری"
+                  className="placeholder:text-center border-b border-gray-500 focus:border-b-2 focus:border-blue-500 focus:outline-none w-[400px] text-center"
+                />
+              </div>
+              <div className="flex flex-row mt-10 gap-2">
+                <div className="relative w-[20px] h-[20px]">
+                  <Image
+                    src="/icons/icons8-password-50.png"
+                    alt="password-icon"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <input
+                  type="text"
+                  placeholder="رمز"
+                  className="placeholder:text-center border-b border-gray-500 focus:border-b-2 focus:border-blue-500 focus:outline-none w-[400px] text-center"
+                />
+              </div>
+              <SwitchComponent />
+            </div>
+          </>
+        );
       case "register":
         return (
           <>
@@ -24,54 +62,53 @@ function Login() {
               <div>
                 <input
                   type="text"
-                  placeholder="آدرس ایمیل یا نام کاربری"
-                  className="placeholder:text-right border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
+                  placeholder="نام "
+                  className="placeholder:text-right pr-3 border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
                 />
               </div>
-              <div className="mt-10">
+              <div className="mt-5">
                 <input
                   type="password"
-                  placeholder="رمز عبور"
-                  className="placeholder:text-right border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
+                  placeholder="نام خانوادگی"
+                  className="placeholder:text-right pr-3 border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
                 />
               </div>
-              <div className="  mt-10">
+              <div className="mt-5">
                 <input
                   type="password"
-                  placeholder="رمز عبور"
-                  className="placeholder:text-right border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
+                  placeholder="نام کاربری"
+                  className="placeholder:text-right pr-3 border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
                 />
               </div>
-              <div className="  mt-10">
+              <div className="mt-5">
                 <input
                   type="password"
-                  placeholder="رمز عبور"
-                  className="placeholder:text-right border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
+                  placeholder="شماره همراه"
+                  className="placeholder:text-right pr-3 border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
                 />
               </div>
-              <div className="  mt-10">
+              <div className="mt-5">
                 <input
                   type="password"
-                  placeholder="رمز عبور"
-                  className="placeholder:text-right border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
+                  placeholder="پست الکترونیک"
+                  className="placeholder:text-right pr-3 border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
                 />
               </div>
-              <div className="  mt-10">
+              <div className="mt-5">
                 <input
                   type="password"
-                  placeholder="رمز عبور"
-                  className="placeholder:text-right border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
+                  placeholder="کلمه عبور"
+                  className="placeholder:text-right pr-3 border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
                 />
               </div>
-              <div className="  mt-10">
+              <div className="mt-5">
                 <input
                   type="password"
-                  placeholder="رمز عبور"
-                  className="placeholder:text-right border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
+                  placeholder="تکرار کلمه عبور"
+                  className="placeholder:text-right pr-3 placeholder:mx-3 border rounded border-gray-500  focus:border-blue-500 h-[40px] w-[400px] text-right"
                 />
               </div>
             </div>
-            <SwitchComponent />
           </>
         );
 
