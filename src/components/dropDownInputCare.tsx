@@ -13,7 +13,11 @@ type IDropDownInput = {
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 };
 
-export default function DropdownInputCare({ name, value, onChange }: IDropDownInput) {
+export default function DropdownInputCare({
+  name,
+  value,
+  onChange,
+}: IDropDownInput) {
   const [isOpen, setIsOpen] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
 
@@ -31,7 +35,6 @@ export default function DropdownInputCare({ name, value, onChange }: IDropDownIn
   }, []);
 
   const handleSelect = (selectedName: string) => {
-    // Create a synthetic change event for the input
     const syntheticEvent = {
       target: { name: "branch", value: selectedName },
     } as ChangeEvent<HTMLInputElement>;
@@ -43,7 +46,7 @@ export default function DropdownInputCare({ name, value, onChange }: IDropDownIn
     <div ref={wrapperRef} className="relative w-[400px]">
       <input
         type="text"
-        value={typeof value === "string" ? value : ""} // Ensure value is a string
+        value={typeof value === "string" ? value : ""}
         onChange={onChange}
         name="branch"
         className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"

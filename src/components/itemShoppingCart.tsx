@@ -10,7 +10,7 @@ type ItemShoppingCartData = {
 function ItemShoppingCart({ img, title, price }: ItemShoppingCartData) {
   return (
     <div className="flex flex-col items-center">
-      <div className="relative w-full aspect-[5/5] group">
+      <div className="relative w-full aspect-[5/5] group" dir="ltr">
         <Image
           src={img}
           alt="image-coldBrew"
@@ -18,7 +18,7 @@ function ItemShoppingCart({ img, title, price }: ItemShoppingCartData) {
           height={300}
           className="object-cover rounded"
         />
-        <div className="absolute inset-0 opacity-0 group-hover:opacity-100  transition-opacity space-y-2 p-2">
+        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity space-y-2 bg-white w-[40px] h-[80px] rounded shadow flex flex-col justify-center items-center">
           <div className="w-7 h-7 relative cursor-pointer">
             <a href="#">
               <Image
