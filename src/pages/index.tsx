@@ -1,13 +1,28 @@
-// import Body from "@/components/body";
-import CoffeeDetail from "@/components/coffeeDetail";
-import React from "react";
+import {   Dialog, DialogPanel,   } from '@headlessui/react'
+import { useState } from 'react'
 
-function Home_page() {
+function Example() {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
     <>
-      <CoffeeDetail img={"/img/60-dark-chocolate-box.webp"} header={"شکلات"} price={"23000"} description={"شکلات"} />
+      <button onClick={() => setIsOpen(true)}>Open dialog</button>
+      <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50">
+        <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
+          <DialogPanel className="max-w-lg space-y-4 border bg-white p-12">
+            {/* <DialogTitle className="font-bold">Deactivate account</DialogTitle>
+            <Description>This will permanently deactivate your account</Description>
+            <p>Are you sure you want to deactivate your account? All of your data will be permanently removed.</p> */}
+            <p>hi</p>
+            <div className="flex gap-4">
+              <button onClick={() => setIsOpen(false)}>Cancel</button>
+              <button onClick={() => setIsOpen(false)}>Deactivate</button>
+            </div>
+          </DialogPanel>
+        </div>
+      </Dialog>
     </>
-  );
+  )
 }
 
-export default Home_page;
+export default Example

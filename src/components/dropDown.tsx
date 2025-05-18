@@ -1,21 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 
-const Dropdown = () => {
+type dropDownProps = {
+  data: string[];
+};
+
+function Dropdown({ data }: dropDownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [selected, setSelected] = useState("");
   const dropdownRef = useRef<HTMLDivElement>(null);
-
-  const data = [
-    "انتخاب کنید",
-    "دانه قهوه",
-    "اسپرسو ماشین صنعتی",
-    "اسپرسو ماشین خانگی",
-    "فیلتر کاغذی",
-    "فیلتر فلزی",
-    "فرنچ پرس",
-    "ائروپرس",
-    "موکاپات",
-  ];
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -62,6 +54,6 @@ const Dropdown = () => {
       )}
     </div>
   );
-};
+}
 
 export default Dropdown;

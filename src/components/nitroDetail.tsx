@@ -9,18 +9,12 @@ type ICoffeeDetail = {
   description: string;
 };
 
-  const data = [
-    "انتخاب کنید",
-    "دانه قهوه",
-    "اسپرسو ماشین صنعتی",
-    "اسپرسو ماشین خانگی",
-    "فیلتر کاغذی",
-    "فیلتر فلزی",
-    "فرنچ پرس",
-    "ائروپرس",
-    "موکاپات",
-  ];
-
+const data = [
+  "یک گزینه را انتخاب کنید",
+  "یک عدد",
+  "باکس 6 تایی",
+  "باکس 12 تایی",
+];
 
 function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
   return (
@@ -34,8 +28,8 @@ function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
           <p className="text-xl mt-3">{price}</p>
           <p className="mt-3 text-gray-500">{description}</p>
           <div className="flex flex-row items-center gap-3 mt-3">
-            <p>درجه آسیاب:</p>
-            <Dropdown data={data}/>
+            <p> تعداد :</p>
+            <Dropdown data={data} />
           </div>
           <div className="flex flex-row-reverse justify-end my-8">
             <div>
@@ -63,8 +57,8 @@ function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
           <div className="flex flex-row my-5">
             <p>دسته:</p>
             <p className="text-gray-500">قهوه ترکیبی</p>
-          </div>
-          <div className="flex flex-row">
+          </div> */}
+          {/* <div className="flex flex-row">
             <p>برچسب:</p>
             <p className="text-gray-500">قهوه,قهوه باریستا</p>
           </div> */}

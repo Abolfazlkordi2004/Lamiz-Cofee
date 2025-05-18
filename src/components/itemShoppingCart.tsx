@@ -13,7 +13,7 @@ function ItemShoppingCart({ img, title, price }: ItemShoppingCartData) {
       <div className="relative w-full aspect-[5/5] group" dir="ltr">
         <Image
           src={img}
-          alt="image-coldBrew"
+          alt="image"
           width={300}
           height={300}
           className="object-cover rounded"

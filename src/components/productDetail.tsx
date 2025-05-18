@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Dropdown from "./dropDown";
 
 type ICoffeeDetail = {
   img: string;
@@ -8,19 +7,6 @@ type ICoffeeDetail = {
   price: string;
   description: string;
 };
-
-  const data = [
-    "انتخاب کنید",
-    "دانه قهوه",
-    "اسپرسو ماشین صنعتی",
-    "اسپرسو ماشین خانگی",
-    "فیلتر کاغذی",
-    "فیلتر فلزی",
-    "فرنچ پرس",
-    "ائروپرس",
-    "موکاپات",
-  ];
-
 
 function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
   return (
@@ -33,10 +19,6 @@ function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
           <h1 className="text-2xl font-bold">{header}</h1>
           <p className="text-xl mt-3">{price}</p>
           <p className="mt-3 text-gray-500">{description}</p>
-          <div className="flex flex-row items-center gap-3 mt-3">
-            <p>درجه آسیاب:</p>
-            <Dropdown data={data}/>
-          </div>
           <div className="flex flex-row-reverse justify-end my-8">
             <div>
               <button className="bg-[#FE6E1F] text-white rounded w-[150px] h-[40px] cursor-pointer">
@@ -62,7 +44,7 @@ function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
           {/* <hr />
           <div className="flex flex-row my-5">
             <p>دسته:</p>
-            <p className="text-gray-500">قهوه ترکیبی</p>
+            <p className="text-gray-500"> لمیزپرسو </p>
           </div>
           <div className="flex flex-row">
             <p>برچسب:</p>
