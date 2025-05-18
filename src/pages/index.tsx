@@ -1,28 +1,12 @@
-import {   Dialog, DialogPanel,   } from '@headlessui/react'
-import { useState } from 'react'
+import Body from "@/components/body";
+import React from "react";
 
-function Example() {
-  const [isOpen, setIsOpen] = useState(false)
-
+function Home_page() {
   return (
     <>
-      <button onClick={() => setIsOpen(true)}>Open dialog</button>
-      <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50">
-        <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
-          <DialogPanel className="max-w-lg space-y-4 border bg-white p-12">
-            {/* <DialogTitle className="font-bold">Deactivate account</DialogTitle>
-            <Description>This will permanently deactivate your account</Description>
-            <p>Are you sure you want to deactivate your account? All of your data will be permanently removed.</p> */}
-            <p>hi</p>
-            <div className="flex gap-4">
-              <button onClick={() => setIsOpen(false)}>Cancel</button>
-              <button onClick={() => setIsOpen(false)}>Deactivate</button>
-            </div>
-          </DialogPanel>
-        </div>
-      </Dialog>
+       <Body/>
     </>
-  )
+  );
 }
 
-export default Example
+export default Home_page;

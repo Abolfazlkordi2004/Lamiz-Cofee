@@ -1,25 +1,23 @@
 import React from "react";
 import Image from "next/image";
 
-type ICoffeeDetail = {
+type IProductDetail = {
   img: string;
   header: string;
   price: string;
-  description: string;
 };
 
-function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
+function ProductDetail({ img, header, price }: IProductDetail) {
   return (
-    <div className="w-[920px] h-[450px] flex flex-row" dir="rtl">
+    <div className="w-[900px] h-[350px] flex flex-row" dir="rtl">
       <div className="w-1/2 relative h-full">
         <Image src={img} alt="" fill className="object-cover" />
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 mx-6 my-6">
         <div className="flex flex-col">
-          <h1 className="text-2xl font-bold">{header}</h1>
-          <p className="text-xl mt-3">{price}</p>
-          <p className="mt-3 text-gray-500">{description}</p>
-          <div className="flex flex-row-reverse justify-end my-8">
+          <h1 className="text-3xl font-bold">{header}</h1>
+          <p className="text-2xl mt-5 text-[#FE6E1F]">{price+"تومان"}</p>
+          <div className="flex flex-row-reverse justify-end my-10">
             <div>
               <button className="bg-[#FE6E1F] text-white rounded w-[150px] h-[40px] cursor-pointer">
                 افزودن به سبد خرید
@@ -56,4 +54,4 @@ function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
   );
 }
 
-export default CoffeeDetail;
+export default ProductDetail;

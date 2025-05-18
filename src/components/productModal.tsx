@@ -1,7 +1,6 @@
-// components/ProductModal.tsx
-'use client';
+"use client";
 
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
 interface ModalProps {
   isOpen: boolean;
@@ -9,18 +8,23 @@ interface ModalProps {
   children: ReactNode;
 }
 
-export default function ProductModal({ isOpen, onClose, children }: ModalProps) {
+export default function ProductModal({
+  isOpen,
+  onClose,
+  children,
+}: ModalProps) {
   if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 bg-opacity-50 z-50 flex items-center justify-center">
-      <div className="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative">
+      <div className="relative bg-white p-6 rounded-lg shadow-md w-fit max-w-[90%]">
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-xl"
+          className="absolute top-2 left-2 text-3xl text-gray-700 hover:text-red-500"
         >
           &times;
         </button>
+
         {children}
       </div>
     </div>

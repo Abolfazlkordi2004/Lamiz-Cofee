@@ -203,25 +203,29 @@
       "id": 29,
       "img": "/img/NITRO-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     },
     {
       "id": 30,
       "img": "/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو وانیلی",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     },
     {
       "id": 31,
       "img": "/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو کاراملی",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     },
     {
       "id": 32,
       "img": "/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو شکلاتی",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     }
   ],
   "lamiz-chocolate": [
@@ -602,25 +606,29 @@
       "id": 29,
       "img": "/img/NITRO-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     },
     {
       "id": 30,
       "img": "/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو وانیلی",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     },
     {
       "id": 31,
       "img": "/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو کاراملی",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     },
     {
       "id": 32,
       "img": "/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو شکلاتی",
-      "price": "108800 – 1305600"
+      "price": "108800 – 1305600",
+      "category": "nitro"
     },
     {
       "id": 33,

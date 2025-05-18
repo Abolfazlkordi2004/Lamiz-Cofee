@@ -2,14 +2,19 @@
 
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import ShopCart from "./shopCart";
 import Pagination from "./pagination";
+import ShopCart from "./shopCart";
+import ProductModal from "./productModal";
+import CoffeeDetail from "./coffeeDetail";
+import NitroDetail from "./nitroDetail";
+import ProductDetail from "./productDetail";
 
 type IProduct = {
   id: number;
   img: string;
   title: string;
   price: string;
+  category: string;
 };
 
 type IproductProps = {
@@ -26,6 +31,7 @@ function MainSection() {
   const searchParams = useSearchParams();
   const [data, setData] = useState<IproductProps | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<IProduct | null>(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -47,21 +53,17 @@ function MainSection() {
         setError("خطا در دریافت محصولات");
       }
     }
+
     fetchData();
   }, [searchParams]);
 
-  if (error) {
-    return <div>{error}</div>;
-  }
-
-  if (!data) {
-    return <div>در حال بارگذاری...</div>;
-  }
+  if (error) return <div>{error}</div>;
+  if (!data) return <div>در حال بارگذاری...</div>;
 
   return (
     <>
       <div className="flex flex-col">
-        <div className="flex  justify-center w-[1100px] h-[2000px] rounded border border-gray-500">
+        <div className="flex justify-center w-[1100px] h-[2000px] rounded border border-gray-500">
           <div className="grid grid-cols-4 gap-5">
             {data.data.map((e) => (
               <ShopCart
@@ -69,12 +71,51 @@ function MainSection() {
                 img={e.img}
                 price={e.price}
                 title={e.title}
+                onSearchClick={() => setSelectedProduct(e)}
               />
             ))}
           </div>
         </div>
         <Pagination pageCount={data.pages} />
       </div>
+
+      <ProductModal
+        isOpen={!!selectedProduct}
+        onClose={() => setSelectedProduct(null)}
+      >
+        {selectedProduct && (
+          <ProductModal
+            isOpen={!!selectedProduct}
+            onClose={() => setSelectedProduct(null)}
+          >
+            {selectedProduct.category === "combinatorial" ? (
+              <CoffeeDetail
+                img={selectedProduct.img}
+                header={selectedProduct.title}
+                price={selectedProduct.price}
+              />
+            ) : selectedProduct.category === "single_origin" ? (
+              <CoffeeDetail
+                header={selectedProduct.title}
+                img={selectedProduct.img}
+                price={selectedProduct.price}
+              />
+            ) : selectedProduct.category === "nitro" ? (
+              <NitroDetail
+                header={selectedProduct.title}
+                img={selectedProduct.img}
+                price={selectedProduct.price}
+              />
+            ) : (
+              <ProductDetail
+                header={selectedProduct.title}
+                img={selectedProduct.img}
+                price={selectedProduct.price}
+              />
+            )}
+          </ProductModal>
+        )}
+      </ProductModal>
     </>
   );
 }

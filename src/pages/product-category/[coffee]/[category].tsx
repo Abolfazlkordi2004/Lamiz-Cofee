@@ -1,11 +1,23 @@
+import "@/app/globals.css";
 import HeaderSection from "@/components/headerSection";
 import ItemShoppingCart from "@/components/itemShoppingCart";
 import { useFormatPrice } from "@/hooks/formatPrice";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import "@/app/globals.css";
+import ProductModal from "@/components/productModal";
+import CoffeeDetail from "@/components/coffeeDetail";
+import NitroDetail from "@/components/nitroDetail";
+import ProductDetail from "@/components/productDetail";
 
 type Product = {
+  id: number;
+  img: string;
+  title: string;
+  price: string;
+  category: string;
+};
+
+type IProduct = {
   id: number;
   img: string;
   title: string;
@@ -20,6 +32,7 @@ export default function CoffeePage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<IProduct | null>(null);
   const formatPrice = useFormatPrice();
 
   useEffect(() => {
@@ -84,6 +97,7 @@ export default function CoffeePage() {
                     img={product.img}
                     title={product.title}
                     price={formatPrice(product.price)}
+                    onSearchClick={() => setSelectedProduct(product)}
                   />
                 </div>
               ))
@@ -93,6 +107,43 @@ export default function CoffeePage() {
           </div>
         </div>
       </div>
+      <ProductModal
+        isOpen={!!selectedProduct}
+        onClose={() => setSelectedProduct(null)}
+      >
+        {selectedProduct && (
+          <ProductModal
+            isOpen={!!selectedProduct}
+            onClose={() => setSelectedProduct(null)}
+          >
+            {selectedProduct.category === "combinatorial" ? (
+              <CoffeeDetail
+                img={selectedProduct.img}
+                header={selectedProduct.title}
+                price={selectedProduct.price}
+              />
+            ) : selectedProduct.category === "single_origin" ? (
+              <CoffeeDetail
+                header={selectedProduct.title}
+                img={selectedProduct.img}
+                price={selectedProduct.price}
+              />
+            ) : selectedProduct.category === "nitro" ? (
+              <NitroDetail
+                header={selectedProduct.title}
+                img={selectedProduct.img}
+                price={selectedProduct.price}
+              />
+            ) : (
+              <ProductDetail
+                header={selectedProduct.title}
+                img={selectedProduct.img}
+                price={selectedProduct.price}
+              />
+            )}
+          </ProductModal>
+        )}
+      </ProductModal>
     </div>
   );
 }

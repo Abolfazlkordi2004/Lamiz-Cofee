@@ -6,10 +6,12 @@ type IShopCart = {
   img: string;
   title: string;
   price: string;
+  onSearchClick: () => void;
 };
 
-function ShopCart({ img, title, price }: IShopCart) {
+function ShopCart({ img, title, price, onSearchClick }: IShopCart) {
   const formatPrice = useFormatPrice();
+
   return (
     <div className="w-[235px] h-[300px] items-center justify-center my-5">
       <div className="relative w-[200px] h-[200px] mx-2 group">
@@ -18,7 +20,7 @@ function ShopCart({ img, title, price }: IShopCart) {
           className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity space-y-2 bg-white w-[40px] h-[80px] rounded shadow flex flex-col justify-center items-center"
           dir="ltr"
         >
-          <div className="w-7 h-7 relative cursor-pointer">
+          <div className="w-6 h-6 relative cursor-pointer">
             <a href="#">
               <Image
                 src="/icons/icons8-shopping-cart-50.png"
@@ -28,15 +30,13 @@ function ShopCart({ img, title, price }: IShopCart) {
               />
             </a>
           </div>
-          <div className="w-7 h-7 relative cursor-pointer">
-            <a href="#">
-              <Image
-                src="/icons/icons8-search-50.png"
-                alt="search"
-                fill
-                className="object-contain"
-              />
-            </a>
+          <div className="w-6 h-6 relative cursor-pointer" onClick={onSearchClick}>
+            <Image
+              src="/icons/icons8-search-50.png"
+              alt="search"
+              fill
+              className="object-contain"
+            />
           </div>
         </div>
       </div>

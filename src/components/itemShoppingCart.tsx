@@ -1,13 +1,21 @@
 import React from "react";
 import Image from "next/image";
 
+
 type ItemShoppingCartData = {
   img: string;
   title: string;
   price: string;
+  onSearchClick: () => void;
 };
 
-function ItemShoppingCart({ img, title, price }: ItemShoppingCartData) {
+function ItemShoppingCart({
+  img,
+  title,
+  price,
+  onSearchClick,
+}: ItemShoppingCartData) {
+
   return (
     <div className="flex flex-col items-center">
       <div className="relative w-full aspect-[5/5] group" dir="ltr">
@@ -30,16 +38,14 @@ function ItemShoppingCart({ img, title, price }: ItemShoppingCartData) {
               />
             </a>
           </div>
-          <div className="w-7 h-7 relative cursor-pointer">
-            <a href="#">
-              <Image
-                src="/icons/icons8-search-50.png"
-                alt="search"
-                width={28}
-                height={28}
-                className="object-contain"
-              />
-            </a>
+          <div className="w-7 h-7 relative cursor-pointer" onClick={onSearchClick}>
+            <Image
+              src="/icons/icons8-search-50.png"
+              alt="search"
+              width={28}
+              height={28}
+              className="object-contain"
+            />
           </div>
         </div>
       </div>

@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Dropdown from "./dropDown";
 
-type ICoffeeDetail = {
+type INitroDetail = {
   img: string;
   header: string;
   price: string;
-  description: string;
+  
 };
 
 const data = [
@@ -16,18 +16,17 @@ const data = [
   "باکس 12 تایی",
 ];
 
-function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
+function NitroDetail({ img, header, price,   }: INitroDetail) {
   return (
     <div className="w-[920px] h-[450px] flex flex-row" dir="rtl">
       <div className="w-1/2 relative h-full">
         <Image src={img} alt="" fill className="object-cover" />
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 mx-6 my-6">
         <div className="flex flex-col">
-          <h1 className="text-2xl font-bold">{header}</h1>
-          <p className="text-xl mt-3">{price}</p>
-          <p className="mt-3 text-gray-500">{description}</p>
-          <div className="flex flex-row items-center gap-3 mt-3">
+          <h1 className="text-3xl font-bold">{header}</h1>
+          <p className="text-2xl mt-5 text-[#FE6E1F]">{price+ "تومان"}</p>
+          <div className="flex flex-row items-center gap-3 mt-5">
             <p> تعداد :</p>
             <Dropdown data={data} />
           </div>
@@ -68,4 +67,4 @@ function CoffeeDetail({ img, header, price, description }: ICoffeeDetail) {
   );
 }
 
-export default CoffeeDetail;
+export default NitroDetail;
