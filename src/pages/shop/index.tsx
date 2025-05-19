@@ -1,5 +1,5 @@
 import React from "react";
-import CategorySection from "@/components/categorySection";
+// import CategorySection from "@/components/categorySection";
 import HeaderSection from "@/components/headerSection";
 import MainSection from "@/components/mainSection";
 
@@ -15,9 +15,9 @@ function Shop() {
           <div>
             <MainSection />
           </div>
-          <div className="mb-[550px]">
+          {/* <div className="mb-[550px]">
             <CategorySection />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

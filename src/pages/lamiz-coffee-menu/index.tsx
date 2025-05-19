@@ -41,7 +41,7 @@ const Menu: React.FC = () => {
         text="سرو در همه شعبه های قهوه لمیز"
       />
       <div
-        className="bg-[#F0F0F0] mx-8 my-8 flex flex-row gap-8 items-start rounded-xl p-8"
+        className="bg-[#F0F0F0] mx-4 my-8 flex flex-row gap-2 items-start rounded-xl p-2"
         dir="rtl"
       >
         <Sidebar selected={selectedCategory} onSelect={setSelectedCategory} />

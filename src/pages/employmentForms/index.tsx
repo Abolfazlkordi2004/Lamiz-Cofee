@@ -176,7 +176,7 @@ export default function Form() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mt-20 ml-[900px] bg-[#FF6600] text-white w-[250px] h-[50px] rounded items-center justify-center cursor-pointer">
+          <div className="flex flex-col mt-20 ml-[900px] bg-[#FF6600] text-white text-sm w-[250px] h-[50px] rounded items-center justify-center cursor-pointer">
             <Link href="#">درخواست همکاری با شعبه های قهوه لمیز</Link>
           </div>
         </div>

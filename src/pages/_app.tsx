@@ -12,7 +12,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   const showFooter = !router.asPath.startsWith("/branches/");
 
   return (
-    <RootLayout>
+    <RootLayout> 
       <Component {...pageProps} />
       {showFooter && <Footer />}
     </RootLayout>
