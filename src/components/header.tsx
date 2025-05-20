@@ -12,13 +12,13 @@ function Header() {
         <div className="flex flex-row items-center space-x-6">
           {[
             { href: "/login", src: "/icons/icons8-account-50.png", alt: "account" },
+            // {
+            //   href: "#",
+            //   src: "/icons/icons8-favourite-50.png",
+            //   alt: "favourite",
+            // },
             {
-              href: "#",
-              src: "/icons/icons8-favourite-50.png",
-              alt: "favourite",
-            },
-            {
-              href: "#",
+              href: "/card",
               src: "/icons/icons8-shopping-cart-24.png",
               alt: "shopping-cart",
             },

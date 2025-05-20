@@ -1,14 +1,16 @@
 import Image from "next/image";
 import React from "react";
 import TrainingComp from "./trainingComponent";
+import Link from "next/link";
 
 type IArticleComp = {
   img: string;
+  href: string;
   title: string;
   text: string;
 };
 
-function ArticleComp({ img, title, text }: IArticleComp) {
+function ArticleComp({ img, title, text, href }: IArticleComp) {
   return (
     <div className="flex flex-row z-0 relative">
       <div className="w-1/2 h-[450px] relative">
@@ -23,7 +25,9 @@ function ArticleComp({ img, title, text }: IArticleComp) {
           <p className="text-lg mt-5">{text}</p>
         </div>
         <div className="w-[150px] h-[40px] rounded text-white cursor-pointer bg-[#FE6E1F] flex flex-row-reverse justify-center items-center text-xl mt-10 mr-90">
-          <button className="cursor-pointer">بیشتر بخوانید </button>
+          <Link href={href}>
+            <button className="cursor-pointer">بیشتر بخوانید </button>
+          </Link>
         </div>
       </div>
     </div>

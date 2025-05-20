@@ -8,17 +8,18 @@ type DropDownItem = {
 };
 
 type IDropDownInput = {
-  name: DropDownItem[];
+  items: DropDownItem[];
   value: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 };
 
 export default function DropdownInputCare({
-  name,
+  items,
   value,
   onChange,
 }: IDropDownInput) {
   const [isOpen, setIsOpen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
   const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -31,41 +32,60 @@ export default function DropdownInputCare({
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
-  const handleSelect = (selectedName: string) => {
+  console.log("searchText:", searchTerm);
+  console.log("items:", items);
+
+  const handleItemClick = (name: string) => {
     const syntheticEvent = {
-      target: { name: "branch", value: selectedName },
+      target: {
+        name: "branch",
+        value: name,
+      },
     } as ChangeEvent<HTMLInputElement>;
     onChange(syntheticEvent);
     setIsOpen(false);
   };
 
+  const filteredItems = items.filter(
+    (item) => typeof item.name === "string" && item.name.includes(searchTerm)
+  );
+
   return (
-    <div ref={wrapperRef} className="relative w-[400px]">
+    <div className="relative w-full" ref={wrapperRef}>
       <input
         type="text"
-        value={typeof value === "string" ? value : ""}
-        onChange={onChange}
         name="branch"
+        value={value}
+        onChange={(e) => {
+          onChange(e);
+          setSearchTerm(e.target.value);
+        }}
+        onClick={() => setIsOpen(!isOpen)}
+        placeholder="انتخاب شعبه"
         className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
-        onClick={() => setIsOpen((prev) => !prev)}
-        readOnly
       />
       {isOpen && (
-        <div className="absolute top-full left-0 w-full mt-1 bg-white border border-gray-300 rounded shadow z-10 max-h-100 overflow-y-auto">
-          <ul className="divide-y divide-gray-400">
-            {name.map((item) => (
-              <li
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-right"
+        <div className="absolute z-10 w-full max-h-60 overflow-y-auto mt-1 bg-white border border-gray-300 rounded shadow">
+          {filteredItems.length > 0 ? (
+            filteredItems.map((item) => (
+              <div
                 key={item.id}
-                onClick={() => handleSelect(item.name)}
+                onClick={() => handleItemClick(item.name)}
+                className="px-4 py-2 cursor-pointer hover:bg-gray-100 text-right"
               >
                 {item.name}
-              </li>
-            ))}
-          </ul>
+              </div>
+            ))
+          ) : (
+            <div className="px-4 py-2 text-gray-500 text-right">
+              موردی یافت نشد
+            </div>
+          )}
         </div>
       )}
     </div>

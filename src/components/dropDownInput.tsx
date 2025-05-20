@@ -4,21 +4,18 @@ import { useState, useRef, useEffect } from "react";
 
 type IDropDownInput = {
   placeholder: string;
-  data: { id: number; number: number }[];  
+  data: { id: number; number: number }[];
+  onChange?: (value: number) => void;  
 };
 
-export default function DropdownInput({ placeholder, data }: IDropDownInput) {
+export default function DropdownInput({ placeholder, data, onChange }: IDropDownInput) {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState<string>("");  
+  const [selectedValue, setSelectedValue] = useState<string>("");
   const wrapperRef = useRef<HTMLDivElement>(null);
 
- 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        wrapperRef.current &&
-        !wrapperRef.current.contains(event.target as Node)
-      ) {
+      if (wrapperRef.current && !wrapperRef.current.contains(event.target as Node)) {
         setIsOpen(false);
       }
     };
@@ -27,8 +24,9 @@ export default function DropdownInput({ placeholder, data }: IDropDownInput) {
   }, []);
 
   const handleSelect = (value: number) => {
-    setSelectedValue(value.toString());  
-    setIsOpen(false); 
+    setSelectedValue(value.toString());
+    setIsOpen(false);
+    if (onChange) onChange(value); 
   };
 
   return (
@@ -37,7 +35,7 @@ export default function DropdownInput({ placeholder, data }: IDropDownInput) {
         type="text"
         placeholder={placeholder}
         value={selectedValue}
-        className="w-full border border-gray-700  rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
+        className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
         onClick={() => setIsOpen((prev) => !prev)}
         readOnly
       />

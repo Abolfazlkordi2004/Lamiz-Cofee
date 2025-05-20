@@ -1,10 +1,10 @@
 import React from "react";
-import Checkout from "./checkout";
+import Body from "@/components/body";
 
 function Home_page() {
   return (
     <>
-       <Checkout/>
+       <Body/>
     </>
   );
 }

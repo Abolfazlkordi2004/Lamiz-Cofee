@@ -7,6 +7,7 @@ import ArticleCompReverse from "@/components/articleComponentReverse";
 
 type IData = {
   id: number;
+  href:string
   img: string;
   title: string;
   summary: string;
@@ -45,6 +46,7 @@ function Article() {
           index % 2 === 0 ? (
             <ArticleComp
               key={item.id}
+              href={item.href}
               img={item.img}
               title={item.title}
               text={item.summary}
@@ -52,6 +54,7 @@ function Article() {
           ) : (
             <ArticleCompReverse
               key={item.id}
+              href={item.href}
               img={item.img}
               title={item.title}
               text={item.summary}
