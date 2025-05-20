@@ -3,12 +3,13 @@ import Image from "next/image";
 import { useCart } from "./cartContext";
 
 type IProductDetail = {
+  id:string
   img: string;
   header: string;
   price: string;
 };
 
-function ProductDetail({ img, header, price }: IProductDetail) {
+function ProductDetail({ img, header, price,id }: IProductDetail) {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
 
@@ -33,7 +34,7 @@ function ProductDetail({ img, header, price }: IProductDetail) {
               <button
                 className="bg-[#FE6E1F] text-white rounded w-[150px] h-[40px] cursor-pointer"
                 onClick={() => {
-                  addToCart({ img, price, header, quantity });
+                  addToCart({ id,img, price, header, quantity });
                 }}
               >
                 افزودن به سبد خرید
@@ -61,15 +62,6 @@ function ProductDetail({ img, header, price }: IProductDetail) {
               </div>
             </div>
           </div>
-          {/* <hr />
-          <div className="flex flex-row my-5">
-            <p>دسته:</p>
-            <p className="text-gray-500"> لمیزپرسو </p>
-          </div>
-          <div className="flex flex-row">
-            <p>برچسب:</p>
-            <p className="text-gray-500">قهوه,قهوه باریستا</p>
-          </div> */}
         </div>
       </div>
     </div>

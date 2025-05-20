@@ -1,9 +1,8 @@
-import React from "react";
-import Image from "next/image";
 import { useCart } from "./cartContext";
-
+import Image from "next/image";
 
 type ItemShoppingCartData = {
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -11,13 +10,23 @@ type ItemShoppingCartData = {
 };
 
 function ItemShoppingCart({
+  id,
   img,
   title,
   price,
   onSearchClick,
 }: ItemShoppingCartData) {
+  const { addToCart } = useCart();
 
-  const {addToCart}=useCart();
+  const handleAddToCart = () => {
+    addToCart({
+      id,
+      img,
+      header: title,
+      price,
+      quantity: 1,
+    });
+  };
 
   return (
     <div className="flex flex-col items-center">
@@ -31,7 +40,13 @@ function ItemShoppingCart({
         />
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity space-y-2 bg-white w-[40px] h-[80px] rounded shadow flex flex-col justify-center items-center">
           <div className="w-7 h-7 relative cursor-pointer">
-            <a href="#" onClick={(e) => { e.preventDefault(); addToCart(); }}>
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                handleAddToCart();
+              }}
+            >
               <Image
                 src="/icons/icons8-shopping-cart-50.png"
                 alt="shopping-cart"
@@ -41,7 +56,10 @@ function ItemShoppingCart({
               />
             </a>
           </div>
-          <div className="w-7 h-7 relative cursor-pointer" onClick={onSearchClick}>
+          <div
+            className="w-7 h-7 relative cursor-pointer"
+            onClick={onSearchClick}
+          >
             <Image
               src="/icons/icons8-search-50.png"
               alt="search"

@@ -4,6 +4,7 @@ import Dropdown from "./dropDown";
 import { useCart } from "./cartContext";
 
 type INitroDetail = {
+  id:string
   img: string;
   header: string;
   price: string;
@@ -16,7 +17,7 @@ const data = [
   "باکس 12 تایی",
 ];
 
-function NitroDetail({ img, header, price }: INitroDetail) {
+function NitroDetail({ img, header, price,id }: INitroDetail) {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
 
@@ -45,7 +46,7 @@ function NitroDetail({ img, header, price }: INitroDetail) {
               <button
                 className="bg-[#FE6E1F] text-white rounded w-[150px] h-[40px] cursor-pointer"
                 onClick={() => {
-                  addToCart({ img, price, header, quantity });
+                  addToCart({ id,img, price, header, quantity });
                 }}
               >
                 افزودن به سبد خرید
@@ -64,7 +65,7 @@ function NitroDetail({ img, header, price }: INitroDetail) {
                 <button
                   className="text-black"
                   onClick={() => {
-                    addToCart({ img, price, header, quantity });
+                    addToCart({ id,img, price, header, quantity });
                   }}
                 >
                   {quantity}

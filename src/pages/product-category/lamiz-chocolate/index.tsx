@@ -9,7 +9,7 @@ import NitroDetail from "@/components/nitroDetail";
 import ProductDetail from "@/components/productDetail";
 
 type ILamizChocolate = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -17,7 +17,7 @@ type ILamizChocolate = {
 };
 
 type IProduct = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -42,6 +42,7 @@ function LamizChocolate() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {data.map((item) => (
               <ItemShoppingCart
+                id={item.id}
                 key={item.id}
                 img={item.img}
                 title={item.title}
@@ -63,24 +64,28 @@ function LamizChocolate() {
           >
             {selectedProduct.category === "combinatorial" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 img={selectedProduct.img}
                 header={selectedProduct.title}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "single_origin" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "nitro" ? (
               <NitroDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : (
               <ProductDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}

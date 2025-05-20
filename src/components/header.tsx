@@ -6,14 +6,19 @@ import { useCart } from "./cartContext";
 
 function Header() {
   const [hoveredMenu, setHoveredMenu] = useState<string | null>(null);
-  const { cartCount } = useCart();
+  const { cartItems } = useCart();
+  const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
   return (
     <header className="sticky z-50 top-0">
       <div className="flex flex-row items-center justify-around bg-black h-[90px] w-full px-50">
         <div className="flex flex-row items-center space-x-6">
           {[
-            { href: "/login", src: "/icons/icons8-account-50.png", alt: "account" },
+            {
+              href: "/login",
+              src: "/icons/icons8-account-50.png",
+              alt: "account",
+            },
             // {
             //   href: "#",
             //   src: "/icons/icons8-favourite-50.png",
@@ -26,7 +31,7 @@ function Header() {
             },
           ].map(({ href, src, alt }) => (
             <div key={alt}>
-              <a href={href}>
+              <Link href={href}>
                 <Image
                   src={src}
                   alt={alt}
@@ -34,7 +39,7 @@ function Header() {
                   height={24}
                   className="invert"
                 />
-              </a>
+              </Link>
             </div>
           ))}
           <div className="rounded-full w-5 h-5 bg-[#ff6e1f] justify-center text-center translate-x-[-230%] translate-y-[-60%] text-white">

@@ -2,44 +2,43 @@ import Image from "next/image";
 import React from "react";
 
 type ICartItemProps = {
-  img: string;
+  name: string;
+  price: string;
+  quantity: number;
+  totalPrice: number;
+  onRemove: () => void;
 };
 
-function CartItem({ img }: ICartItemProps) {
+function CartItem({
+  name,
+  price,
+  quantity,
+  totalPrice,
+  onRemove,
+}: ICartItemProps) {
   return (
-    <div className="w-[650px] h-[115px]">
-      <div className="flex flex-row-reverse justify-between items-center ml-15 w-full">
-        <Image src="/icons/icons8-trash-can-48.png" alt="iccon" width={20} height={20} className="cursor-pointer"/>
-        <Image
-          src={img}
-          alt="product-image"
-          width={80}
-          height={80}
-          className="ml-15"
-        />
-        <div className="ml-40">
-          <p>1</p>
+    <div className="w-[650px] h-auto">
+      <div className="flex flex-row-reverse justify-between items-center ml-15 w-full h-[50px]">
+        <button onClick={onRemove}>
+          <Image
+            src="/icons/icons8-trash-can-48.png"
+            alt="iccon"
+            width={20}
+            height={20}
+            className="cursor-pointer"
+          />
+        </button>
+        <div className="">
+          <p className="text-sm text-wrap">{name}</p>
         </div>
-        <div className="ml-40">
-          <p>1</p>
+        <div className="">
+          <p className="text-sm">{price}</p>
         </div>
-        <div className="flex flex-row ml-25">
-          <div>
-            <button className="w-[25px] h-[35px] text-black border border-gray-400 rounded hover:bg-[#FE6E1F] cursor-pointer">
-              +
-            </button>
-          </div>
-          <div className="flex justify-center items-center border border-gray-400 w-[25px] h-[35px] rounded">
-            <button className="text-black">1</button>
-          </div>
-          <div>
-            <button className="w-[25px] h-[35px] text-black border border-gray-400 rounded hover:bg-[#FE6E1F] cursor-pointer">
-              -
-            </button>
-          </div>
+        <div className=" ">
+          <p className="text-sm">{quantity}</p>
         </div>
         <div>
-          <p>1</p>
+          <p className="text-sm">{totalPrice}</p>
         </div>
       </div>
       <hr className="border-gray-500 w-[700px] my-5" />

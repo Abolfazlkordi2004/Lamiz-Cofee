@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Dropdown from "./dropDown";
-import { useCart } from "./cartContext";
+import { Product, useCart } from "./cartContext";
 
 type ICoffeeDetail = {
+  id: string;
   img: string;
   header: string;
   price: string;
@@ -21,7 +22,7 @@ const data = [
   "موکاپات",
 ];
 
-function CoffeeDetail({ img, header, price }: ICoffeeDetail) {
+function CoffeeDetail({ img, header, price, id }: ICoffeeDetail) {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
 
@@ -32,6 +33,22 @@ function CoffeeDetail({ img, header, price }: ICoffeeDetail) {
   const handleDecrease = () => {
     setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
   };
+
+  const handleAddToCart = () => {
+    const product: Product = {
+      id: id,
+      img,
+      header,
+      price,
+      quantity,
+    };
+    console.log("Product being added:", product);
+    addToCart(product);
+    setTimeout(() => {
+      console.log("After adding to cart:", product);
+    }, 500);
+  };
+
   return (
     <div
       className="w-[920px] h-[450px] flex flex-row rounded bg-white"
@@ -52,9 +69,7 @@ function CoffeeDetail({ img, header, price }: ICoffeeDetail) {
             <div>
               <button
                 className="bg-[#FE6E1F] text-white rounded w-[150px] h-[40px] cursor-pointer"
-                onClick={() => {
-                  addToCart({ img, price, header, quantity });
-                }}
+                onClick={handleAddToCart}
               >
                 افزودن به سبد خرید
               </button>
@@ -81,15 +96,6 @@ function CoffeeDetail({ img, header, price }: ICoffeeDetail) {
               </div>
             </div>
           </div>
-          {/* <hr />
-          <div className="flex flex-row my-5">
-            <p>دسته:</p>
-            <p className="text-gray-500">قهوه ترکیبی</p>
-          </div>
-          <div className="flex flex-row">
-            <p>برچسب:</p>
-            <p className="text-gray-500">قهوه,قهوه باریستا</p>
-          </div> */}
         </div>
       </div>
     </div>

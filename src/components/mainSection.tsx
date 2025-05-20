@@ -10,7 +10,7 @@ import NitroDetail from "./nitroDetail";
 import ProductDetail from "./productDetail";
 
 type IProduct = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -90,24 +90,28 @@ function MainSection() {
           >
             {selectedProduct.category === "combinatorial" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 img={selectedProduct.img}
                 header={selectedProduct.title}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "single_origin" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "nitro" ? (
               <NitroDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : (
               <ProductDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}

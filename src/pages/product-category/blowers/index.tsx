@@ -9,7 +9,7 @@ import { useFormatPrice } from "@/hooks/formatPrice";
 import React, { useEffect, useState } from "react";
 
 type Iblowers = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -17,7 +17,7 @@ type Iblowers = {
 };
 
 type IProduct = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -43,6 +43,7 @@ function Blowers() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {data.map((item) => (
               <ItemShoppingCart
+                id={item.id}
                 key={item.id}
                 img={item.img}
                 title={item.title}
@@ -64,24 +65,28 @@ function Blowers() {
           >
             {selectedProduct.category === "combinatorial" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 img={selectedProduct.img}
                 header={selectedProduct.title}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "single_origin" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "nitro" ? (
               <NitroDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : (
               <ProductDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}

@@ -10,7 +10,7 @@ import NitroDetail from "@/components/nitroDetail";
 import ProductDetail from "@/components/productDetail";
 
 type Product = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -18,7 +18,7 @@ type Product = {
 };
 
 type IProduct = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   price: string;
@@ -94,6 +94,7 @@ export default function CoffeePage() {
               products.map((product) => (
                 <div key={product.id} className="w-full">
                   <ItemShoppingCart
+                    id={product.id}
                     img={product.img}
                     title={product.title}
                     price={formatPrice(product.price)}
@@ -118,24 +119,28 @@ export default function CoffeePage() {
           >
             {selectedProduct.category === "combinatorial" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 img={selectedProduct.img}
                 header={selectedProduct.title}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "single_origin" ? (
               <CoffeeDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : selectedProduct.category === "nitro" ? (
               <NitroDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
               />
             ) : (
               <ProductDetail
+                id={selectedProduct.id}
                 header={selectedProduct.title}
                 img={selectedProduct.img}
                 price={selectedProduct.price}
