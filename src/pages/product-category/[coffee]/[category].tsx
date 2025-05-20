@@ -1,7 +1,6 @@
 import "@/app/globals.css";
 import HeaderSection from "@/components/headerSection";
 import ItemShoppingCart from "@/components/itemShoppingCart";
-import { useFormatPrice } from "@/hooks/formatPrice";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import ProductModal from "@/components/productModal";
@@ -33,7 +32,7 @@ export default function CoffeePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<IProduct | null>(null);
-  const formatPrice = useFormatPrice();
+  
 
   useEffect(() => {
     if (!router.isReady || !category) {
@@ -97,7 +96,7 @@ export default function CoffeePage() {
                     id={product.id}
                     img={product.img}
                     title={product.title}
-                    price={formatPrice(product.price)}
+                    price={product.price}
                     onSearchClick={() => setSelectedProduct(product)}
                   />
                 </div>

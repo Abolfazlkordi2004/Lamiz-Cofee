@@ -1,3 +1,4 @@
+import { useFormatPrice } from "@/hooks/formatPrice";
 import { useCart } from "./cartContext";
 import Image from "next/image";
 
@@ -17,6 +18,7 @@ function ItemShoppingCart({
   onSearchClick,
 }: ItemShoppingCartData) {
   const { addToCart } = useCart();
+  const formatPrice = useFormatPrice();
 
   const handleAddToCart = () => {
     addToCart({
@@ -73,7 +75,7 @@ function ItemShoppingCart({
       <div className="flex flex-col items-center mt-8">
         <p className="text-lg">{title}</p>
         <p className="text-[#ff6e1f] mt-5 text-lg" dir="rtl">
-          {price}
+          {formatPrice(price)}
         </p>
       </div>
     </div>

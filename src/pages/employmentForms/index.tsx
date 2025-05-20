@@ -227,7 +227,7 @@ export default function Form() {
                 className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border text-right"
                 dir="rtl"
               >
-                <textarea className="w-full h-full"></textarea>
+                <textarea className="w-full h-full px-4 py-4"></textarea>
               </div>
             </div>
             <div className="flex flex-col mt-20 mr-25">
@@ -240,7 +240,7 @@ export default function Form() {
                 className="w-[1050px] h-[400px] flex justify-end ml-25 mt-5 border-gray-500 border"
                 dir="rtl"
               >
-                <textarea className="w-full h-full"></textarea>
+                <textarea className="w-full h-full px-4 py-4"></textarea>
               </div>
             </div>
             <div className="flex flex-col mt-20 mr-25">

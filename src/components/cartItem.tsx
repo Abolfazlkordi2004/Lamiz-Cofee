@@ -18,7 +18,7 @@ function CartItem({
 }: ICartItemProps) {
   return (
     <div className="w-[650px] h-auto">
-      <div className="flex flex-row-reverse justify-between items-center ml-15 w-full h-[50px]">
+      <div className="flex flex-row-reverse justify-between items-center ml-15 w-full h-auto min-h-[50px]">
         <button onClick={onRemove}>
           <Image
             src="/icons/icons8-trash-can-48.png"
@@ -35,7 +35,7 @@ function CartItem({
           <p className="text-sm">{price}</p>
         </div>
         <div className=" ">
-          <p className="text-sm">{quantity}</p>
+          <p className="text-sm ml-18">{quantity}</p>
         </div>
         <div>
           <p className="text-sm">{totalPrice}</p>

@@ -65,9 +65,11 @@ function Cards() {
                 <p>{total}</p>
               </div>
               <div className="my-5">
-                <button className="w-[300px] h-[45px] rounded bg-[#FE6E1F] text-white flex justify-center items-center cursor-pointer">
-                  ادامه جهت تسویه حساب
-                </button>
+                <Link href="\checkout">
+                  <button className="w-[300px] h-[45px] rounded bg-[#FE6E1F] text-white flex justify-center items-center cursor-pointer">
+                    ادامه جهت تسویه حساب
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

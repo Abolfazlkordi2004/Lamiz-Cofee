@@ -10,7 +10,7 @@ export function useFormatPrice() {
             const number = Number(p.trim());
             return isNaN(number) ? p : number.toLocaleString("fa-IR");
           })
-          .join(" تومان – ") + " تومان"
+          .join(" تومان – ")
       );
     }
 

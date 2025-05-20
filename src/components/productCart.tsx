@@ -54,7 +54,7 @@ const ProductCart: React.FC<ProductCartProps> = ({ products }) => {
               ))}
             </div>
           )}
-          <p className="mt-2 text-l text-gray-600">{item.description}</p>
+          <p className="mt-2 text-sm text-gray-600">{item.description}</p>
         </div>
       ))}
     </div>

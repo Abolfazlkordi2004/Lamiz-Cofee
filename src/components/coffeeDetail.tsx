@@ -44,9 +44,6 @@ function CoffeeDetail({ img, header, price, id }: ICoffeeDetail) {
     };
     console.log("Product being added:", product);
     addToCart(product);
-    setTimeout(() => {
-      console.log("After adding to cart:", product);
-    }, 500);
   };
 
   return (

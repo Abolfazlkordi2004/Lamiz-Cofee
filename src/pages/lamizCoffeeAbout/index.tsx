@@ -10,6 +10,7 @@ import Image from "next/image";
 type IData = {
   img: string;
   header: string;
+  href:string
 };
 
 function AboutPage() {
@@ -225,6 +226,7 @@ function AboutPage() {
             <div className="grid grid-cols-5 gap-3 mt-5">
               {branches.map((item) => (
                 <AboutBranch
+                  href={item.href}
                   key={item.img}
                   img={item.img}
                   header={item.header}

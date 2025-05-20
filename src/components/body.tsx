@@ -261,9 +261,9 @@ function Body() {
                   بادام میوه درخت بادام است که به خاطر گلهای معطر صورتی و سفیدش
                   مشهور است.
                 </p>
-                <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
+                {/* <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
                   <button>مشاهده</button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -285,9 +285,9 @@ function Body() {
                   نعناع گیاهی تازه ، شیرین و معطر با طعم خنک به عنوان طعم دهنده
                   برای قهوه و چای استفاده می شود
                 </p>
-                <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
+                {/* <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
                   <button>مشاهده</button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -309,9 +309,9 @@ function Body() {
                   سیروپ نعنا‌یخی مونین با طعم بسیار خنک و سرشار از منتول نعنا و
                   پونه کوهی
                 </p>
-                <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
+                {/* <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
                   <button>مشاهده</button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -333,9 +333,9 @@ function Body() {
                   سیروپ تریپل سک کراسائو یکی از طعم های بکر مونین، که نسخه لیکور
                   پرتقال تلخ و شیرین معروف است
                 </p>
-                <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
+                {/* <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
                   <button>مشاهده</button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
