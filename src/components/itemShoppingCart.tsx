@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { useCart } from "./cartContext";
 
 
 type ItemShoppingCartData = {
@@ -16,6 +17,8 @@ function ItemShoppingCart({
   onSearchClick,
 }: ItemShoppingCartData) {
 
+  const {addToCart}=useCart();
+
   return (
     <div className="flex flex-col items-center">
       <div className="relative w-full aspect-[5/5] group" dir="ltr">
@@ -28,7 +31,7 @@ function ItemShoppingCart({
         />
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity space-y-2 bg-white w-[40px] h-[80px] rounded shadow flex flex-col justify-center items-center">
           <div className="w-7 h-7 relative cursor-pointer">
-            <a href="#">
+            <a href="#" onClick={(e) => { e.preventDefault(); addToCart(); }}>
               <Image
                 src="/icons/icons8-shopping-cart-50.png"
                 alt="shopping-cart"

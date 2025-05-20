@@ -38,7 +38,7 @@ function HeaderSection({img,header}:IheaderSection) {
             </div>
           </div>
           <div>
-            <h1 className="text-white font-bold text-4xl">{header}</h1>
+            <h1 className="text-white font-bold text-4xl z-10">{header}</h1>
           </div>
         </div>
       </div>

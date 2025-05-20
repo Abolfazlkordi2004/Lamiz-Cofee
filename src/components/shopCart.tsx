@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useFormatPrice } from "@/hooks/formatPrice";
+import { useCart } from "./cartContext";
 
 type IShopCart = {
   img: string;
@@ -11,6 +12,7 @@ type IShopCart = {
 
 function ShopCart({ img, title, price, onSearchClick }: IShopCart) {
   const formatPrice = useFormatPrice();
+  const { addToCart } = useCart();
 
   return (
     <div className="w-[235px] h-[300px] items-center justify-center my-5">
@@ -21,7 +23,7 @@ function ShopCart({ img, title, price, onSearchClick }: IShopCart) {
           dir="ltr"
         >
           <div className="w-6 h-6 relative cursor-pointer">
-            <a href="#">
+            <a href="#" onClick={(e) => { e.preventDefault(); addToCart(); }}>
               <Image
                 src="/icons/icons8-shopping-cart-50.png"
                 alt="shopping-cart"

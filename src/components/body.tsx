@@ -23,7 +23,6 @@ function Body() {
               بهترین قیمت و کیفیت است.
             </p>
           </div>
-
           <div className="jusify-center text-center">
             <h1 className="text-5xl text-[#ff6e1f] py-5 font-bold">
               ما قهوه لمیز هستیم

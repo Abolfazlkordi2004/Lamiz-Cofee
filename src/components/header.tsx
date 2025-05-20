@@ -2,9 +2,11 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
+import { useCart } from "./cartContext";
 
 function Header() {
   const [hoveredMenu, setHoveredMenu] = useState<string | null>(null);
+  const { cartCount } = useCart();
 
   return (
     <header className="sticky z-50 top-0">
@@ -36,7 +38,7 @@ function Header() {
             </div>
           ))}
           <div className="rounded-full w-5 h-5 bg-[#ff6e1f] justify-center text-center translate-x-[-230%] translate-y-[-60%] text-white">
-            0
+            {cartCount}
           </div>
         </div>
         <div className="flex flex-row items-center">
