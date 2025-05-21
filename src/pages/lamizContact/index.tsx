@@ -3,20 +3,37 @@ import ContactComp from "@/components/contactComponent";
 import HeaderSection from "@/components/headerSection";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { useForm } from "react-hook-form";
 
 const DynamicMap = dynamic(() => import("@/components/map"), {
-  ssr: false,  
+  ssr: false,
 });
 
+type FormValues = {
+  Name: string;
+  email: string;
+  phone: string;
+};
+
 function Contact() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<FormValues>();
+
+  const onSubmit = (data: FormValues) => {
+    console.log("اطلاعات ارسال‌شده:", data);
+  };
   return (
     <div className="bg-[#F0F0F0]">
       <HeaderSection
         header="ارتباط با ما"
         img="/img/about-us-background.webp"
       />
-      <div className="w-full h-[1700px]">
+      <div className="w-full mih-h-[1700px] h-auto">
         <div className="flex flex-row-reverse justify-around mx-25 mt-10">
           <ContactComp
             img="/icons/icons8-address-50.png"
@@ -41,66 +58,92 @@ function Contact() {
           />
         </div>
         <div className="flex flex-row justify-center gap-10 mt-10">
-          <div className="w-[540px] h-[650px] rounded bg-[#EBEAEA]">
-            <div className="px-8 py-5 flex justify-end">
-              <h2 className="text-2xl font-semibold">تماس با ما</h2>
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <div className="w-[540px] min-h-[650px] h-auto rounded bg-[#EBEAEA]">
+              <div className="px-8 py-5 flex justify-end">
+                <h2 className="text-2xl font-semibold">تماس با ما</h2>
+              </div>
+              <div className="flex flex-col  items-center">
+                <div className="relative w-[480px] text-right mb-8">
+                  <label
+                    htmlFor=""
+                    className="text-lg text-gray-800 font-semibold mb-10"
+                  >
+                    نام و نام خانوادگی
+                  </label>
+                  <input
+                    {...register("Name", {
+                      required: "پر کردن نام و نام خانوادگی الزامی است",
+                    })}
+                    type="text"
+                    placeholder="نام و نام خانوادگی "
+                    className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
+                  />
+                  {errors.Name && (
+                    <p className="text-red-500 text-sm mt-1">
+                      {errors.Name.message}
+                    </p>
+                  )}
+                </div>
+                <div className="relative w-[480px] text-right mb-8">
+                  <label
+                    htmlFor=""
+                    className="text-lg text-gray-800 font-semibold mb-5"
+                  >
+                    ادرس ایمیل
+                  </label>
+                  <input
+                    {...register("email", {
+                      required: "پر کردن ایمیل الزامی است",
+                    })}
+                    type="text"
+                    placeholder=" ادرس ایمیل"
+                    className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
+                  />
+                  {errors.email && (
+                    <p className="text-red-500 text-sm mt-1">
+                      {errors.email.message}
+                    </p>
+                  )}
+                </div>
+                <div className="relative w-[480px] text-right mb-8">
+                  <label
+                    htmlFor=""
+                    className="text-lg text-gray-800 font-semibold mb-5"
+                  >
+                    شماره تماس
+                  </label>
+                  <input
+                    {...register("phone", {
+                      required: "پر کردن شماره تماس الزامی است",
+                    })}
+                    type="text"
+                    placeholder="شماره تماس"
+                    className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
+                  />
+                  {errors.phone && (
+                    <p className="text-red-500 text-sm mt-1">
+                      {errors.phone.message}
+                    </p>
+                  )}
+                </div>
+                <div className="flex flex-col" dir="rtl">
+                  <label
+                    htmlFor=""
+                    className="text-lg text-gray-800 font-semibold"
+                  >
+                    پیام شما
+                  </label>
+                  <textarea className="w-[480px] h-[120px] border-gray-700 border"></textarea>
+                </div>
+                <div className="bg-[#FF6600] rounded w-[150px] h-[50px] text-white flex items-center justify-center cursor-pointer my-10 ml-80">
+                  <button className="cursor-pointer text-l">
+                    ارسال فرم تماس با ما
+                  </button>
+                </div>
+              </div>
             </div>
-            <div className="flex flex-col  items-center">
-              <div className="relative w-[480px] text-right mb-8">
-                <label
-                  htmlFor=""
-                  className="text-lg text-gray-800 font-semibold mb-10"
-                >
-                  نام و نام خانوادگی
-                </label>
-                <input
-                  type="text"
-                  placeholder="نام و نام خانوادگی "
-                  className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
-                />
-              </div>
-              <div className="relative w-[480px] text-right mb-8">
-                <label
-                  htmlFor=""
-                  className="text-lg text-gray-800 font-semibold mb-5"
-                >
-                  ادرس ایمیل
-                </label>
-                <input
-                  type="text"
-                  placeholder=" ادرس ایمیل"
-                  className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
-                />
-              </div>
-              <div className="relative w-[480px] text-right mb-8">
-                <label
-                  htmlFor=""
-                  className="text-lg text-gray-800 font-semibold mb-5"
-                >
-                  شماره تماس
-                </label>
-                <input
-                  type="text"
-                  placeholder="شماره تماس"
-                  className="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring focus:border-blue-500 text-right"
-                />
-              </div>
-              <div className="flex flex-col" dir="rtl">
-                <label
-                  htmlFor=""
-                  className="text-lg text-gray-800 font-semibold"
-                >
-                  پیام شما
-                </label>
-                <textarea className="w-[480px] h-[120px] border-gray-700 border"></textarea>
-              </div>
-              <div className="bg-[#FF6600] rounded w-[150px] h-[50px] text-white flex items-center justify-center cursor-pointer mt-10 ml-80">
-                <button className="cursor-pointer text-lg">
-                  ارسال فرم تماس با ما
-                </button>
-              </div>
-            </div>
-          </div>
+          </form>
           <div className="w-[650px] h-[650px] flex flex-col items-center">
             <div className="relative w-[450px] h-[400px]">
               <Image
@@ -123,7 +166,9 @@ function Contact() {
               </p>
             </div>
             <div className="bg-[#FE6E1F] w-[200px] h-[40px] flex items-center justify-center rounded mt-5 text-white cursor-pointer text-xl">
-              <button className="cursor-pointer">انتقادات و پیشنهادات</button>
+              <Link href="\lamizcare">
+                <button className="cursor-pointer">انتقادات و پیشنهادات</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -150,7 +195,7 @@ function Contact() {
                 fill
                 className="object-cover"
               />
-            </div>{" "}
+            </div>
             <div className="relative w-[150px] h-[150px] mx-15">
               <Image
                 src="/img/puly-150x150.webp"
