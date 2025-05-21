@@ -13,29 +13,25 @@ type IData = {
 };
 
 const RefundPage: React.FC = () => {
-  // State for data
   const [refundData, setRefundData] = useState<IData[]>([]);
   const [returnData, setReturnData] = useState<IData[]>([]);
-  // State for loading and error handling
+
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch data using useEffect
   useEffect(() => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        // Fetch data concurrently
+
         const [refundResponse, returnResponse] = await Promise.all([
           axios.get<IData[]>("http://localhost:3001/refund"),
           axios.get<IData[]>("http://localhost:3001/return"),
         ]);
 
-        // Update state with fetched data
         setRefundData(refundResponse.data);
         setReturnData(returnResponse.data);
       } catch (err) {
-        // Handle errors
         setError("خطایی در بارگذاری داده‌ها رخ داد. لطفاً دوباره تلاش کنید.");
         console.error("Error fetching Refund data:", err);
       } finally {
@@ -44,9 +40,8 @@ const RefundPage: React.FC = () => {
     };
 
     fetchData();
-  }, []); // Empty dependency array to run once on mount
+  }, []);
 
-  // Render loading state
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
@@ -55,7 +50,6 @@ const RefundPage: React.FC = () => {
     );
   }
 
-  // Render error state
   if (error) {
     return (
       <div className="flex justify-center items-center h-screen">

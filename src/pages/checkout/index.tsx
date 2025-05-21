@@ -1,3 +1,4 @@
+import CartCheckout from "@/components/cartCheckout";
 import { useCart } from "@/components/cartContext";
 import { useFormatPrice } from "@/hooks/formatPrice";
 import Image from "next/image";
@@ -28,7 +29,7 @@ function Checkout() {
     console.log("اطلاعات ارسال‌شده:", data);
   };
 
-  const { cartItems } = useCart();
+  const { cartItems, removeFromCart } = useCart();
   const totalPrice = cartItems.reduce(
     (acc, item) => acc + Number(item.price) * item.quantity,
     0
@@ -249,15 +250,38 @@ function Checkout() {
             <div className="w-full flex justify-center mt-10">
               <h2 className="text-2xl">سفارش شما</h2>
             </div>
-            <div className="w-[490px] h-[550px] bg-[#F0F0F0] mt-10">
+            <div className="w-[490px] min-h-[550px] bg-[#F0F0F0] mt-10 h-auto">
               <div className="flex justify-start items-center mx-3 my-3">
                 <p>محصول</p>
               </div>
               <hr className="w-[470px] mx-auto border-gray-500" />
-              <div className="flex flex-row justify-between items-center mx-3 my-3">
-                <p className="text-xl">مجموع</p>
+              {cartItems.map((item) => (
+                <CartCheckout
+                  key={item.id}
+                  name={item.header}
+                  price={item.price}
+                  quantity={item.quantity}
+                  onRemove={() => removeFromCart(item.id)}
+                />
+              ))}
+              <div className="flex flex-row justify-between items-center mx-3 my-4">
+                <p className="text-l">جمع جز</p>
+                <p className="text-[#FE6E1F] text-l">
+                  {formatPrice(totalPrice.toString()) + " " + "تومان"}
+                </p>
+              </div>
+              <hr className="w-[470px] mx-auto border-gray-500" />
+              <div className="flex flex-row justify-between items-center mx-3 my-4">
+                <p className="text-l">مالیات</p>
+                <p className="text-[#FE6E1F] text-l">
+                  {formatPrice(offPrice.toString()) + " " + "تومان"}
+                </p>
+              </div>
+              <hr className="w-[470px] mx-auto border-gray-500" />
+              <div className="flex flex-row justify-between items-center mx-3 my-4">
+                <p className="text-l">مجموع</p>
                 <p className="text-[#FE6E1F] text-xl">
-                  {formatPrice(total.toString())}
+                  {formatPrice(total.toString()) + " " + "تومان"}
                 </p>
               </div>
             </div>
