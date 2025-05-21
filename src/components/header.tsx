@@ -3,8 +3,10 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
 import { useCart } from "./cartContext";
+import { usePathname } from "next/navigation";  
 
 function Header() {
+  const pathname = usePathname() || "";  
   const [hoveredMenu, setHoveredMenu] = useState<string | null>(null);
   const { cartItems } = useCart();
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
@@ -19,11 +21,6 @@ function Header() {
               src: "/icons/icons8-account-50.png",
               alt: "account",
             },
-            // {
-            //   href: "#",
-            //   src: "/icons/icons8-favourite-50.png",
-            //   alt: "favourite",
-            // },
             {
               href: "/card",
               src: "/icons/icons8-shopping-cart-24.png",
@@ -61,7 +58,18 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <a href="#" className="text-[16px]">
+                <a
+                  href="#"
+                  className={`text-[16px] ${
+                    pathname.startsWith("/refundReturns") ||
+                    pathname.startsWith("/lamizcare") ||
+                    pathname.startsWith("/privacyPolicy") ||
+                    pathname.startsWith("/lamizFaq") ||
+                    pathname.startsWith("/article")
+                      ? "text-[#ff6e1f]"
+                      : ""
+                  }`}
+                >
                   سایر
                 </a>
               </div>
@@ -94,7 +102,14 @@ function Header() {
                         key={text}
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] hover:text-[#ff6e1f]"
                       >
-                        <Link href={href}>{text}</Link>
+                        <Link
+                          href={href}
+                          className={
+                            pathname === href ? "text-[#ff6e1f]" : ""
+                          }
+                        >
+                          {text}
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -114,7 +129,15 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <a href="#" className="text-[16px] text-nowrap">
+                <a
+                  href="#"
+                  className={`text-[16px] text-nowrap ${
+                    pathname.startsWith("/lamizCoffeeAbout") ||
+                    pathname.startsWith("/lamizContact")
+                      ? "text-[#ff6e1f]"
+                      : ""
+                  }`}
+                >
                   تماس با ما
                 </a>
               </div>
@@ -129,7 +152,14 @@ function Header() {
                         key={text}
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] text-nowrap hover:text-[#ff6e1f]"
                       >
-                        <Link href={href}>{text}</Link>
+                        <Link
+                          href={href}
+                          className={
+                            pathname === href ? "text-[#ff6e1f]" : ""
+                          }
+                        >
+                          {text}
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -143,7 +173,12 @@ function Header() {
               { href: "/lamiz-coffee-menu", text: "منو قهوه لمیز" },
             ].map(({ href, text }) => (
               <li key={text} className="hover:text-[#ff6e1f]">
-                <Link href={href} className="text-[16px] text-nowrap">
+                <Link
+                  href={href}
+                  className={`text-[16px] text-nowrap ${
+                    pathname === href ? "text-[#ff6e1f]" : ""
+                  }`}
+                >
                   {text}
                 </Link>
               </li>
@@ -161,7 +196,15 @@ function Header() {
                   height={32}
                   className="invert"
                 />
-                <Link href="/shop" className="text-[16px] text-nowrap">
+                <Link
+                  href="/shop"
+                  className={`text-[16px] text-nowrap ${
+                    pathname.startsWith("/shop") ||
+                    pathname.startsWith("/product-category")
+                      ? "text-[#ff6e1f]"
+                      : ""
+                  }`}
+                >
                   فروشگاه محصولات
                 </Link>
               </div>
@@ -215,7 +258,14 @@ function Header() {
                         key={text}
                         className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-right cursor-pointer whitespace-nowrap text-[16px] hover:text-[#ff6e1f]"
                       >
-                        <Link href={href}>{text}</Link>
+                        <Link
+                          href={href}
+                          className={
+                            pathname === href ? "text-[#ff6e1f]" : ""
+                          }
+                        >
+                          {text}
+                        </Link>
                       </li>
                     ))}
                   </ul>

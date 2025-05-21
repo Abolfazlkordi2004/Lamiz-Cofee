@@ -1,3 +1,4 @@
+import { useFormatPrice } from "@/hooks/formatPrice";
 import Image from "next/image";
 import React from "react";
 
@@ -9,6 +10,7 @@ type ICartItemProps = {
 };
 
 function CartCheckout({ name, price, quantity, onRemove }: ICartItemProps) {
+  const formatPrice = useFormatPrice();
   return (
     <div className="w-[470px] h-auto">
       <div
@@ -26,7 +28,7 @@ function CartCheckout({ name, price, quantity, onRemove }: ICartItemProps) {
         </button>
         <div className="text-sm text-right text-nowrap">{name}</div>
         <div className="text-sm text-center">{quantity}</div>
-        <div className="text-sm text-center">{price}</div>
+        <div className="text-sm text-center">{formatPrice(price)}</div>
       </div>
       <hr className="border-gray-500 w-[470px] my-5 mx-2" />
     </div>
