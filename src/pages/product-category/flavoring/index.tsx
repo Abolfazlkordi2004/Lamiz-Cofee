@@ -2,7 +2,6 @@
 import HeaderSection from "@/components/headerSection";
 import React, { useEffect, useState } from "react";
 import ItemShoppingCart from "@/components/itemShoppingCart";
-import { useFormatPrice } from "@/hooks/formatPrice";
 import ProductModal from "@/components/productModal";
 import CoffeeDetail from "@/components/coffeeDetail";
 import NitroDetail from "@/components/nitroDetail";
@@ -27,7 +26,7 @@ type IProduct = {
 function Flavoring() {
   const [data, setData] = useState<IFlavoring[]>([]);
   const [selectedProduct, setSelectedProduct] = useState<IProduct | null>(null);
-  const formatPrice = useFormatPrice();
+  // const formatPrice = useFormatPrice();
 
   useEffect(() => {
     fetch("http://localhost:3001/flavoring")
@@ -47,7 +46,7 @@ function Flavoring() {
                 key={item.id}
                 img={item.img}
                 title={item.title}
-                price={formatPrice(item.price)}
+                price={item.price}
                 onSearchClick={() => setSelectedProduct(item)}
               />
             ))}

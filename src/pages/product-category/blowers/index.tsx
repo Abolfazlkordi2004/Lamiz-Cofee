@@ -5,7 +5,6 @@ import ItemShoppingCart from "@/components/itemShoppingCart";
 import NitroDetail from "@/components/nitroDetail";
 import ProductDetail from "@/components/productDetail";
 import ProductModal from "@/components/productModal";
-import { useFormatPrice } from "@/hooks/formatPrice";
 import React, { useEffect, useState } from "react";
 
 type Iblowers = {
@@ -27,7 +26,7 @@ type IProduct = {
 function Blowers() {
   const [data, setData] = useState<Iblowers[]>([]);
   const [selectedProduct, setSelectedProduct] = useState<IProduct | null>(null);
-  const formatPrice = useFormatPrice();
+  // const formatPrice = useFormatPrice();
 
   useEffect(() => {
     fetch("http://localhost:3001/blowers")
@@ -47,7 +46,7 @@ function Blowers() {
                 key={item.id}
                 img={item.img}
                 title={item.title}
-                price={formatPrice(item.price)}
+                price={item.price}
                 onSearchClick={() => setSelectedProduct(item)}
               />
             ))}

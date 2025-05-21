@@ -1,9 +1,11 @@
 import { useCart } from "@/components/cartContext";
 import CartItem from "@/components/cartItem";
+import { useFormatPrice } from "@/hooks/formatPrice";
 import Link from "next/link";
 import React from "react";
 
 function Cards() {
+  const formatPrice = useFormatPrice();
   const { cartItems, removeFromCart, clearCart } = useCart();
   const totalPrice = cartItems.reduce(
     (acc, item) => acc + Number(item.price) * item.quantity,
@@ -32,7 +34,7 @@ function Cards() {
         <div className="w-[1140px] h-[400px] flex flex-col justify-center items-center">
           <p>سبد خرید شما خالی است </p>
           <div>
-            <Link href="\shop">
+            <Link href="/shop">
               <button className="w-[250px] h-[40px] rounded text-white bg-[#FE6E1F] my-5 cursor-pointer">
                 بازگشت به فروشگاه
               </button>
@@ -48,7 +50,9 @@ function Cards() {
               </div>
               <div className="flex flex-row-reverse justify-between w-full my-5">
                 <p>جمع جزء</p>
-                <p className="text-gray-500">{totalPrice}</p>
+                <p className="text-gray-500">
+                  {formatPrice(totalPrice.toString())}
+                </p>
               </div>
               <div className="flex flex-row-reverse justify-between w-full my-5">
                 <p>حمل و نقل</p>
@@ -57,15 +61,17 @@ function Cards() {
               <hr className="border-gray-300" />
               <div className="flex flex-row-reverse justify-between w-full my-5">
                 <p>مالیات</p>
-                <p className="text-[#FE6E1F]">{offPrice}</p>
+                <p className="text-[#FE6E1F]">
+                  {formatPrice(offPrice.toString())}
+                </p>
               </div>
               <hr />
               <div className="flex flex-row-reverse justify-between w-full my-5">
                 <p className="text-xl">مجموع</p>
-                <p>{total}</p>
+                <p>{formatPrice(total.toString())}</p>
               </div>
               <div className="my-5">
-                <Link href="\checkout">
+                <Link href="/checkout">
                   <button className="w-[300px] h-[45px] rounded bg-[#FE6E1F] text-white flex justify-center items-center cursor-pointer">
                     ادامه جهت تسویه حساب
                   </button>
@@ -85,11 +91,11 @@ function Cards() {
               <CartItem
                 key={item.id}
                 name={item.header}
-                price={item.price}
+                price={formatPrice(item.price)}
                 quantity={item.quantity}
-                totalPrice={(
-                  parseInt(item.price, 10) * item.quantity
-                ).toString()}
+                totalPrice={formatPrice(
+                  (Number(item.price) * item.quantity).toString()
+                )}
                 onRemove={() => removeFromCart(item.id)}
               />
             ))}
@@ -97,7 +103,7 @@ function Cards() {
             {cartItems.length > 0 && (
               <div>
                 <button
-                  className="bg-red-500 text-white px-4 py-2 rounded mt-2 cursor-pointer"
+                  className="bg-red-500 text-white px-4 py-2 rounded my-5 cursor-pointer"
                   onClick={clearCart}
                 >
                   پاک کردن سبد خرید

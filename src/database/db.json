@@ -4,154 +4,154 @@
       "id": 1,
       "img": "/img/Exclusive-Blend-Coffee-1KG.webp",
       "title": "قهوه اختصاصی – ۱ کیلوگرم",
-      "price": "1,449,000 تومان",
+      "price": "1449000",
       "category": "combinatorial"
     },
     {
       "id": 2,
       "img": "/img/NUMBER-23-COFFEE-1KG.webp",
       "title": " قهوه شماره ۲۳ – ۱ کیلوگرم  ",
-      "price": "1,399,000 تومان",
+      "price": "1399000",
       "category": "combinatorial"
     },
     {
       "id": 3,
       "img": "/img/BARISTA-COFFEE-1KG.webp",
       "title": "قهوه باریستا – ۱ کیلوگرم",
-      "price": "1,299,000 تومان",
+      "price": "1299000",
       "category": "combinatorial"
     },
     {
       "id": 4,
       "img": "/img/Number-50-coffee-250GR.webp",
       "title": "قهوه شماره ۵۰ – ۲۵۰ گرم",
-      "price": "319,000 تومان",
+      "price": "319000",
       "category": "combinatorial"
     },
     {
       "id": 5,
       "img": "/img/Number-50-Coffee-1KG.webp",
       "title": "قهوه اختصاصی – ۱ کیلوگرم",
-      "price": "1,199,000 تومان",
+      "price": "1199000",
       "category": "combinatorial"
     },
     {
       "id": 6,
       "img": "/img/Number-50-coffee-250GR.webp",
       "title": "قهوه باریستا – ۲۵۰ گرم",
-      "price": "329,000 تومان",
+      "price": "329000",
       "category": "combinatorial"
     },
     {
       "id": 7,
       "img": "/img/NUMBER-23-COFFEE-250.webp",
       "title": "قهوه شماره ۲۳ – ۲۵۰ گرم",
-      "price": "369,000 تومان",
+      "price": "369000",
       "category": "combinatorial"
     },
     {
       "id": 8,
       "img": "/img/EXCLUSIVE-BLEND-COFFEE-250.webp",
       "title": "قهوه اختصاصی – ۲۵۰ گرم",
-      "price": "399,000 تومان",
+      "price": "399000",
       "category": "combinatorial"
     },
     {
       "id": 9,
       "img": "/img/Nira-Coffee-1KG.webp",
       "title": "قهوه نیرا – ۱ کیلوگرم",
-      "price": "1,039,000 تومان",
+      "price": "1039000",
       "category": "single_origin"
     },
     {
       "id": 10,
       "img": "/img/PB-Coffee-1KG.webp",
       "title": "قهوه پی بی (PB) – 1 کیلوگرم",
-      "price": "999,000 تومان",
+      "price": "999000",
       "category": "single_origin"
     },
     {
       "id": 11,
       "img": "/img/KOCHERE-COFFEE-250GR.webp",
       "title": "قهوه تک خاستگاه کوچره – ۲۵۰ گرم",
-      "price": "499,000 تومان",
+      "price": "499000",
       "category": "single_origin"
     },
     {
       "id": 12,
       "img": "/img/GUJI-COFFEE-250GR.webp",
       "title": "قهوه تک خاستگاه گوجی – ۲۵۰ گرم",
-      "price": "499,000 تومان",
+      "price": "499000",
       "category": "single_origin"
     },
     {
       "id": 13,
       "img": "/img/PB-Coffee-250GR.webp",
       "title": "قهوه پی بی (PB) – 250 گرم",
-      "price": "269,000 تومان",
+      "price": "269000",
       "category": "single_origin"
     },
     {
       "id": 14,
       "img": "/img/PB-Coffee-250GR.webp",
       "title": "قهوه پی بی (PB) – 250 گرم",
-      "price": "269,000 تومان",
+      "price": "269000",
       "category": "single_origin"
     },
     {
       "id": 15,
       "img": "/img/Nira-Coffee-250-Gr.webp",
       "title": "قهوه نیرا – ۲۵۰ گرم",
-      "price": "279,000 تومان",
+      "price": "279000",
       "category": "single_origin"
     },
     {
       "id": 16,
       "img": "/img/Gute-Ethiopia.webp",
       "title": "قهوه اتیوپی گوته – ۲۵۰ گرم",
-      "price": "1,149,000 تومان",
+      "price": "1149000",
       "category": "single_origin"
     },
     {
       "id": 17,
       "img": "/img/LAMIZ-PROSO-WITHOUTCAFFEINE.webp",
       "title": "کپسول لمیزپرسو دیکف",
-      "price": "269,800 تومان",
+      "price": "269800",
       "category": "coffeinless"
     },
     {
       "id": 18,
       "img": "/img/SWISS-WATER-ESPRESSO-BLEND-250GR-1.webp",
       "title": "قهوه دیکف‌ اسپرسو – ۲۵۰ گرم",
-      "price": "549,000 تومان",
+      "price": "549000",
       "category": "coffeinless"
     },
     {
       "id": 19,
       "img": "/img/Turkish-Coffee-250GR.webp",
       "title": "قهوه ترک – ۱ کیلوگرم",
-      "price": "1,049,000 تومان",
+      "price": "1049000",
       "category": "turk"
     },
     {
       "id": 20,
       "img": "/img/Turkish-Coffee-Cardamom.webp",
       "title": "قهوه ترک‌ با‌هل – ۱ کیلوگرم",
-      "price": "1,199,000 تومان",
+      "price": "1199000",
       "category": "turk"
     },
     {
       "id": 21,
       "img": "/img/Turkish-Coffee-Cardamom.webp",
       "title": "قهوه ترک‌ با‌هل – ۲۵۰ گرم",
-      "price": "329,000 تومان",
+      "price": "329000",
       "category": "turk"
     },
     {
       "id": 22,
       "img": "/img/Turkish-Coffee-250GR.webp",
       "title": "قهوه ترک – ۲۵۰ گرم",
-      "price": "279,000 تومان",
+      "price": "279000",
       "category": "turk"
     },
 
@@ -159,42 +159,42 @@
       "id": 23,
       "img": "/img/LAMIZ-PROSO-WITHOUTCAFFEINE.webp",
       "title": "کپسول لمیزپرسو دیکف",
-      "price": "269,800 تومان",
+      "price": "269800",
       "category": "lamizpresso"
     },
     {
       "id": 24,
       "img": "/img/LAMIZ-PROSO-EXCLUSIVE-COMBINATION.webp",
       "title": "کپسول لمیزپرسو اختصاصی",
-      "price": "228,800 تومان",
+      "price": "228800",
       "category": "lamizpresso"
     },
     {
       "id": 25,
       "img": "/img/LAMIZ-PROSO-SINGLE-ORIGIN-COMBINATION.webp",
       "title": "کپسول لمیزپرسو تک‌ خاستگاه",
-      "price": "249,800 تومان",
+      "price": "249800",
       "category": "lamizpresso"
     },
     {
       "id": 26,
       "img": "/img/LAMIZ-PROSO-BARISTA-COMBINATION.webp",
       "title": "کپسول لمیزپرسو باریستا",
-      "price": "219,800 تومان",
+      "price": "219800",
       "category": "lamizpresso"
     },
     {
       "id": 27,
       "img": "/img/LAMIZ-PROSO-NIRA.webp",
       "title": "کپسول لمیزپرسو نیرا",
-      "price": "188,800 تومان",
+      "price": "188800",
       "category": "lamizpresso"
     },
     {
       "id": 28,
       "img": "/img/LAMIZ-PROSO-MIX-COMBINATIO.webp",
       "title": "کپسول لمیزپرسو میکس",
-      "price": "239,800 تومان",
+      "price": "239800",
       "category": "lamizpresso"
     }
   ],
@@ -203,28 +203,28 @@
       "id": 29,
       "img": "/img/NITRO-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     },
     {
       "id": 30,
       "img": "/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو وانیلی",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     },
     {
       "id": 31,
       "img": "/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو کاراملی",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     },
     {
       "id": 32,
       "img": "/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو شکلاتی",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     }
   ],
@@ -233,7 +233,7 @@
       "id": 33,
       "img": "/img/Dark-Chocolate-83-Lamiz.webp",
       "title": "شکلات تلخ ۸۳ درصد لمیز",
-      "price": "188000  "
+      "price": "188000"
     },
     {
       "id": 34,
@@ -263,7 +263,7 @@
       "id": 38,
       "img": "/img/Dark-Chocolate-83-Lamiz (1).webp",
       "title": "جعبه ۶ عددی شکلات تلخ ۸۳ درصد لمیز",
-      "price": "1128000 "
+      "price": "1128000"
     }
   ],
   "flavoring": [
@@ -409,154 +409,154 @@
       "id": 1,
       "img": "/img/Exclusive-Blend-Coffee-1KG.webp",
       "title": "قهوه اختصاصی – ۱ کیلوگرم",
-      "price": "1449000 ",
+      "price": "1449000",
       "category": "combinatorial"
     },
     {
       "id": 2,
       "img": "/img/NUMBER-23-COFFEE-1KG.webp",
       "title": " قهوه شماره ۲۳ – ۱ کیلوگرم  ",
-      "price": "1399000 ",
+      "price": "1399000",
       "category": "combinatorial"
     },
     {
       "id": 3,
       "img": "/img/BARISTA-COFFEE-1KG.webp",
       "title": "قهوه باریستا – ۱ کیلوگرم",
-      "price": "1299000 ",
+      "price": "1299000",
       "category": "combinatorial"
     },
     {
       "id": 4,
       "img": "/img/Number-50-coffee-250GR.webp",
       "title": "قهوه شماره ۵۰ – ۲۵۰ گرم",
-      "price": "319000 ",
+      "price": "319000",
       "category": "combinatorial"
     },
     {
       "id": 5,
       "img": "/img/Number-50-Coffee-1KG.webp",
       "title": "قهوه اختصاصی – ۱ کیلوگرم",
-      "price": "1199000 ",
+      "price": "1199000",
       "category": "combinatorial"
     },
     {
       "id": 6,
       "img": "/img/Number-50-coffee-250GR.webp",
       "title": "قهوه باریستا – ۲۵۰ گرم",
-      "price": "329000 ",
+      "price": "329000",
       "category": "combinatorial"
     },
     {
       "id": 7,
       "img": "/img/NUMBER-23-COFFEE-250.webp",
       "title": "قهوه شماره ۲۳ – ۲۵۰ گرم",
-      "price": "369000 ",
+      "price": "369000",
       "category": "combinatorial"
     },
     {
       "id": 8,
       "img": "/img/EXCLUSIVE-BLEND-COFFEE-250.webp",
       "title": "قهوه اختصاصی – ۲۵۰ گرم",
-      "price": "399000 ",
+      "price": "399000",
       "category": "combinatorial"
     },
     {
       "id": 9,
       "img": "/img/Nira-Coffee-1KG.webp",
       "title": "قهوه نیرا – ۱ کیلوگرم",
-      "price": "1039000 ",
+      "price": "1039000",
       "category": "single_origin"
     },
     {
       "id": 10,
       "img": "/img/PB-Coffee-1KG.webp",
       "title": "قهوه پی بی (PB) – 1 کیلوگرم",
-      "price": "999000 ",
+      "price": "999000",
       "category": "single_origin"
     },
     {
       "id": 11,
       "img": "/img/KOCHERE-COFFEE-250GR.webp",
       "title": "قهوه تک خاستگاه کوچره – ۲۵۰ گرم",
-      "price": "499000 ",
+      "price": "499000",
       "category": "single_origin"
     },
     {
       "id": 12,
       "img": "/img/GUJI-COFFEE-250GR.webp",
       "title": "قهوه تک خاستگاه گوجی – ۲۵۰ گرم",
-      "price": "499000 ",
+      "price": "499000",
       "category": "single_origin"
     },
     {
       "id": 13,
       "img": "/img/PB-Coffee-250GR.webp",
       "title": "قهوه پی بی (PB) – 250 گرم",
-      "price": "269000 ",
+      "price": "269000",
       "category": "single_origin"
     },
     {
       "id": 14,
       "img": "/img/PB-Coffee-250GR.webp",
       "title": "قهوه پی بی (PB) – 250 گرم",
-      "price": "269000 ",
+      "price": "269000",
       "category": "single_origin"
     },
     {
       "id": 15,
       "img": "/img/Nira-Coffee-250-Gr.webp",
       "title": "قهوه نیرا – ۲۵۰ گرم",
-      "price": "279000 ",
+      "price": "279000",
       "category": "single_origin"
     },
     {
       "id": 16,
       "img": "/img/Gute-Ethiopia.webp",
       "title": "قهوه اتیوپی گوته – ۲۵۰ گرم",
-      "price": "1149000 ",
+      "price": "1149000",
       "category": "single_origin"
     },
     {
       "id": 17,
       "img": "/img/LAMIZ-PROSO-WITHOUTCAFFEINE.webp",
       "title": "کپسول لمیزپرسو دیکف",
-      "price": "269800 ",
+      "price": "269800",
       "category": "coffeinless"
     },
     {
       "id": 18,
       "img": "/img/SWISS-WATER-ESPRESSO-BLEND-250GR-1.webp",
       "title": "قهوه دیکف‌ اسپرسو – ۲۵۰ گرم",
-      "price": "549000 ",
+      "price": "549000",
       "category": "coffeinless"
     },
     {
       "id": 19,
       "img": "/img/Turkish-Coffee-250GR.webp",
       "title": "قهوه ترک – ۱ کیلوگرم",
-      "price": "1049000 ",
+      "price": "1049000",
       "category": "turk"
     },
     {
       "id": 20,
       "img": "/img/Turkish-Coffee-Cardamom.webp",
       "title": "قهوه ترک‌ با‌هل – ۱ کیلوگرم",
-      "price": "1199000 ",
+      "price": "1199000",
       "category": "turk"
     },
     {
       "id": 21,
       "img": "/img/Turkish-Coffee-Cardamom.webp",
       "title": "قهوه ترک‌ با‌هل – ۲۵۰ گرم",
-      "price": "329000 ",
+      "price": "329000",
       "category": "turk"
     },
     {
       "id": 22,
       "img": "/img/Turkish-Coffee-250GR.webp",
       "title": "قهوه ترک – ۲۵۰ گرم",
-      "price": "279000 ",
+      "price": "279000",
       "category": "turk"
     },
 
@@ -564,77 +564,77 @@
       "id": 23,
       "img": "/img/LAMIZ-PROSO-WITHOUTCAFFEINE.webp",
       "title": "کپسول لمیزپرسو دیکف",
-      "price": "269800 ",
+      "price": "269800",
       "category": "lamizpresso"
     },
     {
       "id": 24,
       "img": "/img/LAMIZ-PROSO-EXCLUSIVE-COMBINATION.webp",
       "title": "کپسول لمیزپرسو اختصاصی",
-      "price": "228800 ",
+      "price": "228800",
       "category": "lamizpresso"
     },
     {
       "id": 25,
       "img": "/img/LAMIZ-PROSO-SINGLE-ORIGIN-COMBINATION.webp",
       "title": "کپسول لمیزپرسو تک‌ خاستگاه",
-      "price": "249800  ",
+      "price": "249800",
       "category": "lamizpresso"
     },
     {
       "id": 26,
       "img": "/img/LAMIZ-PROSO-BARISTA-COMBINATION.webp",
       "title": "کپسول لمیزپرسو باریستا",
-      "price": "219800  ",
+      "price": "219800",
       "category": "lamizpresso"
     },
     {
       "id": 27,
       "img": "/img/LAMIZ-PROSO-NIRA.webp",
       "title": "کپسول لمیزپرسو نیرا",
-      "price": "188800  ",
+      "price": "188800",
       "category": "lamizpresso"
     },
     {
       "id": 28,
       "img": "/img/LAMIZ-PROSO-MIX-COMBINATIO.webp",
       "title": "کپسول لمیزپرسو میکس",
-      "price": "239800  ",
+      "price": "239800",
       "category": "lamizpresso"
     },
     {
       "id": 29,
       "img": "/img/NITRO-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     },
     {
       "id": 30,
       "img": "/img/NITRO-VANILLA-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو وانیلی",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     },
     {
       "id": 31,
       "img": "/img/NITRO-CARAMEL-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو کاراملی",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     },
     {
       "id": 32,
       "img": "/img/NITRO-CHOCOLATE-COLD-BREW-COFFEE-LAMIZ.webp",
       "title": "قهوه سرد دم نیترو شکلاتی",
-      "price": "108800 – 1305600",
+      "price": "108800",
       "category": "nitro"
     },
     {
       "id": 33,
       "img": "/img/Dark-Chocolate-83-Lamiz.webp",
       "title": "شکلات تلخ ۸۳ درصد لمیز",
-      "price": "188000  "
+      "price": "188000"
     },
     {
       "id": 34,
@@ -664,7 +664,7 @@
       "id": 38,
       "img": "/img/Dark-Chocolate-83-Lamiz (1).webp",
       "title": "جعبه ۶ عددی شکلات تلخ ۸۳ درصد لمیز",
-      "price": "1128000 "
+      "price": "1128000"
     },
     {
       "id": 39,
@@ -694,7 +694,7 @@
       "id": 43,
       "img": "/img/FRENCH-PRESS.webp",
       "title": "فرنچ‌ پرس ۶۰۰ سی سی",
-      "price": " 388000"
+      "price": "388000"
     },
     {
       "id": 44,

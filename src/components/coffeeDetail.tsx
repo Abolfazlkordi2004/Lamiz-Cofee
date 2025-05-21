@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Dropdown from "./dropDown";
 import { Product, useCart } from "./cartContext";
+import { useFormatPrice } from "@/hooks/formatPrice";
 
 type ICoffeeDetail = {
   id: string;
@@ -25,6 +26,7 @@ const data = [
 function CoffeeDetail({ img, header, price, id }: ICoffeeDetail) {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
+  const formatPrice = useFormatPrice();
 
   const handleIncrease = () => {
     setQuantity((prev) => prev + 1);
@@ -57,7 +59,7 @@ function CoffeeDetail({ img, header, price, id }: ICoffeeDetail) {
       <div className="w-1/2 mx-6 my-6">
         <div className="flex flex-col">
           <h1 className="text-3xl font-bold">{header}</h1>
-          <p className="text-2xl mt-5 text-[#FE6E1F]">{price + "تومان"}</p>
+          <p className="text-2xl mt-5 text-[#FE6E1F]">{formatPrice(price)+" "+"تومان"}</p>
           <div className="flex flex-row items-center gap-3 mt-5">
             <p>درجه آسیاب:</p>
             <Dropdown data={data} />

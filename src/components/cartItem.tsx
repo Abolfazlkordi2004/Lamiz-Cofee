@@ -17,31 +17,26 @@ function CartItem({
   onRemove,
 }: ICartItemProps) {
   return (
-    <div className="w-[650px] h-auto">
-      <div className="flex flex-row-reverse justify-between items-center ml-15 w-full h-auto min-h-[50px]">
-        <button onClick={onRemove}>
+    <div className="w-[705px] h-auto">
+      <div
+        className="grid grid-cols-[50px_2fr_100px_120px_150px] gap-4 items-center text-center min-h-[50px]"
+        dir="rtl"
+      >
+        <button onClick={onRemove} className="flex justify-start">
           <Image
             src="/icons/icons8-trash-can-48.png"
-            alt="iccon"
+            alt="icon"
             width={20}
             height={20}
             className="cursor-pointer"
           />
         </button>
-        <div className="">
-          <p className="text-sm text-wrap">{name}</p>
-        </div>
-        <div className="">
-          <p className="text-sm">{price}</p>
-        </div>
-        <div className=" ">
-          <p className="text-sm ml-18">{quantity}</p>
-        </div>
-        <div>
-          <p className="text-sm">{totalPrice}</p>
-        </div>
+        <div className="text-sm text-right">{name}</div>
+        <div className="text-sm text-right">{price}</div>
+        <div className="text-sm text-center">{quantity}</div>
+        <div className="text-sm text-center">{totalPrice}</div>
       </div>
-      <hr className="border-gray-500 w-[700px] my-5" />
+      <hr className="border-gray-500 w-[650px] my-5" />
     </div>
   );
 }

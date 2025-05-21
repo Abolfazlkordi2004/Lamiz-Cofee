@@ -75,7 +75,7 @@ function ItemShoppingCart({
       <div className="flex flex-col items-center mt-8">
         <p className="text-lg">{title}</p>
         <p className="text-[#ff6e1f] mt-5 text-lg" dir="rtl">
-          {formatPrice(price)}
+          {formatPrice(price)+" "+"تومان"}
         </p>
       </div>
     </div>

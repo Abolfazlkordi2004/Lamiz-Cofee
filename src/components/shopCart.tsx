@@ -69,7 +69,7 @@ function ShopCart({ img, title, price, id, onSearchClick }: IShopCart) {
       <div className="flex flex-col justify-items items-center mt-12" dir="rtl">
         <p className="text-lg text-wrap text-center"> {title} </p>
         <p className="text-[#ff6e1f] mt-3 text-lg text-center">
-          {formatPrice(price)}
+          {formatPrice(price)+" "+"تومان"}
         </p>
       </div>
     </div>

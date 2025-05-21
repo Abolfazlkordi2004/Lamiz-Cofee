@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Dropdown from "./dropDown";
 import { useCart } from "./cartContext";
+import { useFormatPrice } from "@/hooks/formatPrice";
 
 type INitroDetail = {
-  id:string
+  id: string;
   img: string;
   header: string;
   price: string;
@@ -17,9 +18,10 @@ const data = [
   "باکس 12 تایی",
 ];
 
-function NitroDetail({ img, header, price,id }: INitroDetail) {
+function NitroDetail({ img, header, price, id }: INitroDetail) {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
+  const formatPrice = useFormatPrice();
 
   const handleIncrease = () => {
     setQuantity((prev) => prev + 1);
@@ -36,7 +38,9 @@ function NitroDetail({ img, header, price,id }: INitroDetail) {
       <div className="w-1/2 mx-6 my-6">
         <div className="flex flex-col">
           <h1 className="text-3xl font-bold">{header}</h1>
-          <p className="text-2xl mt-5 text-[#FE6E1F]">{price + "تومان"}</p>
+          <p className="text-2xl mt-5 text-[#FE6E1F]">
+            {formatPrice(price) + " " + "تومان"}
+          </p>
           <div className="flex flex-row items-center gap-3 mt-5">
             <p> تعداد :</p>
             <Dropdown data={data} />
@@ -46,7 +50,7 @@ function NitroDetail({ img, header, price,id }: INitroDetail) {
               <button
                 className="bg-[#FE6E1F] text-white rounded w-[150px] h-[40px] cursor-pointer"
                 onClick={() => {
-                  addToCart({ id,img, price, header, quantity });
+                  addToCart({ id, img, price, header, quantity });
                 }}
               >
                 افزودن به سبد خرید
@@ -65,7 +69,7 @@ function NitroDetail({ img, header, price,id }: INitroDetail) {
                 <button
                   className="text-black"
                   onClick={() => {
-                    addToCart({ id,img, price, header, quantity });
+                    addToCart({ id, img, price, header, quantity });
                   }}
                 >
                   {quantity}

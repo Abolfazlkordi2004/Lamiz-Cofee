@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useCart } from "./cartContext";
+import { useFormatPrice } from "@/hooks/formatPrice";
 
 type IProductDetail = {
-  id:string
+  id: string;
   img: string;
   header: string;
   price: string;
 };
 
-function ProductDetail({ img, header, price,id }: IProductDetail) {
+function ProductDetail({ img, header, price, id }: IProductDetail) {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
+  const formatPrice = useFormatPrice();
 
   const handleIncrease = () => {
     setQuantity((prev) => prev + 1);
@@ -28,13 +30,15 @@ function ProductDetail({ img, header, price,id }: IProductDetail) {
       <div className="w-1/2 mx-6 my-6">
         <div className="flex flex-col">
           <h1 className="text-3xl font-bold">{header}</h1>
-          <p className="text-2xl mt-5 text-[#FE6E1F]">{price + "تومان"}</p>
+          <p className="text-2xl mt-5 text-[#FE6E1F]">
+            {formatPrice(price) + " " + "تومان"}
+          </p>
           <div className="flex flex-row-reverse justify-end my-10">
             <div>
               <button
                 className="bg-[#FE6E1F] text-white rounded w-[150px] h-[40px] cursor-pointer"
                 onClick={() => {
-                  addToCart({ id,img, price, header, quantity });
+                  addToCart({ id, img, price, header, quantity });
                 }}
               >
                 افزودن به سبد خرید

@@ -236,9 +236,9 @@ function Body() {
                   سیروپ کاریبین مونین برای ارائه موکتل های مبتنی بر رام طراحی
                   شده است.
                 </p>
-                <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
+                {/* <div className="w-25 h-8 border rounded flex justify-center items-center cursor-pointer hover:bg-black">
                   <button>مشاهده</button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

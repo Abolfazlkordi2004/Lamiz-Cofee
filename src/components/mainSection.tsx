@@ -9,6 +9,7 @@ import CoffeeDetail from "./coffeeDetail";
 import NitroDetail from "./nitroDetail";
 import ProductDetail from "./productDetail";
 
+
 type IProduct = {
   id: string;
   img: string;
@@ -67,6 +68,7 @@ function MainSection() {
           <div className="grid grid-cols-4 gap-5">
             {data.data.map((e) => (
               <ShopCart
+                id={e.id}
                 key={e.id}
                 img={e.img}
                 price={e.price}
