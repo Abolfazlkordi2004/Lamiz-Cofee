@@ -12,8 +12,6 @@ function Cards() {
     0
   );
 
-  console.log(cartItems);
-
   const offPrice = (10 * totalPrice) / 100;
   const total = totalPrice + offPrice;
   return (
