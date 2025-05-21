@@ -251,7 +251,7 @@ function Checkout() {
               <h2 className="text-2xl">سفارش شما</h2>
             </div>
             <div className="w-[490px] min-h-[550px] bg-[#F0F0F0] mt-10 h-auto">
-              <div className="flex justify-start items-center mx-3 my-3">
+              <div className="flex justify-center items-center mx-3 my-3">
                 <p>محصول</p>
               </div>
               <hr className="w-[470px] mx-auto border-gray-500" />

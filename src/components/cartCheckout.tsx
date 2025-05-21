@@ -8,16 +8,11 @@ type ICartItemProps = {
   onRemove: () => void;
 };
 
-function CartCheckout({
-  name,
-  price,
-  quantity,
-  onRemove,
-}: ICartItemProps) {
+function CartCheckout({ name, price, quantity, onRemove }: ICartItemProps) {
   return (
     <div className="w-[470px] h-auto">
       <div
-        className="flex flex-row justify-around items-center my-2 min-h-[50px]"
+        className="grid grid-cols-[50px_1fr_100px_100px] gap-4 items-center my-2 text-center min-h-[50px]"
         dir="rtl"
       >
         <button onClick={onRemove} className="flex justify-start">
@@ -26,14 +21,12 @@ function CartCheckout({
             alt="icon"
             width={20}
             height={20}
-            className="cursor-pointer"
+            className="cursor-pointer mx-5"
           />
         </button>
-        <div className="flex flex-col gap-2">
-          <div className="text-sm text-nowrap">{name}</div>
-          <div className="text-sm text-center">{quantity}</div>
-        </div>
-        <div className="text-sm text-left">{price}</div>
+        <div className="text-sm text-right text-nowrap">{name}</div>
+        <div className="text-sm text-center">{quantity}</div>
+        <div className="text-sm text-center">{price}</div>
       </div>
       <hr className="border-gray-500 w-[470px] my-5 mx-2" />
     </div>

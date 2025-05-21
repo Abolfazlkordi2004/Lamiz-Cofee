@@ -46,27 +46,27 @@ function Cards() {
               <div>
                 <h1 className="text-xl">جمع کل سبد خرید</h1>
               </div>
-              <div className="flex flex-row-reverse justify-between w-full my-5">
+              <div className="flex flex-row justify-between w-full my-5" dir="rtl">
                 <p>جمع جزء</p>
                 <p className="text-gray-500">
-                  {formatPrice(totalPrice.toString())}
+                  {formatPrice(totalPrice.toString())+" "+"تومان"}
                 </p>
               </div>
-              <div className="flex flex-row-reverse justify-between w-full my-5">
+              <div className="flex flex-row justify-between w-full my-5">
                 <p>حمل و نقل</p>
                 <p>ارسال با تیپاکس</p>
               </div>
               <hr className="border-gray-300" />
-              <div className="flex flex-row-reverse justify-between w-full my-5">
+              <div className="flex flex-row justify-between w-full my-5" dir="rtl">
                 <p>مالیات</p>
                 <p className="text-[#FE6E1F]">
-                  {formatPrice(offPrice.toString())}
+                  {formatPrice(offPrice.toString())+" "+"تومان"}
                 </p>
               </div>
               <hr />
-              <div className="flex flex-row-reverse justify-between w-full my-5">
+              <div className="flex flex-row justify-between w-full my-5" dir="rtl">
                 <p className="text-xl">مجموع</p>
-                <p>{formatPrice(total.toString())}</p>
+                <p>{formatPrice(total.toString())+" "+"تومان"}</p>
               </div>
               <div className="my-5">
                 <Link href="/checkout">
