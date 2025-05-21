@@ -87,7 +87,9 @@ function Cards() {
                 name={item.header}
                 price={item.price}
                 quantity={item.quantity}
-                totalPrice={Number(item.price) * item.quantity}
+                totalPrice={(
+                  parseInt(item.price, 10) * item.quantity
+                ).toString()}
                 onRemove={() => removeFromCart(item.id)}
               />
             ))}

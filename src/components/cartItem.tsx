@@ -5,7 +5,7 @@ type ICartItemProps = {
   name: string;
   price: string;
   quantity: number;
-  totalPrice: number;
+  totalPrice: string;
   onRemove: () => void;
 };
 
