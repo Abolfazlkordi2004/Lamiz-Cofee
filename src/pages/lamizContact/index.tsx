@@ -166,7 +166,7 @@ function Contact() {
               </p>
             </div>
             <div className="bg-[#FE6E1F] w-[200px] h-[40px] flex items-center justify-center rounded mt-5 text-white cursor-pointer text-xl">
-              <Link href="\lamizcare">
+              <Link href="/lamizcare">
                 <button className="cursor-pointer">انتقادات و پیشنهادات</button>
               </Link>
             </div>
